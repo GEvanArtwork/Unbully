@@ -1,6 +1,8 @@
 gdjs.StartCode = {};
 gdjs.StartCode.localVariables = [];
 gdjs.StartCode.idToCallbackMap = new Map();
+gdjs.StartCode.GDHomeStatueObjects2_1final = [];
+
 gdjs.StartCode.GDHomeStatueObjects3_1final = [];
 
 gdjs.StartCode.GDMouseCursorObjects2_1final = [];
@@ -11,7 +13,11 @@ gdjs.StartCode.GDMusicButtonObjects2_1final = [];
 
 gdjs.StartCode.GDSoundButtonObjects2_1final = [];
 
+gdjs.StartCode.GDUICreditsStatueObjects2_1final = [];
+
 gdjs.StartCode.GDUICreditsStatueObjects3_1final = [];
+
+gdjs.StartCode.GDUIPlayButtonObjects2_1final = [];
 
 gdjs.StartCode.GDUIPlayButtonObjects3_1final = [];
 
@@ -19,14 +25,6 @@ gdjs.StartCode.GDVers_95227oObjects1= [];
 gdjs.StartCode.GDVers_95227oObjects2= [];
 gdjs.StartCode.GDVers_95227oObjects3= [];
 gdjs.StartCode.GDVers_95227oObjects4= [];
-gdjs.StartCode.GDUILevel1PlayStatueObjects1= [];
-gdjs.StartCode.GDUILevel1PlayStatueObjects2= [];
-gdjs.StartCode.GDUILevel1PlayStatueObjects3= [];
-gdjs.StartCode.GDUILevel1PlayStatueObjects4= [];
-gdjs.StartCode.GDUILevel1PlayGlowObjects1= [];
-gdjs.StartCode.GDUILevel1PlayGlowObjects2= [];
-gdjs.StartCode.GDUILevel1PlayGlowObjects3= [];
-gdjs.StartCode.GDUILevel1PlayGlowObjects4= [];
 gdjs.StartCode.GDStarSparksObjects1= [];
 gdjs.StartCode.GDStarSparksObjects2= [];
 gdjs.StartCode.GDStarSparksObjects3= [];
@@ -155,10 +153,10 @@ gdjs.StartCode.GDUIEggAObjects1= [];
 gdjs.StartCode.GDUIEggAObjects2= [];
 gdjs.StartCode.GDUIEggAObjects3= [];
 gdjs.StartCode.GDUIEggAObjects4= [];
-gdjs.StartCode.GDUIGameButtonObjects1= [];
-gdjs.StartCode.GDUIGameButtonObjects2= [];
-gdjs.StartCode.GDUIGameButtonObjects3= [];
-gdjs.StartCode.GDUIGameButtonObjects4= [];
+gdjs.StartCode.GDUITextBoxObjects1= [];
+gdjs.StartCode.GDUITextBoxObjects2= [];
+gdjs.StartCode.GDUITextBoxObjects3= [];
+gdjs.StartCode.GDUITextBoxObjects4= [];
 gdjs.StartCode.GDMusicButtonObjects1= [];
 gdjs.StartCode.GDMusicButtonObjects2= [];
 gdjs.StartCode.GDMusicButtonObjects3= [];
@@ -219,34 +217,18 @@ gdjs.StartCode.GDUIQuizStatueBlockObjects1= [];
 gdjs.StartCode.GDUIQuizStatueBlockObjects2= [];
 gdjs.StartCode.GDUIQuizStatueBlockObjects3= [];
 gdjs.StartCode.GDUIQuizStatueBlockObjects4= [];
-gdjs.StartCode.GDUIQUIZLeftArrowObjects1= [];
-gdjs.StartCode.GDUIQUIZLeftArrowObjects2= [];
-gdjs.StartCode.GDUIQUIZLeftArrowObjects3= [];
-gdjs.StartCode.GDUIQUIZLeftArrowObjects4= [];
-gdjs.StartCode.GDUIQUIZRightArrowObjects1= [];
-gdjs.StartCode.GDUIQUIZRightArrowObjects2= [];
-gdjs.StartCode.GDUIQUIZRightArrowObjects3= [];
-gdjs.StartCode.GDUIQUIZRightArrowObjects4= [];
-gdjs.StartCode.GDQUIZQuestionObjects1= [];
-gdjs.StartCode.GDQUIZQuestionObjects2= [];
-gdjs.StartCode.GDQUIZQuestionObjects3= [];
-gdjs.StartCode.GDQUIZQuestionObjects4= [];
-gdjs.StartCode.GDQUIZPageNumberObjects1= [];
-gdjs.StartCode.GDQUIZPageNumberObjects2= [];
-gdjs.StartCode.GDQUIZPageNumberObjects3= [];
-gdjs.StartCode.GDQUIZPageNumberObjects4= [];
+gdjs.StartCode.GDUIRightArrowObjects1= [];
+gdjs.StartCode.GDUIRightArrowObjects2= [];
+gdjs.StartCode.GDUIRightArrowObjects3= [];
+gdjs.StartCode.GDUIRightArrowObjects4= [];
 gdjs.StartCode.GDUI_9595CloseButtonObjects1= [];
 gdjs.StartCode.GDUI_9595CloseButtonObjects2= [];
 gdjs.StartCode.GDUI_9595CloseButtonObjects3= [];
 gdjs.StartCode.GDUI_9595CloseButtonObjects4= [];
-gdjs.StartCode.GDUIQuizDragonObjects1= [];
-gdjs.StartCode.GDUIQuizDragonObjects2= [];
-gdjs.StartCode.GDUIQuizDragonObjects3= [];
-gdjs.StartCode.GDUIQuizDragonObjects4= [];
-gdjs.StartCode.GDUIQuizDragonButtonObjects1= [];
-gdjs.StartCode.GDUIQuizDragonButtonObjects2= [];
-gdjs.StartCode.GDUIQuizDragonButtonObjects3= [];
-gdjs.StartCode.GDUIQuizDragonButtonObjects4= [];
+gdjs.StartCode.GDUIArrowObjects1= [];
+gdjs.StartCode.GDUIArrowObjects2= [];
+gdjs.StartCode.GDUIArrowObjects3= [];
+gdjs.StartCode.GDUIArrowObjects4= [];
 gdjs.StartCode.GDBaseBkgTile4Objects1= [];
 gdjs.StartCode.GDBaseBkgTile4Objects2= [];
 gdjs.StartCode.GDBaseBkgTile4Objects3= [];
@@ -327,14 +309,6 @@ gdjs.StartCode.GDUIPauseRockObjects1= [];
 gdjs.StartCode.GDUIPauseRockObjects2= [];
 gdjs.StartCode.GDUIPauseRockObjects3= [];
 gdjs.StartCode.GDUIPauseRockObjects4= [];
-gdjs.StartCode.GDUILevel1RestartGlowObjects1= [];
-gdjs.StartCode.GDUILevel1RestartGlowObjects2= [];
-gdjs.StartCode.GDUILevel1RestartGlowObjects3= [];
-gdjs.StartCode.GDUILevel1RestartGlowObjects4= [];
-gdjs.StartCode.GDUILevel1RestartStatueObjects1= [];
-gdjs.StartCode.GDUILevel1RestartStatueObjects2= [];
-gdjs.StartCode.GDUILevel1RestartStatueObjects3= [];
-gdjs.StartCode.GDUILevel1RestartStatueObjects4= [];
 gdjs.StartCode.GDUIRestartStatueObjects1= [];
 gdjs.StartCode.GDUIRestartStatueObjects2= [];
 gdjs.StartCode.GDUIRestartStatueObjects3= [];
@@ -531,10 +505,6 @@ gdjs.StartCode.GDOldWiseDragonBaloonTipObjects1= [];
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects2= [];
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects3= [];
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects4= [];
-gdjs.StartCode.GDUIQuizDragonTextObjects1= [];
-gdjs.StartCode.GDUIQuizDragonTextObjects2= [];
-gdjs.StartCode.GDUIQuizDragonTextObjects3= [];
-gdjs.StartCode.GDUIQuizDragonTextObjects4= [];
 gdjs.StartCode.GDOldWiseDragonTextObjects1= [];
 gdjs.StartCode.GDOldWiseDragonTextObjects2= [];
 gdjs.StartCode.GDOldWiseDragonTextObjects3= [];
@@ -817,7 +787,7 @@ gdjs.StartCode.eventsList1(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(53).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(46).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 
@@ -835,119 +805,90 @@ gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects4Objects = 
 gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects4});
 gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDHomeStatueObjects4Objects = Hashtable.newFrom({"HomeStatue": gdjs.StartCode.GDHomeStatueObjects4});
 gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects3});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUILevel1PlayStatueObjects3Objects = Hashtable.newFrom({"UILevel1PlayStatue": gdjs.StartCode.GDUILevel1PlayStatueObjects3});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIPlayButtonObjects4Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StartCode.GDUIPlayButtonObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects4Objects = Hashtable.newFrom({"UICreditsStatue": gdjs.StartCode.GDUICreditsStatueObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDHomeStatueObjects4Objects = Hashtable.newFrom({"HomeStatue": gdjs.StartCode.GDHomeStatueObjects4});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects2});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUILevel1PlayStatueObjects2Objects = Hashtable.newFrom({"UILevel1PlayStatue": gdjs.StartCode.GDUILevel1PlayStatueObjects2});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIPlayButtonObjects3Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StartCode.GDUIPlayButtonObjects3});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects3});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects3Objects = Hashtable.newFrom({"UICreditsStatue": gdjs.StartCode.GDUICreditsStatueObjects3});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StartCode.GDMouseCursorObjects3});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDHomeStatueObjects3Objects = Hashtable.newFrom({"HomeStatue": gdjs.StartCode.GDHomeStatueObjects3});
 gdjs.StartCode.eventsList4 = function(runtimeScene) {
 
 {
 
-gdjs.StartCode.GDHomeStatueObjects3.length = 0;
+gdjs.StartCode.GDHomeStatueObjects2.length = 0;
 
-gdjs.StartCode.GDMouseCursorObjects3.length = 0;
+gdjs.StartCode.GDMouseCursorObjects2.length = 0;
 
-gdjs.StartCode.GDUICreditsStatueObjects3.length = 0;
+gdjs.StartCode.GDUICreditsStatueObjects2.length = 0;
 
-gdjs.StartCode.GDUIPlayButtonObjects3.length = 0;
+gdjs.StartCode.GDUIPlayButtonObjects2.length = 0;
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{gdjs.StartCode.GDHomeStatueObjects3_1final.length = 0;
-gdjs.StartCode.GDMouseCursorObjects3_1final.length = 0;
-gdjs.StartCode.GDUICreditsStatueObjects3_1final.length = 0;
-gdjs.StartCode.GDUIPlayButtonObjects3_1final.length = 0;
+{gdjs.StartCode.GDHomeStatueObjects2_1final.length = 0;
+gdjs.StartCode.GDMouseCursorObjects2_1final.length = 0;
+gdjs.StartCode.GDUICreditsStatueObjects2_1final.length = 0;
+gdjs.StartCode.GDUIPlayButtonObjects2_1final.length = 0;
 let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
-gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects4);
-gdjs.copyArray(runtimeScene.getObjects("UIPlayButton"), gdjs.StartCode.GDUIPlayButtonObjects4);
-isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIPlayButtonObjects4Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects3);
+gdjs.copyArray(runtimeScene.getObjects("UIPlayButton"), gdjs.StartCode.GDUIPlayButtonObjects3);
+isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIPlayButtonObjects3Objects, false, runtimeScene, false);
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDMouseCursorObjects3_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects4[j]) === -1 )
-            gdjs.StartCode.GDMouseCursorObjects3_1final.push(gdjs.StartCode.GDMouseCursorObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDMouseCursorObjects2_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects3[j]) === -1 )
+            gdjs.StartCode.GDMouseCursorObjects2_1final.push(gdjs.StartCode.GDMouseCursorObjects3[j]);
     }
-    for (let j = 0, jLen = gdjs.StartCode.GDUIPlayButtonObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDUIPlayButtonObjects3_1final.indexOf(gdjs.StartCode.GDUIPlayButtonObjects4[j]) === -1 )
-            gdjs.StartCode.GDUIPlayButtonObjects3_1final.push(gdjs.StartCode.GDUIPlayButtonObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDUIPlayButtonObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDUIPlayButtonObjects2_1final.indexOf(gdjs.StartCode.GDUIPlayButtonObjects3[j]) === -1 )
+            gdjs.StartCode.GDUIPlayButtonObjects2_1final.push(gdjs.StartCode.GDUIPlayButtonObjects3[j]);
     }
 }
 }
 {
-gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects4);
-gdjs.copyArray(runtimeScene.getObjects("UICreditsStatue"), gdjs.StartCode.GDUICreditsStatueObjects4);
-isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects4Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects3);
+gdjs.copyArray(runtimeScene.getObjects("UICreditsStatue"), gdjs.StartCode.GDUICreditsStatueObjects3);
+isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects3Objects, false, runtimeScene, false);
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDMouseCursorObjects3_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects4[j]) === -1 )
-            gdjs.StartCode.GDMouseCursorObjects3_1final.push(gdjs.StartCode.GDMouseCursorObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDMouseCursorObjects2_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects3[j]) === -1 )
+            gdjs.StartCode.GDMouseCursorObjects2_1final.push(gdjs.StartCode.GDMouseCursorObjects3[j]);
     }
-    for (let j = 0, jLen = gdjs.StartCode.GDUICreditsStatueObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDUICreditsStatueObjects3_1final.indexOf(gdjs.StartCode.GDUICreditsStatueObjects4[j]) === -1 )
-            gdjs.StartCode.GDUICreditsStatueObjects3_1final.push(gdjs.StartCode.GDUICreditsStatueObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDUICreditsStatueObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDUICreditsStatueObjects2_1final.indexOf(gdjs.StartCode.GDUICreditsStatueObjects3[j]) === -1 )
+            gdjs.StartCode.GDUICreditsStatueObjects2_1final.push(gdjs.StartCode.GDUICreditsStatueObjects3[j]);
     }
 }
 }
 {
-gdjs.copyArray(runtimeScene.getObjects("HomeStatue"), gdjs.StartCode.GDHomeStatueObjects4);
-gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects4);
-isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects4Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDHomeStatueObjects4Objects, false, runtimeScene, false);
+gdjs.copyArray(runtimeScene.getObjects("HomeStatue"), gdjs.StartCode.GDHomeStatueObjects3);
+gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects3);
+isConditionTrue_1 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDHomeStatueObjects3Objects, false, runtimeScene, false);
 if(isConditionTrue_1) {
     isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.StartCode.GDHomeStatueObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDHomeStatueObjects3_1final.indexOf(gdjs.StartCode.GDHomeStatueObjects4[j]) === -1 )
-            gdjs.StartCode.GDHomeStatueObjects3_1final.push(gdjs.StartCode.GDHomeStatueObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDHomeStatueObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDHomeStatueObjects2_1final.indexOf(gdjs.StartCode.GDHomeStatueObjects3[j]) === -1 )
+            gdjs.StartCode.GDHomeStatueObjects2_1final.push(gdjs.StartCode.GDHomeStatueObjects3[j]);
     }
-    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.StartCode.GDMouseCursorObjects3_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects4[j]) === -1 )
-            gdjs.StartCode.GDMouseCursorObjects3_1final.push(gdjs.StartCode.GDMouseCursorObjects4[j]);
+    for (let j = 0, jLen = gdjs.StartCode.GDMouseCursorObjects3.length; j < jLen ; ++j) {
+        if ( gdjs.StartCode.GDMouseCursorObjects2_1final.indexOf(gdjs.StartCode.GDMouseCursorObjects3[j]) === -1 )
+            gdjs.StartCode.GDMouseCursorObjects2_1final.push(gdjs.StartCode.GDMouseCursorObjects3[j]);
     }
 }
 }
 {
-gdjs.copyArray(gdjs.StartCode.GDHomeStatueObjects3_1final, gdjs.StartCode.GDHomeStatueObjects3);
-gdjs.copyArray(gdjs.StartCode.GDMouseCursorObjects3_1final, gdjs.StartCode.GDMouseCursorObjects3);
-gdjs.copyArray(gdjs.StartCode.GDUICreditsStatueObjects3_1final, gdjs.StartCode.GDUICreditsStatueObjects3);
-gdjs.copyArray(gdjs.StartCode.GDUIPlayButtonObjects3_1final, gdjs.StartCode.GDUIPlayButtonObjects3);
+gdjs.copyArray(gdjs.StartCode.GDHomeStatueObjects2_1final, gdjs.StartCode.GDHomeStatueObjects2);
+gdjs.copyArray(gdjs.StartCode.GDMouseCursorObjects2_1final, gdjs.StartCode.GDMouseCursorObjects2);
+gdjs.copyArray(gdjs.StartCode.GDUICreditsStatueObjects2_1final, gdjs.StartCode.GDUICreditsStatueObjects2);
+gdjs.copyArray(gdjs.StartCode.GDUIPlayButtonObjects2_1final, gdjs.StartCode.GDUIPlayButtonObjects2);
 }
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25568372);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UILevel1PlayStatue"), gdjs.StartCode.GDUILevel1PlayStatueObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects2Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUILevel1PlayStatueObjects2Objects, false, runtimeScene, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UI Level2");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25570196);
-}
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37392532);
 }
 }
 if (isConditionTrue_0) {
@@ -1036,32 +977,7 @@ gdjs.copyArray(gdjs.StartCode.GDUIPlayButtonObjects3_1final, gdjs.StartCode.GDUI
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25561924);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Respawn.mp3", 3, false, 40, 1);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.StartCode.GDMouseCursorObjects3);
-gdjs.copyArray(runtimeScene.getObjects("UILevel1PlayStatue"), gdjs.StartCode.GDUILevel1PlayStatueObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUILevel1PlayStatueObjects3Objects, false, runtimeScene, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UI Level2");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25563620);
-}
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37387964);
 }
 }
 if (isConditionTrue_0) {
@@ -1105,7 +1021,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIQuizStatueObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26089708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37394796);
 }
 }
 if (isConditionTrue_0) {
@@ -1151,7 +1067,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects3Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIQuizStatueObjects3Objects, true, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25550908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37397828);
 }
 }
 }
@@ -1202,7 +1118,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25527516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37397468);
 }
 }
 }
@@ -1450,7 +1366,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25555724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37390540);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1539,7 +1455,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDSoundButtonObjects1Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25559876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37411908);
 }
 }
 }
@@ -1722,7 +1638,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMusicButtonObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25536436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37422260);
 }
 }
 }
@@ -1874,7 +1790,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUICreditsStatueObjects1Objects, gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26063476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37432916);
 }
 }
 }
@@ -2460,14 +2376,6 @@ gdjs.StartCode.GDVers_95227oObjects1.length = 0;
 gdjs.StartCode.GDVers_95227oObjects2.length = 0;
 gdjs.StartCode.GDVers_95227oObjects3.length = 0;
 gdjs.StartCode.GDVers_95227oObjects4.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects1.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects2.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects3.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects4.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects1.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects2.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects3.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects4.length = 0;
 gdjs.StartCode.GDStarSparksObjects1.length = 0;
 gdjs.StartCode.GDStarSparksObjects2.length = 0;
 gdjs.StartCode.GDStarSparksObjects3.length = 0;
@@ -2596,10 +2504,10 @@ gdjs.StartCode.GDUIEggAObjects1.length = 0;
 gdjs.StartCode.GDUIEggAObjects2.length = 0;
 gdjs.StartCode.GDUIEggAObjects3.length = 0;
 gdjs.StartCode.GDUIEggAObjects4.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects1.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects2.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects3.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects4.length = 0;
+gdjs.StartCode.GDUITextBoxObjects1.length = 0;
+gdjs.StartCode.GDUITextBoxObjects2.length = 0;
+gdjs.StartCode.GDUITextBoxObjects3.length = 0;
+gdjs.StartCode.GDUITextBoxObjects4.length = 0;
 gdjs.StartCode.GDMusicButtonObjects1.length = 0;
 gdjs.StartCode.GDMusicButtonObjects2.length = 0;
 gdjs.StartCode.GDMusicButtonObjects3.length = 0;
@@ -2660,34 +2568,18 @@ gdjs.StartCode.GDUIQuizStatueBlockObjects1.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects2.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects3.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects4.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects1.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects2.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects3.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects4.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects1.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects2.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects3.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects4.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects1.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects2.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects3.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects4.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects1.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects2.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects3.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects4.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects1.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects2.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects3.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects4.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects1.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects2.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects3.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects4.length = 0;
+gdjs.StartCode.GDUIArrowObjects1.length = 0;
+gdjs.StartCode.GDUIArrowObjects2.length = 0;
+gdjs.StartCode.GDUIArrowObjects3.length = 0;
+gdjs.StartCode.GDUIArrowObjects4.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects1.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects2.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects3.length = 0;
@@ -2768,14 +2660,6 @@ gdjs.StartCode.GDUIPauseRockObjects1.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects2.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects3.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects4.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects1.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects2.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects3.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects4.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects1.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects2.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects3.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects4.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects1.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects2.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects3.length = 0;
@@ -2972,10 +2856,6 @@ gdjs.StartCode.GDOldWiseDragonBaloonTipObjects1.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects2.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects3.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects4.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects1.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects2.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects3.length = 0;
@@ -3102,14 +2982,6 @@ gdjs.StartCode.GDVers_95227oObjects1.length = 0;
 gdjs.StartCode.GDVers_95227oObjects2.length = 0;
 gdjs.StartCode.GDVers_95227oObjects3.length = 0;
 gdjs.StartCode.GDVers_95227oObjects4.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects1.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects2.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects3.length = 0;
-gdjs.StartCode.GDUILevel1PlayStatueObjects4.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects1.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects2.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects3.length = 0;
-gdjs.StartCode.GDUILevel1PlayGlowObjects4.length = 0;
 gdjs.StartCode.GDStarSparksObjects1.length = 0;
 gdjs.StartCode.GDStarSparksObjects2.length = 0;
 gdjs.StartCode.GDStarSparksObjects3.length = 0;
@@ -3238,10 +3110,10 @@ gdjs.StartCode.GDUIEggAObjects1.length = 0;
 gdjs.StartCode.GDUIEggAObjects2.length = 0;
 gdjs.StartCode.GDUIEggAObjects3.length = 0;
 gdjs.StartCode.GDUIEggAObjects4.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects1.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects2.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects3.length = 0;
-gdjs.StartCode.GDUIGameButtonObjects4.length = 0;
+gdjs.StartCode.GDUITextBoxObjects1.length = 0;
+gdjs.StartCode.GDUITextBoxObjects2.length = 0;
+gdjs.StartCode.GDUITextBoxObjects3.length = 0;
+gdjs.StartCode.GDUITextBoxObjects4.length = 0;
 gdjs.StartCode.GDMusicButtonObjects1.length = 0;
 gdjs.StartCode.GDMusicButtonObjects2.length = 0;
 gdjs.StartCode.GDMusicButtonObjects3.length = 0;
@@ -3302,34 +3174,18 @@ gdjs.StartCode.GDUIQuizStatueBlockObjects1.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects2.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects3.length = 0;
 gdjs.StartCode.GDUIQuizStatueBlockObjects4.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects1.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects2.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects3.length = 0;
-gdjs.StartCode.GDUIQUIZLeftArrowObjects4.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects1.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects2.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects3.length = 0;
-gdjs.StartCode.GDUIQUIZRightArrowObjects4.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects1.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects2.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects3.length = 0;
-gdjs.StartCode.GDQUIZQuestionObjects4.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects1.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects2.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects3.length = 0;
-gdjs.StartCode.GDQUIZPageNumberObjects4.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects1.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects2.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects3.length = 0;
+gdjs.StartCode.GDUIRightArrowObjects4.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects1.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects2.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects3.length = 0;
 gdjs.StartCode.GDUI_9595CloseButtonObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonButtonObjects4.length = 0;
+gdjs.StartCode.GDUIArrowObjects1.length = 0;
+gdjs.StartCode.GDUIArrowObjects2.length = 0;
+gdjs.StartCode.GDUIArrowObjects3.length = 0;
+gdjs.StartCode.GDUIArrowObjects4.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects1.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects2.length = 0;
 gdjs.StartCode.GDBaseBkgTile4Objects3.length = 0;
@@ -3410,14 +3266,6 @@ gdjs.StartCode.GDUIPauseRockObjects1.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects2.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects3.length = 0;
 gdjs.StartCode.GDUIPauseRockObjects4.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects1.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects2.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects3.length = 0;
-gdjs.StartCode.GDUILevel1RestartGlowObjects4.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects1.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects2.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects3.length = 0;
-gdjs.StartCode.GDUILevel1RestartStatueObjects4.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects1.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects2.length = 0;
 gdjs.StartCode.GDUIRestartStatueObjects3.length = 0;
@@ -3614,10 +3462,6 @@ gdjs.StartCode.GDOldWiseDragonBaloonTipObjects1.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects2.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects3.length = 0;
 gdjs.StartCode.GDOldWiseDragonBaloonTipObjects4.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects1.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects2.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects3.length = 0;
-gdjs.StartCode.GDUIQuizDragonTextObjects4.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects1.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects2.length = 0;
 gdjs.StartCode.GDOldWiseDragonTextObjects3.length = 0;

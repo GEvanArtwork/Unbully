@@ -1,56 +1,44 @@
 
-if (typeof gdjs.evtsExt__Flash__ColorTint !== "undefined") {
-  gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__InputValidation__IsOnlyLetters !== "undefined") {
+  gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Flash__ColorTint = {};
-gdjs.evtsExt__Flash__ColorTint.idToCallbackMap = new Map();
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1= [];
+gdjs.evtsExt__InputValidation__IsOnlyLetters = {};
+gdjs.evtsExt__InputValidation__IsOnlyLetters.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Flash__ColorTint.userFunc0x21fae58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb0f180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-/** @type {gdjs.SpriteRuntimeObject} */
-const tintedObject = objects[0];
-const tint = tintedObject.getColor();
-eventsFunctionContext.returnValue = tint;
+const lrt = eventsFunctionContext.getArgument("lrt");
+const n = /^[a-zA-Z\s]*$/;
+
+eventsFunctionContext.returnValue = n.test(lrt);
 };
-gdjs.evtsExt__Flash__ColorTint.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1);
-
-const objects = gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1;
-gdjs.evtsExt__Flash__ColorTint.userFunc0x21fae58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb0f180(runtimeScene, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__Flash__ColorTint.func = function(runtimeScene, Object, parentEventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsOnlyLetters.func = function(runtimeScene, lrt, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Object": Object
 },
   _objectArraysMap: {
-"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Flash"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Flash"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("InputValidation"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("InputValidation"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -90,18 +78,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "lrt") return lrt;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__Flash__ColorTint.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
+gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return "" + eventsFunctionContext.returnValue;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks = [];
+gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks = [];

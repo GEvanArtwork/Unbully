@@ -122,11 +122,11 @@ gdjs.StoryCode.GDUIEggAObjects2= [];
 gdjs.StoryCode.GDUIEggAObjects3= [];
 gdjs.StoryCode.GDUIEggAObjects4= [];
 gdjs.StoryCode.GDUIEggAObjects5= [];
-gdjs.StoryCode.GDUIGameButtonObjects1= [];
-gdjs.StoryCode.GDUIGameButtonObjects2= [];
-gdjs.StoryCode.GDUIGameButtonObjects3= [];
-gdjs.StoryCode.GDUIGameButtonObjects4= [];
-gdjs.StoryCode.GDUIGameButtonObjects5= [];
+gdjs.StoryCode.GDUITextBoxObjects1= [];
+gdjs.StoryCode.GDUITextBoxObjects2= [];
+gdjs.StoryCode.GDUITextBoxObjects3= [];
+gdjs.StoryCode.GDUITextBoxObjects4= [];
+gdjs.StoryCode.GDUITextBoxObjects5= [];
 gdjs.StoryCode.GDMusicButtonObjects1= [];
 gdjs.StoryCode.GDMusicButtonObjects2= [];
 gdjs.StoryCode.GDMusicButtonObjects3= [];
@@ -202,41 +202,21 @@ gdjs.StoryCode.GDUIQuizStatueBlockObjects2= [];
 gdjs.StoryCode.GDUIQuizStatueBlockObjects3= [];
 gdjs.StoryCode.GDUIQuizStatueBlockObjects4= [];
 gdjs.StoryCode.GDUIQuizStatueBlockObjects5= [];
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects1= [];
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects2= [];
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects3= [];
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects4= [];
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects5= [];
-gdjs.StoryCode.GDUIQUIZRightArrowObjects1= [];
-gdjs.StoryCode.GDUIQUIZRightArrowObjects2= [];
-gdjs.StoryCode.GDUIQUIZRightArrowObjects3= [];
-gdjs.StoryCode.GDUIQUIZRightArrowObjects4= [];
-gdjs.StoryCode.GDUIQUIZRightArrowObjects5= [];
-gdjs.StoryCode.GDQUIZQuestionObjects1= [];
-gdjs.StoryCode.GDQUIZQuestionObjects2= [];
-gdjs.StoryCode.GDQUIZQuestionObjects3= [];
-gdjs.StoryCode.GDQUIZQuestionObjects4= [];
-gdjs.StoryCode.GDQUIZQuestionObjects5= [];
-gdjs.StoryCode.GDQUIZPageNumberObjects1= [];
-gdjs.StoryCode.GDQUIZPageNumberObjects2= [];
-gdjs.StoryCode.GDQUIZPageNumberObjects3= [];
-gdjs.StoryCode.GDQUIZPageNumberObjects4= [];
-gdjs.StoryCode.GDQUIZPageNumberObjects5= [];
+gdjs.StoryCode.GDUIRightArrowObjects1= [];
+gdjs.StoryCode.GDUIRightArrowObjects2= [];
+gdjs.StoryCode.GDUIRightArrowObjects3= [];
+gdjs.StoryCode.GDUIRightArrowObjects4= [];
+gdjs.StoryCode.GDUIRightArrowObjects5= [];
 gdjs.StoryCode.GDUI_9595CloseButtonObjects1= [];
 gdjs.StoryCode.GDUI_9595CloseButtonObjects2= [];
 gdjs.StoryCode.GDUI_9595CloseButtonObjects3= [];
 gdjs.StoryCode.GDUI_9595CloseButtonObjects4= [];
 gdjs.StoryCode.GDUI_9595CloseButtonObjects5= [];
-gdjs.StoryCode.GDUIQuizDragonObjects1= [];
-gdjs.StoryCode.GDUIQuizDragonObjects2= [];
-gdjs.StoryCode.GDUIQuizDragonObjects3= [];
-gdjs.StoryCode.GDUIQuizDragonObjects4= [];
-gdjs.StoryCode.GDUIQuizDragonObjects5= [];
-gdjs.StoryCode.GDUIQuizDragonButtonObjects1= [];
-gdjs.StoryCode.GDUIQuizDragonButtonObjects2= [];
-gdjs.StoryCode.GDUIQuizDragonButtonObjects3= [];
-gdjs.StoryCode.GDUIQuizDragonButtonObjects4= [];
-gdjs.StoryCode.GDUIQuizDragonButtonObjects5= [];
+gdjs.StoryCode.GDUIArrowObjects1= [];
+gdjs.StoryCode.GDUIArrowObjects2= [];
+gdjs.StoryCode.GDUIArrowObjects3= [];
+gdjs.StoryCode.GDUIArrowObjects4= [];
+gdjs.StoryCode.GDUIArrowObjects5= [];
 gdjs.StoryCode.GDBaseBkgTile4Objects1= [];
 gdjs.StoryCode.GDBaseBkgTile4Objects2= [];
 gdjs.StoryCode.GDBaseBkgTile4Objects3= [];
@@ -337,16 +317,6 @@ gdjs.StoryCode.GDUIPauseRockObjects2= [];
 gdjs.StoryCode.GDUIPauseRockObjects3= [];
 gdjs.StoryCode.GDUIPauseRockObjects4= [];
 gdjs.StoryCode.GDUIPauseRockObjects5= [];
-gdjs.StoryCode.GDUILevel1RestartGlowObjects1= [];
-gdjs.StoryCode.GDUILevel1RestartGlowObjects2= [];
-gdjs.StoryCode.GDUILevel1RestartGlowObjects3= [];
-gdjs.StoryCode.GDUILevel1RestartGlowObjects4= [];
-gdjs.StoryCode.GDUILevel1RestartGlowObjects5= [];
-gdjs.StoryCode.GDUILevel1RestartStatueObjects1= [];
-gdjs.StoryCode.GDUILevel1RestartStatueObjects2= [];
-gdjs.StoryCode.GDUILevel1RestartStatueObjects3= [];
-gdjs.StoryCode.GDUILevel1RestartStatueObjects4= [];
-gdjs.StoryCode.GDUILevel1RestartStatueObjects5= [];
 gdjs.StoryCode.GDUIRestartStatueObjects1= [];
 gdjs.StoryCode.GDUIRestartStatueObjects2= [];
 gdjs.StoryCode.GDUIRestartStatueObjects3= [];
@@ -592,11 +562,6 @@ gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects2= [];
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects3= [];
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects4= [];
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects5= [];
-gdjs.StoryCode.GDUIQuizDragonTextObjects1= [];
-gdjs.StoryCode.GDUIQuizDragonTextObjects2= [];
-gdjs.StoryCode.GDUIQuizDragonTextObjects3= [];
-gdjs.StoryCode.GDUIQuizDragonTextObjects4= [];
-gdjs.StoryCode.GDUIQuizDragonTextObjects5= [];
 gdjs.StoryCode.GDOldWiseDragonTextObjects1= [];
 gdjs.StoryCode.GDOldWiseDragonTextObjects2= [];
 gdjs.StoryCode.GDOldWiseDragonTextObjects3= [];
@@ -892,7 +857,7 @@ gdjs.StoryCode.eventsList0(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(53).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(46).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 
@@ -977,7 +942,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40671092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37519268);
 }
 }
 if (isConditionTrue_0) {
@@ -1132,7 +1097,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40683628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37518540);
 }
 }
 if (isConditionTrue_0) {
@@ -1219,7 +1184,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory1Objects2.length;i<l;++i) {
 gdjs.StoryCode.GDStory1Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40688284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37548244);
 }
 }
 if (isConditionTrue_0) {
@@ -1265,7 +1230,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory2Objects2.length;i<l;++i) {
 gdjs.StoryCode.GDStory2Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40690052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37550012);
 }
 }
 if (isConditionTrue_0) {
@@ -1311,7 +1276,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory3Objects1.length;i<l;++i) {
 gdjs.StoryCode.GDStory3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40692076);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37552036);
 }
 }
 if (isConditionTrue_0) {
@@ -1326,36 +1291,9 @@ if (isConditionTrue_0) {
 
 };gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects3Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
-gdjs.StoryCode.eventsList7 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("UIGameButton"), gdjs.StoryCode.GDUIGameButtonObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.StoryCode.GDUIGameButtonObjects3.length;i<l;++i) {
-    if ( gdjs.StoryCode.GDUIGameButtonObjects3[i].getBehavior("Opacity").getOpacity() > 100 ) {
-        isConditionTrue_0 = true;
-        gdjs.StoryCode.GDUIGameButtonObjects3[k] = gdjs.StoryCode.GDUIGameButtonObjects3[i];
-        ++k;
-    }
-}
-gdjs.StoryCode.GDUIGameButtonObjects3.length = k;
-if (isConditionTrue_0) {
-/* Reuse gdjs.StoryCode.GDUIGameButtonObjects3 */
-{for(var i = 0, len = gdjs.StoryCode.GDUIGameButtonObjects3.length ;i < len;++i) {
-    gdjs.StoryCode.GDUIGameButtonObjects3[i].getBehavior("Opacity").setOpacity(100);
-}
-}
-}
-
-}
-
-
-};gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects2Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects2});
+gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects2Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
-gdjs.StoryCode.eventsList8 = function(runtimeScene) {
+gdjs.StoryCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -1403,7 +1341,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList9 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -1414,13 +1352,13 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList8(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.StoryCode.eventsList10 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -1437,9 +1375,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkipGlow"), gdjs.StoryCode.GDUISt
     gdjs.StoryCode.GDUIStorySkipGlowObjects3[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-
-{ //Subevents
-gdjs.StoryCode.eventsList7(runtimeScene);} //End of subevents
 }
 
 }
@@ -1461,13 +1396,13 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkipGlow"), gdjs.StoryCode.GDUISt
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList9(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList8(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.StoryCode.eventsList11 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -1477,7 +1412,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40693476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37550772);
 }
 }
 if (isConditionTrue_0) {
@@ -1530,7 +1465,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkip"), gdjs.StoryCode.GDUIStoryS
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList10(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList9(runtimeScene);} //End of subevents
 }
 
 }
@@ -1574,7 +1509,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkipGlow"), gdjs.StoryCode.GDUISt
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects4Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects4});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects3Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects3});
-gdjs.StoryCode.eventsList12 = function(runtimeScene) {
+gdjs.StoryCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -1587,7 +1522,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects4Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects4Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40706188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37541468);
 }
 }
 if (isConditionTrue_0) {
@@ -1611,7 +1546,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40707364);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37542772);
 }
 }
 }
@@ -1627,7 +1562,7 @@ if (isConditionTrue_0) {
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects3Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StoryCode.GDUIPlayButtonObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects2Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StoryCode.GDUIPlayButtonObjects2});
-gdjs.StoryCode.eventsList13 = function(runtimeScene) {
+gdjs.StoryCode.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -1640,7 +1575,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40709276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37544684);
 }
 }
 if (isConditionTrue_0) {
@@ -1664,7 +1599,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40710524);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37532436);
 }
 }
 }
@@ -1676,7 +1611,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList14 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList13 = function(runtimeScene) {
 
 {
 
@@ -1695,7 +1630,7 @@ gdjs.StoryCode.GDUIStorySkipObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList12(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList11(runtimeScene);} //End of subevents
 }
 
 }
@@ -1718,7 +1653,7 @@ gdjs.StoryCode.GDUIPlayButtonObjects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList13(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList12(runtimeScene);} //End of subevents
 }
 
 }
@@ -1728,7 +1663,7 @@ gdjs.StoryCode.eventsList13(runtimeScene);} //End of subevents
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects3Objects = Hashtable.newFrom({"MusicButton": gdjs.StoryCode.GDMusicButtonObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects3Objects = Hashtable.newFrom({"SoundButton": gdjs.StoryCode.GDSoundButtonObjects3});
-gdjs.StoryCode.eventsList15 = function(runtimeScene) {
+gdjs.StoryCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -1770,7 +1705,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects2Objects = Hash
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects1Objects = Hashtable.newFrom({"SoundButton": gdjs.StoryCode.GDSoundButtonObjects1});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects1});
-gdjs.StoryCode.eventsList16 = function(runtimeScene) {
+gdjs.StoryCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -1837,7 +1772,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList17 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -1855,7 +1790,7 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
@@ -1927,7 +1862,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40712716);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37555028);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1959,7 +1894,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
@@ -2016,7 +1951,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects1Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40719588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37562860);
 }
 }
 }
@@ -2025,7 +1960,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -2037,7 +1972,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects2Objects = Hash
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects1Objects = Hashtable.newFrom({"MusicButton": gdjs.StoryCode.GDMusicButtonObjects1});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects1});
-gdjs.StoryCode.eventsList18 = function(runtimeScene) {
+gdjs.StoryCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -2104,7 +2039,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList19 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -2114,7 +2049,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelPlaying(runtimeScene, 0);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40725068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37568340);
 }
 }
 if (isConditionTrue_0) {
@@ -2197,7 +2132,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects1Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40730308);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37574356);
 }
 }
 }
@@ -2206,13 +2141,13 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList18(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList17(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.StoryCode.eventsList20 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -2238,21 +2173,21 @@ gdjs.StoryCode.eventsList6(runtimeScene);
 {
 
 
-gdjs.StoryCode.eventsList11(runtimeScene);
+gdjs.StoryCode.eventsList10(runtimeScene);
 }
 
 
 {
 
 
-gdjs.StoryCode.eventsList17(runtimeScene);
+gdjs.StoryCode.eventsList16(runtimeScene);
 }
 
 
 {
 
 
-gdjs.StoryCode.eventsList19(runtimeScene);
+gdjs.StoryCode.eventsList18(runtimeScene);
 }
 
 
@@ -2376,11 +2311,11 @@ gdjs.StoryCode.GDUIEggAObjects2.length = 0;
 gdjs.StoryCode.GDUIEggAObjects3.length = 0;
 gdjs.StoryCode.GDUIEggAObjects4.length = 0;
 gdjs.StoryCode.GDUIEggAObjects5.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects1.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects2.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects3.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects4.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects5.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects1.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects2.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects3.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects4.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects5.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects1.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects2.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects3.length = 0;
@@ -2456,41 +2391,21 @@ gdjs.StoryCode.GDUIQuizStatueBlockObjects2.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects3.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects4.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects5.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects1.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects2.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects3.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects4.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects5.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects1.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects2.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects3.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects4.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects5.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects1.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects2.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects3.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects4.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects5.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects1.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects2.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects3.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects4.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects5.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects1.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects2.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects3.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects4.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects5.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects1.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects2.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects3.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects4.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects5.length = 0;
+gdjs.StoryCode.GDUIArrowObjects1.length = 0;
+gdjs.StoryCode.GDUIArrowObjects2.length = 0;
+gdjs.StoryCode.GDUIArrowObjects3.length = 0;
+gdjs.StoryCode.GDUIArrowObjects4.length = 0;
+gdjs.StoryCode.GDUIArrowObjects5.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects1.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects2.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects3.length = 0;
@@ -2591,16 +2506,6 @@ gdjs.StoryCode.GDUIPauseRockObjects2.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects3.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects4.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects5.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects1.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects2.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects3.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects4.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects5.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects1.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects2.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects3.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects4.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects5.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects1.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects2.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects3.length = 0;
@@ -2846,11 +2751,6 @@ gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects2.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects3.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects4.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects5.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects1.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects2.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects3.length = 0;
@@ -3002,7 +2902,7 @@ gdjs.StoryCode.GDUILoadingButtonObjects3.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects4.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects5.length = 0;
 
-gdjs.StoryCode.eventsList20(runtimeScene);
+gdjs.StoryCode.eventsList19(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
 gdjs.StoryCode.GDStory1Objects2.length = 0;
 gdjs.StoryCode.GDStory1Objects3.length = 0;
@@ -3118,11 +3018,11 @@ gdjs.StoryCode.GDUIEggAObjects2.length = 0;
 gdjs.StoryCode.GDUIEggAObjects3.length = 0;
 gdjs.StoryCode.GDUIEggAObjects4.length = 0;
 gdjs.StoryCode.GDUIEggAObjects5.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects1.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects2.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects3.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects4.length = 0;
-gdjs.StoryCode.GDUIGameButtonObjects5.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects1.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects2.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects3.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects4.length = 0;
+gdjs.StoryCode.GDUITextBoxObjects5.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects1.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects2.length = 0;
 gdjs.StoryCode.GDMusicButtonObjects3.length = 0;
@@ -3198,41 +3098,21 @@ gdjs.StoryCode.GDUIQuizStatueBlockObjects2.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects3.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects4.length = 0;
 gdjs.StoryCode.GDUIQuizStatueBlockObjects5.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects1.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects2.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects3.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects4.length = 0;
-gdjs.StoryCode.GDUIQUIZLeftArrowObjects5.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects1.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects2.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects3.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects4.length = 0;
-gdjs.StoryCode.GDUIQUIZRightArrowObjects5.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects1.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects2.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects3.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects4.length = 0;
-gdjs.StoryCode.GDQUIZQuestionObjects5.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects1.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects2.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects3.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects4.length = 0;
-gdjs.StoryCode.GDQUIZPageNumberObjects5.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects1.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects2.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects3.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects4.length = 0;
+gdjs.StoryCode.GDUIRightArrowObjects5.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects1.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects2.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects3.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects4.length = 0;
 gdjs.StoryCode.GDUI_9595CloseButtonObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonButtonObjects5.length = 0;
+gdjs.StoryCode.GDUIArrowObjects1.length = 0;
+gdjs.StoryCode.GDUIArrowObjects2.length = 0;
+gdjs.StoryCode.GDUIArrowObjects3.length = 0;
+gdjs.StoryCode.GDUIArrowObjects4.length = 0;
+gdjs.StoryCode.GDUIArrowObjects5.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects1.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects2.length = 0;
 gdjs.StoryCode.GDBaseBkgTile4Objects3.length = 0;
@@ -3333,16 +3213,6 @@ gdjs.StoryCode.GDUIPauseRockObjects2.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects3.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects4.length = 0;
 gdjs.StoryCode.GDUIPauseRockObjects5.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects1.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects2.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects3.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects4.length = 0;
-gdjs.StoryCode.GDUILevel1RestartGlowObjects5.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects1.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects2.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects3.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects4.length = 0;
-gdjs.StoryCode.GDUILevel1RestartStatueObjects5.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects1.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects2.length = 0;
 gdjs.StoryCode.GDUIRestartStatueObjects3.length = 0;
@@ -3588,11 +3458,6 @@ gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects2.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects3.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects4.length = 0;
 gdjs.StoryCode.GDOldWiseDragonBaloonTipObjects5.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects1.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects2.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects3.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects4.length = 0;
-gdjs.StoryCode.GDUIQuizDragonTextObjects5.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects1.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects2.length = 0;
 gdjs.StoryCode.GDOldWiseDragonTextObjects3.length = 0;

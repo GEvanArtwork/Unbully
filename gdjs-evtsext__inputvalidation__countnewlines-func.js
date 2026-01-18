@@ -1,56 +1,41 @@
 
-if (typeof gdjs.evtsExt__Flash__ColorTint !== "undefined") {
-  gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__InputValidation__CountNewLines !== "undefined") {
+  gdjs.evtsExt__InputValidation__CountNewLines.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Flash__ColorTint = {};
-gdjs.evtsExt__Flash__ColorTint.idToCallbackMap = new Map();
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1= [];
+gdjs.evtsExt__InputValidation__CountNewLines = {};
+gdjs.evtsExt__InputValidation__CountNewLines.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Flash__ColorTint.userFunc0x21fae58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb03810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-/** @type {gdjs.SpriteRuntimeObject} */
-const tintedObject = objects[0];
-const tint = tintedObject.getColor();
-eventsFunctionContext.returnValue = tint;
+eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").split(/\r\n|\r|\n/).length;
 };
-gdjs.evtsExt__Flash__ColorTint.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__CountNewLines.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-
-}
-
-
-{
-
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1);
-
-const objects = gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1;
-gdjs.evtsExt__Flash__ColorTint.userFunc0x21fae58(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb03810(runtimeScene, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__Flash__ColorTint.func = function(runtimeScene, Object, parentEventsFunctionContext) {
+gdjs.evtsExt__InputValidation__CountNewLines.func = function(runtimeScene, text, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Object": Object
 },
   _objectArraysMap: {
-"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Flash"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Flash"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("InputValidation"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("InputValidation"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -90,18 +75,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "text") return text;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
 
-gdjs.evtsExt__Flash__ColorTint.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__Flash__ColorTint.GDObjectObjects1.length = 0;
+gdjs.evtsExt__InputValidation__CountNewLines.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return "" + eventsFunctionContext.returnValue;
+return Number(eventsFunctionContext.returnValue) || 0;
 }
 
-gdjs.evtsExt__Flash__ColorTint.registeredGdjsCallbacks = [];
+gdjs.evtsExt__InputValidation__CountNewLines.registeredGdjsCallbacks = [];
