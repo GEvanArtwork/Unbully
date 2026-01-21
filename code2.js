@@ -712,11 +712,6 @@ gdjs.StoryCode.GDUILoadingButtonObjects2= [];
 gdjs.StoryCode.GDUILoadingButtonObjects3= [];
 gdjs.StoryCode.GDUILoadingButtonObjects4= [];
 gdjs.StoryCode.GDUILoadingButtonObjects5= [];
-gdjs.StoryCode.GDScoreTextObjects1= [];
-gdjs.StoryCode.GDScoreTextObjects2= [];
-gdjs.StoryCode.GDScoreTextObjects3= [];
-gdjs.StoryCode.GDScoreTextObjects4= [];
-gdjs.StoryCode.GDScoreTextObjects5= [];
 
 
 gdjs.StoryCode.eventsList0 = function(runtimeScene) {
@@ -2906,11 +2901,6 @@ gdjs.StoryCode.GDUILoadingButtonObjects2.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects3.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects4.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects5.length = 0;
-gdjs.StoryCode.GDScoreTextObjects1.length = 0;
-gdjs.StoryCode.GDScoreTextObjects2.length = 0;
-gdjs.StoryCode.GDScoreTextObjects3.length = 0;
-gdjs.StoryCode.GDScoreTextObjects4.length = 0;
-gdjs.StoryCode.GDScoreTextObjects5.length = 0;
 
 gdjs.StoryCode.eventsList19(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
@@ -3618,11 +3608,6 @@ gdjs.StoryCode.GDUILoadingButtonObjects2.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects3.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects4.length = 0;
 gdjs.StoryCode.GDUILoadingButtonObjects5.length = 0;
-gdjs.StoryCode.GDScoreTextObjects1.length = 0;
-gdjs.StoryCode.GDScoreTextObjects2.length = 0;
-gdjs.StoryCode.GDScoreTextObjects3.length = 0;
-gdjs.StoryCode.GDScoreTextObjects4.length = 0;
-gdjs.StoryCode.GDScoreTextObjects5.length = 0;
 
 
 return;
