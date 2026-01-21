@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__CountNewLines = {};
 gdjs.evtsExt__InputValidation__CountNewLines.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb03810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb0d718 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").split(/\r\n|\r|\n/).length;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__InputValidation__CountNewLines.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb03810(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__CountNewLines.userFunc0xb0d718(runtimeScene, eventsFunctionContext);
 
 }
 

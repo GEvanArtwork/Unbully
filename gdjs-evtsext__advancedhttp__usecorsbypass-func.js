@@ -1,34 +1,49 @@
 
-if (typeof gdjs.evtsExt__InputValidation__IsOnlyLetters !== "undefined") {
-  gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__AdvancedHTTP__UseCORSBypass !== "undefined") {
+  gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters = {};
-gdjs.evtsExt__InputValidation__IsOnlyLetters.idToCallbackMap = new Map();
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass = {};
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb09068 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const lrt = eventsFunctionContext.getArgument("lrt");
-const n = /^[a-zA-Z\s]*$/;
-
-eventsFunctionContext.returnValue = n.test(lrt);
-};
-gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb09068(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = eventsFunctionContext.getArgument("UseBypass");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("CORS"), true);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = !eventsFunctionContext.getArgument("UseBypass");
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("CORS"), false);
+}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.func = function(runtimeScene, lrt, parentEventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.func = function(runtimeScene, Request, UseBypass, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -37,8 +52,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("InputValidation"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("InputValidation"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AdvancedHTTP"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AdvancedHTTP"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -78,17 +93,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "lrt") return lrt;
+if (argName === "Request") return Request;
+if (argName === "UseBypass") return UseBypass;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks = [];
+gdjs.evtsExt__AdvancedHTTP__UseCORSBypass.registeredGdjsCallbacks = [];

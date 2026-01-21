@@ -1,34 +1,33 @@
 
-if (typeof gdjs.evtsExt__InputValidation__IsOnlyLetters !== "undefined") {
-  gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__AdvancedHTTP__CreateRequest !== "undefined") {
+  gdjs.evtsExt__AdvancedHTTP__CreateRequest.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters = {};
-gdjs.evtsExt__InputValidation__IsOnlyLetters.idToCallbackMap = new Map();
+gdjs.evtsExt__AdvancedHTTP__CreateRequest = {};
+gdjs.evtsExt__AdvancedHTTP__CreateRequest.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb09068 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const lrt = eventsFunctionContext.getArgument("lrt");
-const n = /^[a-zA-Z\s]*$/;
-
-eventsFunctionContext.returnValue = n.test(lrt);
-};
-gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__CreateRequest.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.userFunc0xb09068(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.variable.variableClearChildren(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")));
+}
+{runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("URL").setString(eventsFunctionContext.getArgument("URL"));
+}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.func = function(runtimeScene, lrt, parentEventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__CreateRequest.func = function(runtimeScene, Request, URL, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -37,8 +36,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("InputValidation"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("InputValidation"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AdvancedHTTP"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AdvancedHTTP"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -78,17 +77,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "lrt") return lrt;
+if (argName === "Request") return Request;
+if (argName === "URL") return URL;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__CreateRequest.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__InputValidation__IsOnlyLetters.registeredGdjsCallbacks = [];
+gdjs.evtsExt__AdvancedHTTP__CreateRequest.registeredGdjsCallbacks = [];

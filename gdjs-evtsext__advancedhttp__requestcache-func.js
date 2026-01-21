@@ -1,28 +1,24 @@
 
-if (typeof gdjs.evtsExt__LeaderboardDialog__PadStart !== "undefined") {
-  gdjs.evtsExt__LeaderboardDialog__PadStart.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__AdvancedHTTP__RequestCache !== "undefined") {
+  gdjs.evtsExt__AdvancedHTTP__RequestCache.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__LeaderboardDialog__PadStart = {};
-gdjs.evtsExt__LeaderboardDialog__PadStart.idToCallbackMap = new Map();
+gdjs.evtsExt__AdvancedHTTP__RequestCache = {};
+gdjs.evtsExt__AdvancedHTTP__RequestCache.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__LeaderboardDialog__PadStart.userFunc0x906938 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const value = eventsFunctionContext.getArgument("Value");
-const targetLength = eventsFunctionContext.getArgument("TargetLength");
-const padString = eventsFunctionContext.getArgument("PadString");
-eventsFunctionContext.returnValue = value.padStart(targetLength, padString);
-};
-gdjs.evtsExt__LeaderboardDialog__PadStart.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__RequestCache.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.variableChildExists(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("Options"), "cache");
+if (isConditionTrue_0) {
+{eventsFunctionContext.returnValue = gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("Options").getChild("cache"));}
 }
 
 }
@@ -31,14 +27,19 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__LeaderboardDialog__PadStart.userFunc0x906938(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.variable.variableChildExists(runtimeScene.getGame().getVariables().get("__AdvancedHTTP").getChild("Requests").getChild(eventsFunctionContext.getArgument("Request")).getChild("Options"), "cache"));
+if (isConditionTrue_0) {
+{eventsFunctionContext.returnValue = "default";}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__LeaderboardDialog__PadStart.func = function(runtimeScene, Value, TargetLength, PadString, parentEventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__RequestCache.func = function(runtimeScene, Request, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -47,8 +48,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("LeaderboardDialog"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("LeaderboardDialog"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AdvancedHTTP"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AdvancedHTTP"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -88,19 +89,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "Value") return Value;
-if (argName === "TargetLength") return TargetLength;
-if (argName === "PadString") return PadString;
+if (argName === "Request") return Request;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__LeaderboardDialog__PadStart.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__RequestCache.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__LeaderboardDialog__PadStart.registeredGdjsCallbacks = [];
+gdjs.evtsExt__AdvancedHTTP__RequestCache.registeredGdjsCallbacks = [];

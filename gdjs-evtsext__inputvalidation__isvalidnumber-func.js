@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__IsValidNumber = {};
 gdjs.evtsExt__InputValidation__IsValidNumber.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xb0f180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xb0d870 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const num = eventsFunctionContext.getArgument("num");
 const n = /^-?\d+\.?\d*$/;
@@ -21,7 +21,7 @@ gdjs.evtsExt__InputValidation__IsValidNumber.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xb0f180(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__IsValidNumber.userFunc0xb0d870(runtimeScene, eventsFunctionContext);
 
 }
 

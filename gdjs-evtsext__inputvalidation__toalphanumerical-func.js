@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__ToAlphanumerical = {};
 gdjs.evtsExt__InputValidation__ToAlphanumerical.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb03810 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb0e5e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").replace(/\W/g, '');
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__InputValidation__ToAlphanumerical.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb03810(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__ToAlphanumerical.userFunc0xb0e5e8(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__RemoveFirstLine = {};
 gdjs.evtsExt__InputValidation__RemoveFirstLine.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0xb0f180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0xb09ef0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = eventsFunctionContext.getArgument("text").substring(eventsFunctionContext.getArgument("text").indexOf("\n") + 1);
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__InputValidation__RemoveFirstLine.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0xb0f180(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__RemoveFirstLine.userFunc0xb09ef0(runtimeScene, eventsFunctionContext);
 
 }
 

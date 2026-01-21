@@ -1,32 +1,32 @@
 
-if (typeof gdjs.evtsExt__LeaderboardDialog__IsInGameEdition !== "undefined") {
-  gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__AdvancedHTTP__ResponseHeader !== "undefined") {
+  gdjs.evtsExt__AdvancedHTTP__ResponseHeader.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition = {};
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.idToCallbackMap = new Map();
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader = {};
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.userFunc0x906938 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const game = runtimeScene.getGame();
-eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
-};
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.userFunc0x906938(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+{
+{gdjs.Variable.copy(eventsFunctionContext.getArgument("Response"), runtimeScene.getScene().getVariables().get("__AdvancedHTTP").getChild("Response"), false);
+}
+{eventsFunctionContext.returnValue = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("__AdvancedHTTP").getChild("Response").getChild("headers").getChild(eventsFunctionContext.getArgument("Header")));}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.func = function(runtimeScene, parentEventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader.func = function(runtimeScene, Response, Header, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -35,8 +35,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("LeaderboardDialog"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("LeaderboardDialog"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AdvancedHTTP"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AdvancedHTTP"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -76,16 +76,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "Response") return Response;
+if (argName === "Header") return Header;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return !!eventsFunctionContext.returnValue;
+return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__LeaderboardDialog__IsInGameEdition.registeredGdjsCallbacks = [];
+gdjs.evtsExt__AdvancedHTTP__ResponseHeader.registeredGdjsCallbacks = [];

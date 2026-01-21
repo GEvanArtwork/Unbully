@@ -1,27 +1,23 @@
 
-if (typeof gdjs.evtsExt__LeaderboardDialog__ToFixed !== "undefined") {
-  gdjs.evtsExt__LeaderboardDialog__ToFixed.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__AdvancedHTTP__ResponseSuccess !== "undefined") {
+  gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed = {};
-gdjs.evtsExt__LeaderboardDialog__ToFixed.idToCallbackMap = new Map();
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess = {};
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed.userFunc0x906938 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const valueToBeRounded = eventsFunctionContext.getArgument("ValueToBeRounded");
-const numberOfDecimalPlaces = eventsFunctionContext.getArgument("NumberOfDecimalPlaces");
-eventsFunctionContext.returnValue = valueToBeRounded.toFixed(numberOfDecimalPlaces);
-};
-gdjs.evtsExt__LeaderboardDialog__ToFixed.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
 let isConditionTrue_0 = false;
 {
+{gdjs.Variable.copy(eventsFunctionContext.getArgument("Response"), runtimeScene.getScene().getVariables().get("__AdvancedHTTP").getChild("Response"), false);
+}
 }
 
 }
@@ -30,14 +26,19 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed.userFunc0x906938(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getScene().getVariables().get("__AdvancedHTTP").getChild("Response").getChild("ok"), true);
+if (isConditionTrue_0) {
+{eventsFunctionContext.returnValue = true;}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed.func = function(runtimeScene, ValueToBeRounded, NumberOfDecimalPlaces, parentEventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.func = function(runtimeScene, Response, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
@@ -46,8 +47,8 @@ var eventsFunctionContext = {
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("LeaderboardDialog"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("LeaderboardDialog"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("AdvancedHTTP"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("AdvancedHTTP"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -87,18 +88,17 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "ValueToBeRounded") return ValueToBeRounded;
-if (argName === "NumberOfDecimalPlaces") return NumberOfDecimalPlaces;
+if (argName === "Response") return Response;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return "" + eventsFunctionContext.returnValue;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__LeaderboardDialog__ToFixed.registeredGdjsCallbacks = [];
+gdjs.evtsExt__AdvancedHTTP__ResponseSuccess.registeredGdjsCallbacks = [];
