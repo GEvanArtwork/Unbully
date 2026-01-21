@@ -20018,7 +20018,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GameCode.userFunc0x2250e58 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x2547d48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20061,7 +20061,7 @@ gdjs.GameCode.eventsList154 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x2250e58(runtimeScene);
+gdjs.GameCode.userFunc0x2547d48(runtimeScene);
 
 }
 

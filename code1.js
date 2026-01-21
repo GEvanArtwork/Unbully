@@ -2054,7 +2054,7 @@ gdjs.copyArray(runtimeScene.getObjects("TextoInqueritoGlow"), gdjs.StartCode.GDT
 }
 }
 {for(var i = 0, len = gdjs.StartCode.GDTextoInqueritoObjects2.length ;i < len;++i) {
-    gdjs.StartCode.GDTextoInqueritoObjects2[i].setY(864);
+    gdjs.StartCode.GDTextoInqueritoObjects2[i].setY(869);
 }
 }
 }
@@ -2083,11 +2083,11 @@ gdjs.copyArray(runtimeScene.getObjects("TextoInqueritoGlow"), gdjs.StartCode.GDT
 }
 }
 {for(var i = 0, len = gdjs.StartCode.GDTextoInqueritoGlowObjects2.length ;i < len;++i) {
-    gdjs.StartCode.GDTextoInqueritoGlowObjects2[i].setY(825);
+    gdjs.StartCode.GDTextoInqueritoGlowObjects2[i].setY(830);
 }
 }
 {for(var i = 0, len = gdjs.StartCode.GDTextoInqueritoObjects2.length ;i < len;++i) {
-    gdjs.StartCode.GDTextoInqueritoObjects2[i].setY(825);
+    gdjs.StartCode.GDTextoInqueritoObjects2[i].setY(830);
 }
 }
 }
