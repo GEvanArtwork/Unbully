@@ -20113,7 +20113,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GameCode.userFunc0x255a658 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1765000 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20156,7 +20156,7 @@ gdjs.GameCode.eventsList154 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x255a658(runtimeScene);
+gdjs.GameCode.userFunc0x1765000(runtimeScene);
 
 }
 
@@ -20266,20 +20266,6 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerNameDisplay"), gdjs.GameCode.GDPla
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "UnbullyLeaderboard", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(49)));
-}
-}
-
-}
-
-
-};gdjs.GameCode.eventsList160 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-{
 gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgTile4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictoryCupObjects2);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UIVictory");
@@ -20307,7 +20293,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
 }
 
 
-};gdjs.GameCode.eventsList161 = function(runtimeScene) {
+};gdjs.GameCode.eventsList160 = function(runtimeScene) {
 
 {
 
@@ -20323,14 +20309,7 @@ gdjs.GameCode.eventsList159(runtimeScene);
 }
 
 
-{
-
-
-gdjs.GameCode.eventsList160(runtimeScene);
-}
-
-
-};gdjs.GameCode.eventsList162 = function(runtimeScene) {
+};gdjs.GameCode.eventsList161 = function(runtimeScene) {
 
 {
 
@@ -20356,7 +20335,29 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.GameCode.eventsList161(runtimeScene);} //End of subevents
+gdjs.GameCode.eventsList160(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.GameCode.eventsList162 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(50).getAsNumber() > 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10757740);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "UnbullyLeaderboard", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(49)));
+}
 }
 
 }
@@ -20417,6 +20418,13 @@ gdjs.GameCode.eventsList153(runtimeScene);
 
 
 gdjs.GameCode.eventsList157(runtimeScene);
+}
+
+
+{
+
+
+gdjs.GameCode.eventsList161(runtimeScene);
 }
 
 
