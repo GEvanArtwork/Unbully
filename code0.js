@@ -544,15 +544,6 @@ gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.window.setGameResolutionResizeMode(runtimeScene, "NoChange");
-}
-{gdjs.evtTools.advancedWindow.setFullScreenable(true, runtimeScene);
-}
-}
 
 }
 
