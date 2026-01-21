@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__IsValidPhoneNumber = {};
 gdjs.evtsExt__InputValidation__IsValidPhoneNumber.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__IsValidPhoneNumber.userFunc0xb09ef0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsValidPhoneNumber.userFunc0x255e550 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const phone = eventsFunctionContext.getArgument("phone");
 const n = /[0-9 -()+]+$/;
@@ -21,7 +21,7 @@ gdjs.evtsExt__InputValidation__IsValidPhoneNumber.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__InputValidation__IsValidPhoneNumber.userFunc0xb09ef0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__IsValidPhoneNumber.userFunc0x255e550(runtimeScene, eventsFunctionContext);
 
 }
 

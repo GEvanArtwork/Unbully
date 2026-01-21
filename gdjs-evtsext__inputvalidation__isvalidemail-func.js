@@ -9,7 +9,7 @@ gdjs.evtsExt__InputValidation__IsValidEmail = {};
 gdjs.evtsExt__InputValidation__IsValidEmail.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0xb09ef0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0xf92300 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const email = eventsFunctionContext.getArgument("email");
 const n = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
@@ -21,7 +21,7 @@ gdjs.evtsExt__InputValidation__IsValidEmail.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0xb09ef0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__InputValidation__IsValidEmail.userFunc0xf92300(runtimeScene, eventsFunctionContext);
 
 }
 
