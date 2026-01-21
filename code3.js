@@ -20149,7 +20149,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.GameCode.userFunc0xfea5e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xcbfb50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20192,7 +20192,7 @@ gdjs.GameCode.eventsList154 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xfea5e8(runtimeScene);
+gdjs.GameCode.userFunc0xcbfb50(runtimeScene);
 
 }
 
@@ -20324,6 +20324,8 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
 }
 {runtimeScene.getScene().getVariables().get("TimeStop").setNumber(0);
 }
+{runtimeScene.getScene().getVariables().getFromIndex(11).setNumber(1);
+}
 }
 
 }
@@ -20384,17 +20386,24 @@ gdjs.GameCode.eventsList160(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(50).getAsNumber() > 0);
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(11).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10757740);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(18098284);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "87028db1-b4ef-4603-be61-afd46158ef63", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(50)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(49)));
 }
 }
+
+}
+
+
+{
+
+
 
 }
 
