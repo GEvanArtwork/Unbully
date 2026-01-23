@@ -1,50 +1,57 @@
 
-if (typeof gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS !== "undefined") {
-  gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__SpriteMasking__Mask !== "undefined") {
+  gdjs.evtsExt__SpriteMasking__Mask.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS = {};
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.idToCallbackMap = new Map();
+gdjs.evtsExt__SpriteMasking__Mask = {};
+gdjs.evtsExt__SpriteMasking__Mask.idToCallbackMap = new Map();
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1= [];
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1= [];
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xae1018 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-var format_time = function (time_second) {
-    date = new Date(null);
-    date.setSeconds(time_second);
-    if (time_second >= 3600) {
-        return date.toISOString().substr(11, 8); // MM:SS
-    } else {
-        return date.toISOString().substr(14, 5); // HH:MM:SS
-    }
+gdjs.evtsExt__SpriteMasking__Mask.userFunc0x92ea40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+"use strict";
+const maskObject = eventsFunctionContext.getObjects("Mask")[0];
+if (!maskObject) return;
+
+const maskedObjects = eventsFunctionContext.getObjects("Masked");
+for (const maskedObject of maskedObjects) {
+    const maskedRenderer = maskedObject.getRendererObject(); 
+    maskedRenderer.mask = maskObject.getRendererObject();
 }
 
-eventsFunctionContext.returnValue = format_time(eventsFunctionContext.getArgument("TimeInSeconds"));
+
 };
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMasking__Mask.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0xae1018(runtimeScene, eventsFunctionContext);
+const objects = [];
+gdjs.evtsExt__SpriteMasking__Mask.userFunc0x92ea40(runtimeScene, objects, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.func = function(runtimeScene, TimeInSeconds, parentEventsFunctionContext) {
+gdjs.evtsExt__SpriteMasking__Mask.func = function(runtimeScene, Masked, Mask, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
+"Masked": Masked
+, "Mask": Mask
 },
   _objectArraysMap: {
+"Masked": gdjs.objectsListsToArray(Masked)
+, "Mask": gdjs.objectsListsToArray(Mask)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("TimeFormatter"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("TimeFormatter"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMasking"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMasking"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -84,17 +91,20 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
-if (argName === "TimeInSeconds") return TimeInSeconds;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1.length = 0;
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1.length = 0;
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__SpriteMasking__Mask.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskedObjects1.length = 0;
+gdjs.evtsExt__SpriteMasking__Mask.GDMaskObjects1.length = 0;
 
 
-return "" + eventsFunctionContext.returnValue;
+return;
 }
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.registeredGdjsCallbacks = [];
+gdjs.evtsExt__SpriteMasking__Mask.registeredGdjsCallbacks = [];
