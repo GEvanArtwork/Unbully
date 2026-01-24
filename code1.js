@@ -3152,7 +3152,7 @@ gdjs.StartCode.eventsList28(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(-(300));
+{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(-(400));
 }
 }
 
@@ -3660,7 +3660,7 @@ gdjs.StartCode.eventsList41(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 {
-{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(-(1300));
+{runtimeScene.getGame().getVariables().getFromIndex(60).setNumber(-(2000));
 }
 }
 
