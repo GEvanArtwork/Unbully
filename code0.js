@@ -517,6 +517,10 @@ gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1= [];
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2= [];
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3= [];
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4= [];
+gdjs.LoadingCode.GDFullScreenButtonObjects1= [];
+gdjs.LoadingCode.GDFullScreenButtonObjects2= [];
+gdjs.LoadingCode.GDFullScreenButtonObjects3= [];
+gdjs.LoadingCode.GDFullScreenButtonObjects4= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -598,7 +602,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback37325244 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback37364060 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUILoadingButtonObjects4);
 {for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonObjects4.length ;i < len;++i) {
@@ -607,7 +611,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUI
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(37325244, gdjs.LoadingCode.asyncCallback37325244);
+gdjs.LoadingCode.idToCallbackMap.set(37364060, gdjs.LoadingCode.asyncCallback37364060);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -617,7 +621,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37325244(runtimeScene, asyncObjectsList)), 37325244, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37364060(runtimeScene, asyncObjectsList)), 37364060, asyncObjectsList);
 }
 }
 
@@ -653,7 +657,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37326220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37365036);
 }
 }
 if (isConditionTrue_0) {
@@ -676,7 +680,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37327332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37366148);
 }
 }
 if (isConditionTrue_0) {
@@ -707,9 +711,9 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.hideCursor(runtimeScene);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(46).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(47).setNumber(1);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start", false);
 }
@@ -1324,6 +1328,10 @@ gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects1.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects2.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects3.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects4.length = 0;
 
 gdjs.LoadingCode.eventsList8(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -1842,6 +1850,10 @@ gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects1.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects2.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects3.length = 0;
+gdjs.LoadingCode.GDFullScreenButtonObjects4.length = 0;
 
 
 return;
