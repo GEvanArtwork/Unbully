@@ -1975,7 +1975,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects4});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects4});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects4});
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects4});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects3Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects3});
 gdjs.GameCode.eventsList0 = function(runtimeScene) {
 
@@ -2016,15 +2015,10 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UIMoblie_LeftScreen"), gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects4);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.input.getLastTouchId(runtimeScene));
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects4Objects, runtimeScene, true, false);
-}
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(14).setNumber(gdjs.evtTools.input.getTouchX(runtimeScene, 0, "", 0));
 }
@@ -2421,8 +2415,7 @@ gdjs.GameCode.eventsList1(runtimeScene);
 }
 
 
-};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects1Objects = Hashtable.newFrom({"UIMoblie_LeftScreen": gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1});
-gdjs.GameCode.eventsList3 = function(runtimeScene) {
+};gdjs.GameCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -2454,36 +2447,14 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(16590980);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("UIMoblie_LeftScreen"), gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UIMoblie_RightScreen"), gdjs.GameCode.GDUIMoblie_9595RightScreenObjects2);
-{for(var i = 0, len = gdjs.GameCode.GDUIMoblie_9595RightScreenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDUIMoblie_9595RightScreenObjects2[i].getBehavior("Opacity").setOpacity(0);
-}
-}
-{for(var i = 0, len = gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects2[i].getBehavior("Opacity").setOpacity(0);
-}
-}
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("UIMoblie_LeftScreen"), gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMoblie_95959595LeftScreenObjects1Objects, runtimeScene, true, false);
+gdjs.copyArray(runtimeScene.getObjects("UIMoblie_RightScreen"), gdjs.GameCode.GDUIMoblie_9595RightScreenObjects1);
+{for(var i = 0, len = gdjs.GameCode.GDUIMoblie_9595RightScreenObjects1.length ;i < len;++i) {
+    gdjs.GameCode.GDUIMoblie_9595RightScreenObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
-if (isConditionTrue_0) {
-/* Reuse gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1 */
+}
 {for(var i = 0, len = gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1.length ;i < len;++i) {
-    gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1[i].getBehavior("Opacity").setOpacity(255);
+    gdjs.GameCode.GDUIMoblie_9595LeftScreenObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }
 }
@@ -20883,7 +20854,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x159f170 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xfa2700 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20926,7 +20897,7 @@ gdjs.GameCode.eventsList165 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x159f170(runtimeScene);
+gdjs.GameCode.userFunc0xfa2700(runtimeScene);
 
 }
 
