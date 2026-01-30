@@ -602,7 +602,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback37364060 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback37516532 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUILoadingButtonObjects4);
 {for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonObjects4.length ;i < len;++i) {
@@ -611,7 +611,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUI
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(37364060, gdjs.LoadingCode.asyncCallback37364060);
+gdjs.LoadingCode.idToCallbackMap.set(37516532, gdjs.LoadingCode.asyncCallback37516532);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -621,7 +621,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37364060(runtimeScene, asyncObjectsList)), 37364060, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37516532(runtimeScene, asyncObjectsList)), 37516532, asyncObjectsList);
 }
 }
 
@@ -657,7 +657,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37365036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37517508);
 }
 }
 if (isConditionTrue_0) {
@@ -680,7 +680,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37366148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37518620);
 }
 }
 if (isConditionTrue_0) {
