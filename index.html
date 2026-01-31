@@ -151,9 +151,10 @@
 
 
 </head>
-<body>
+<body> 
+<script> 
+(function() { //Initialization var game = new gdjs.RuntimeGame(gdjs.projectData, {}); //Create a renderer game.getRenderer().createStandardCanvas(document.body); 
+// Forçar CSS inline no canvas real (bloquear zoom/scroll) var cvs = document.querySelector("canvas"); if (cvs) { cvs.style.touchAction = "none"; cvs.style.overscrollBehavior = "none"; }
 
-    
-<script> (function() { var game = new gdjs.RuntimeGame(gdjs.projectData, {}); game.getRenderer().createStandardCanvas(document.body); // AQUI: aplicar CSS ao canvas real const cvs = document.querySelector("canvas"); if (cvs) { cvs.style.touchAction = "none"; cvs.style.overscrollBehavior = "none"; } game.getRenderer().bindStandardEvents(game.getInputManager(), window, document); game.loadAllAssets(function() { game.startGameLoop(); }); })(); </script>
-</body>
+//Bind keyboards/mouse/touch events game.getRenderer().bindStandardEvents(game.getInputManager(), window, document); //Load all assets and start the game game.loadAllAssets(function() { game.startGameLoop(); }); })(); </script> </body>
 </html>
