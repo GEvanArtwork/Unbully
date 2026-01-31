@@ -929,6 +929,14 @@ gdjs.GameCode.GDUIFakeMouseObjects5= [];
 gdjs.GameCode.GDUIFakeMouseObjects6= [];
 gdjs.GameCode.GDUIFakeMouseObjects7= [];
 gdjs.GameCode.GDUIFakeMouseObjects8= [];
+gdjs.GameCode.GDDebugTextObjects1= [];
+gdjs.GameCode.GDDebugTextObjects2= [];
+gdjs.GameCode.GDDebugTextObjects3= [];
+gdjs.GameCode.GDDebugTextObjects4= [];
+gdjs.GameCode.GDDebugTextObjects5= [];
+gdjs.GameCode.GDDebugTextObjects6= [];
+gdjs.GameCode.GDDebugTextObjects7= [];
+gdjs.GameCode.GDDebugTextObjects8= [];
 gdjs.GameCode.GDGameLogoObjects1= [];
 gdjs.GameCode.GDGameLogoObjects2= [];
 gdjs.GameCode.GDGameLogoObjects3= [];
@@ -2033,11 +2041,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(14).getAsNumber() > 30);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67))) > Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(68))));
+}
 }
 }
 if (isConditionTrue_0) {
@@ -2055,11 +2068,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(14).getAsNumber() < -(30));
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67))) > Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(68))));
+}
 }
 }
 if (isConditionTrue_0) {
@@ -2077,11 +2095,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(68).getAsNumber() < -(30));
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67))) < Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(68))));
+}
 }
 }
 if (isConditionTrue_0) {
@@ -2099,11 +2122,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(68).getAsNumber() > 30);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67))) < Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(68))));
+}
 }
 }
 if (isConditionTrue_0) {
@@ -2457,6 +2485,21 @@ gdjs.GameCode.eventsList12(runtimeScene);
 {
 
 
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("DebugText"), gdjs.GameCode.GDDebugTextObjects2);
+{for(var i = 0, len = gdjs.GameCode.GDDebugTextObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDDebugTextObjects2[i].getBehavior("Text").setText("dx: " + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(67))) + "dy: " + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(68))) + "dir:" + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().get("MovDir"))));
+}
+}
+}
 
 }
 
@@ -20891,7 +20934,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0xac45b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xc156d0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20934,7 +20977,7 @@ gdjs.GameCode.eventsList176 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xac45b0(runtimeScene);
+gdjs.GameCode.userFunc0xc156d0(runtimeScene);
 
 }
 
@@ -27209,6 +27252,14 @@ gdjs.GameCode.GDUIFakeMouseObjects5.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects6.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects7.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects8.length = 0;
+gdjs.GameCode.GDDebugTextObjects1.length = 0;
+gdjs.GameCode.GDDebugTextObjects2.length = 0;
+gdjs.GameCode.GDDebugTextObjects3.length = 0;
+gdjs.GameCode.GDDebugTextObjects4.length = 0;
+gdjs.GameCode.GDDebugTextObjects5.length = 0;
+gdjs.GameCode.GDDebugTextObjects6.length = 0;
+gdjs.GameCode.GDDebugTextObjects7.length = 0;
+gdjs.GameCode.GDDebugTextObjects8.length = 0;
 gdjs.GameCode.GDGameLogoObjects1.length = 0;
 gdjs.GameCode.GDGameLogoObjects2.length = 0;
 gdjs.GameCode.GDGameLogoObjects3.length = 0;
@@ -29091,6 +29142,14 @@ gdjs.GameCode.GDUIFakeMouseObjects5.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects6.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects7.length = 0;
 gdjs.GameCode.GDUIFakeMouseObjects8.length = 0;
+gdjs.GameCode.GDDebugTextObjects1.length = 0;
+gdjs.GameCode.GDDebugTextObjects2.length = 0;
+gdjs.GameCode.GDDebugTextObjects3.length = 0;
+gdjs.GameCode.GDDebugTextObjects4.length = 0;
+gdjs.GameCode.GDDebugTextObjects5.length = 0;
+gdjs.GameCode.GDDebugTextObjects6.length = 0;
+gdjs.GameCode.GDDebugTextObjects7.length = 0;
+gdjs.GameCode.GDDebugTextObjects8.length = 0;
 gdjs.GameCode.GDGameLogoObjects1.length = 0;
 gdjs.GameCode.GDGameLogoObjects2.length = 0;
 gdjs.GameCode.GDGameLogoObjects3.length = 0;
