@@ -2012,16 +2012,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(14).setNumber(gdjs.evtTools.input.getTouchX(runtimeScene, 0, "", 0) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(64)));
+{runtimeScene.getScene().getVariables().getFromIndex(14).setNumber(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(64)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(gdjs.evtTools.input.getTouchY(runtimeScene, 0, "", 0) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)));
+{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(65)));
 }
 }
 
@@ -2144,11 +2144,6 @@ if (isConditionTrue_0) {
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.input.getLastTouchId(runtimeScene));
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(69).getAsNumber() == 1);
-}
-}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
@@ -20894,7 +20889,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x15ea270 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x15cfde0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20937,7 +20932,7 @@ gdjs.GameCode.eventsList176 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x15ea270(runtimeScene);
+gdjs.GameCode.userFunc0x15cfde0(runtimeScene);
 
 }
 
