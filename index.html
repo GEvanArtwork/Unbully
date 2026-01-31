@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style> html, body, canvas { touch-action: none !important; overscroll-behavior: none !important; } </style>
     <meta charset="UTF-8"/>
     <link rel="manifest" href="manifest.webmanifest">
 
@@ -18,6 +17,11 @@
 			background-color: #000000;
             overflow: hidden;
 		}
+        #canvasArea {
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
 
         
 	</style>
@@ -151,10 +155,27 @@
 
 
 </head>
-<body> 
-<script> 
-(function() { //Initialization var game = new gdjs.RuntimeGame(gdjs.projectData, {}); //Create a renderer game.getRenderer().createStandardCanvas(document.body); 
-// Forçar CSS inline no canvas real (bloquear zoom/scroll) var cvs = document.querySelector("canvas"); if (cvs) { cvs.style.touchAction = "none"; cvs.style.overscrollBehavior = "none"; }
+<body>
 
-//Bind keyboards/mouse/touch events game.getRenderer().bindStandardEvents(game.getInputManager(), window, document); //Load all assets and start the game game.loadAllAssets(function() { game.startGameLoop(); }); })(); </script> </body>
+    
+	<script>
+
+    (function() {
+        //Initialization
+        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+
+        //Create a renderer
+        game.getRenderer().createStandardCanvas(document.body);
+
+        //Bind keyboards/mouse/touch events
+        game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
+
+        //Load all assets and start the game
+        game.loadAllAssets(function() {
+            game.startGameLoop();
+        });
+    })();
+
+	</script>
+</body>
 </html>
