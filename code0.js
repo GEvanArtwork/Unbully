@@ -513,14 +513,18 @@ gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects1= [];
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects2= [];
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects3= [];
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects4= [];
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1= [];
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2= [];
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3= [];
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects1= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects2= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects3= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects4= [];
 gdjs.LoadingCode.GDFullScreenButtonObjects1= [];
 gdjs.LoadingCode.GDFullScreenButtonObjects2= [];
 gdjs.LoadingCode.GDFullScreenButtonObjects3= [];
 gdjs.LoadingCode.GDFullScreenButtonObjects4= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects1= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects2= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects3= [];
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects4= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -1324,14 +1328,18 @@ gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects3.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects4.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects1.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects2.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects3.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects4.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects1.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects2.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects3.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects4.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects1.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects2.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects3.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects4.length = 0;
 
 gdjs.LoadingCode.eventsList8(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -1846,14 +1854,18 @@ gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects3.length = 0;
 gdjs.LoadingCode.GDUIMoblie_9595RightScreenObjects4.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects1.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects2.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects3.length = 0;
-gdjs.LoadingCode.GDUIMoblie_9595LeftScreenObjects4.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects1.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects2.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects3.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftLeftScreenObjects4.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects1.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects2.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects3.length = 0;
 gdjs.LoadingCode.GDFullScreenButtonObjects4.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects1.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects2.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects3.length = 0;
+gdjs.LoadingCode.GDUIMoblie_9595LeftRightScreenObjects4.length = 0;
 
 
 return;
