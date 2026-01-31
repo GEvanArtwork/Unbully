@@ -2496,7 +2496,7 @@ let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("DebugText"), gdjs.GameCode.GDDebugTextObjects2);
 {for(var i = 0, len = gdjs.GameCode.GDDebugTextObjects2.length ;i < len;++i) {
-    gdjs.GameCode.GDDebugTextObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.input.getTouchX(runtimeScene, 0, "", 0)));
+    gdjs.GameCode.GDDebugTextObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0)));
 }
 }
 }
@@ -20934,7 +20934,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x938628 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x10101d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20977,7 +20977,7 @@ gdjs.GameCode.eventsList176 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x938628(runtimeScene);
+gdjs.GameCode.userFunc0x10101d8(runtimeScene);
 
 }
 
