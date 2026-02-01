@@ -1987,23 +1987,19 @@ gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects7= [];
 gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects8= [];
 
 
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3});
 gdjs.GameCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3);
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects3Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getTouchX(runtimeScene, 0, "UIMobileScreen", 0) > (( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3[0].getPointX("")) + ((( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3[0].getWidth()) / 2);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
@@ -2044,11 +2040,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.getTouchX(runtimeScene, 0, "UIMobileScreen", 0) < (( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3[0].getPointX("")) + ((( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3[0].getWidth()) / 2);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-}
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
@@ -20598,7 +20590,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x173a270 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xf8f178 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20641,7 +20633,7 @@ gdjs.GameCode.eventsList167 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x173a270(runtimeScene);
+gdjs.GameCode.userFunc0xf8f178(runtimeScene);
 
 }
 
