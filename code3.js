@@ -21028,7 +21028,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x92a3e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1db6048 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21071,7 +21071,7 @@ gdjs.GameCode.eventsList172 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x92a3e0(runtimeScene);
+gdjs.GameCode.userFunc0x1db6048(runtimeScene);
 
 }
 
