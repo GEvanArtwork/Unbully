@@ -2033,46 +2033,49 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.GameCode.userFunc0x11b0878 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1109fe0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
+// Acessa a cena
 const scene = runtimeScene;
 
-// Reset (não estraga o salto variável)
+// Resetar variáveis da cena
 scene.getVariables().get("TouchJump").setBoolean(false);
 scene.getVariables().get("TouchLeft").setBoolean(false);
 scene.getVariables().get("TouchRight").setBoolean(false);
 
 // Pega todos os toques ativos
-const touches = scene.getGame().getInputManager().getAllTouches();
+const touches = runtimeScene.getGame().getInputManager().getAllTouches();
 
-touches.forEach(touch => {
-  const x = touch.getX();
-  const y = touch.getY();
+// Itera sobre cada toque
+for (let i = 0; i < touches.length; i++) {
+    const touch = touches[i];
+    const x = touch.getX();
+    const y = touch.getY();
 
-  // Verifica se o toque está sobre o botão de salto
-  scene.getObjects("UIMobile_RightScreen").forEach(btn => {
-    if (x >= btn.getX() && x <= btn.getX() + btn.getWidth() &&
-        y >= btn.getY() && y <= btn.getY() + btn.getHeight()) {
-      scene.getVariables().get("TouchJump").setBoolean(true);
+    // Função para verificar colisão com um objeto
+    function isTouchOnObject(objName) {
+        const objs = scene.getObjects(objName);
+        for (let j = 0; j < objs.length; j++) {
+            const o = objs[j];
+            if (x >= o.getX() && x <= o.getX() + o.getWidth() &&
+                y >= o.getY() && y <= o.getY() + o.getHeight()) {
+                return true;
+            }
+        }
+        return false;
     }
-  });
 
-  // Verifica se o toque está sobre o botão de andar direita
-  scene.getObjects("UIMobile_LeftRightScreen").forEach(btn => {
-    if (x >= btn.getX() && x <= btn.getX() + btn.getWidth() &&
-        y >= btn.getY() && y <= btn.getY() + btn.getHeight()) {
-      scene.getVariables().get("TouchRight").setBoolean(true);
+    // Atualiza variáveis de toque
+    if (isTouchOnObject("UIMobile_RightScreen")) {
+        scene.getVariables().get("TouchJump").setBoolean(true);
     }
-  });
-
-  // Verifica se o toque está sobre o botão de andar esquerda
-  scene.getObjects("UIMobile_LeftScreen").forEach(btn => {
-    if (x >= btn.getX() && x <= btn.getX() + btn.getWidth() &&
-        y >= btn.getY() && y <= btn.getY() + btn.getHeight()) {
-      scene.getVariables().get("TouchLeft").setBoolean(true);
+    if (isTouchOnObject("UIMobile_LeftRightScreen")) {
+        scene.getVariables().get("TouchRight").setBoolean(true);
     }
-  });
-});
+    if (isTouchOnObject("UIMobile_LeftScreen")) {
+        scene.getVariables().get("TouchLeft").setBoolean(true);
+    }
+}
 };
 gdjs.GameCode.eventsList2 = function(runtimeScene) {
 
@@ -2284,7 +2287,7 @@ gdjs.GameCode.eventsList1(runtimeScene);
 {
 
 
-gdjs.GameCode.userFunc0x11b0878(runtimeScene);
+gdjs.GameCode.userFunc0x1109fe0(runtimeScene);
 
 }
 
@@ -20809,7 +20812,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x1105e00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x10e1bb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20852,7 +20855,7 @@ gdjs.GameCode.eventsList171 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1105e00(runtimeScene);
+gdjs.GameCode.userFunc0x10e1bb0(runtimeScene);
 
 }
 
