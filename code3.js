@@ -2003,8 +2003,113 @@ gdjs.GameCode.GDUIMobile_9595BottomScreenObjects7= [];
 gdjs.GameCode.GDUIMobile_9595BottomScreenObjects8= [];
 
 
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects4Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects4Objects = Hashtable.newFrom({"UIMobile_RightScreen": gdjs.GameCode.GDUIMobile_9595RightScreenObjects4});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects3Objects = Hashtable.newFrom({"UIMobile_BottomScreen": gdjs.GameCode.GDUIMobile_9595BottomScreenObjects3});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects3Objects = Hashtable.newFrom({"UIMobile_TopScreen": gdjs.GameCode.GDUIMobile_9595TopScreenObjects3});
 gdjs.GameCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4);
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects4Objects, runtimeScene, true, true);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects4Objects, runtimeScene, true, true);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects4);
+{for(var i = 0, len = gdjs.GameCode.GDDragonHeroObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonColorObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonNatureObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonGhostObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_RightScreen"), gdjs.GameCode.GDUIMobile_9595RightScreenObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects4Objects, runtimeScene, true, true);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects4);
+gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects4);
+{for(var i = 0, len = gdjs.GameCode.GDDragonHeroObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").abortJump();
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonColorObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").abortJump();
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonNatureObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").abortJump();
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonGhostObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").abortJump();
+}
+for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").abortJump();
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_BottomScreen"), gdjs.GameCode.GDUIMobile_9595BottomScreenObjects3);
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_TopScreen"), gdjs.GameCode.GDUIMobile_9595TopScreenObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects3Objects, runtimeScene, true, true);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects3Objects, runtimeScene, true, true);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects3);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects3[0].getPointY("")), "", 1);
+}
+}
+
+}
+
+
+};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3});
+gdjs.GameCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -2013,6 +2118,10 @@ gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCod
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
@@ -2041,7 +2150,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3});
-gdjs.GameCode.eventsList1 = function(runtimeScene) {
+gdjs.GameCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -2050,6 +2159,10 @@ gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDU
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects3Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
@@ -2078,7 +2191,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects3Objects = Hashtable.newFrom({"UIMobile_RightScreen": gdjs.GameCode.GDUIMobile_9595RightScreenObjects3});
-gdjs.GameCode.eventsList2 = function(runtimeScene) {
+gdjs.GameCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -2087,6 +2200,10 @@ gdjs.copyArray(runtimeScene.getObjects("UIMobile_RightScreen"), gdjs.GameCode.GD
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects3Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
@@ -2115,7 +2232,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects3Objects = Hashtable.newFrom({"UIMobile_TopScreen": gdjs.GameCode.GDUIMobile_9595TopScreenObjects3});
-gdjs.GameCode.eventsList3 = function(runtimeScene) {
+gdjs.GameCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -2124,6 +2241,10 @@ gdjs.copyArray(runtimeScene.getObjects("UIMobile_TopScreen"), gdjs.GameCode.GDUI
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects3Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
@@ -2137,64 +2258,28 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNa
 }
 
 
-};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects3Objects = Hashtable.newFrom({"UIMobile_BottomScreen": gdjs.GameCode.GDUIMobile_9595BottomScreenObjects3});
-gdjs.GameCode.eventsList4 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_BottomScreen"), gdjs.GameCode.GDUIMobile_9595BottomScreenObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects3Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects3);
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects3[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects3[0].getPointY("")) + 600, 0.09), "", 1);
-}
-}
-
-}
-
-
-};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects2Objects = Hashtable.newFrom({"UIMobile_RightScreen": gdjs.GameCode.GDUIMobile_9595RightScreenObjects2});
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects2Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.GameCode.GDUIMobile_9595LeftScreenObjects2});
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects2Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects2});
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects2Objects = Hashtable.newFrom({"UIMobile_TopScreen": gdjs.GameCode.GDUIMobile_9595TopScreenObjects2});
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects2Objects = Hashtable.newFrom({"UIMobile_BottomScreen": gdjs.GameCode.GDUIMobile_9595BottomScreenObjects2});
+};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects2Objects = Hashtable.newFrom({"UIMobile_BottomScreen": gdjs.GameCode.GDUIMobile_9595BottomScreenObjects2});
 gdjs.GameCode.eventsList5 = function(runtimeScene) {
 
 {
 
 gdjs.copyArray(runtimeScene.getObjects("UIMobile_BottomScreen"), gdjs.GameCode.GDUIMobile_9595BottomScreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_RightScreen"), gdjs.GameCode.GDUIMobile_9595RightScreenObjects2);
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_TopScreen"), gdjs.GameCode.GDUIMobile_9595TopScreenObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595RightScreenObjects2Objects, runtimeScene, true, true);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftScreenObjects2Objects, runtimeScene, true, true);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects2Objects, runtimeScene, true, true);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595TopScreenObjects2Objects, runtimeScene, true, true);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595BottomScreenObjects2Objects, runtimeScene, true, true);
-}
-}
-}
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects2);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects2[0].getPointY("")) + 600, 0.09), "", 1);
+}
 }
 
 }
@@ -20698,7 +20783,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x220a6f8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x18e5c68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20741,7 +20826,7 @@ gdjs.GameCode.eventsList169 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x220a6f8(runtimeScene);
+gdjs.GameCode.userFunc0x18e5c68(runtimeScene);
 
 }
 
