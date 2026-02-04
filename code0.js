@@ -109,14 +109,6 @@ gdjs.LoadingCode.GDUIQuizStatueObjects1= [];
 gdjs.LoadingCode.GDUIQuizStatueObjects2= [];
 gdjs.LoadingCode.GDUIQuizStatueObjects3= [];
 gdjs.LoadingCode.GDUIQuizStatueObjects4= [];
-gdjs.LoadingCode.GDTextoInqueritoObjects1= [];
-gdjs.LoadingCode.GDTextoInqueritoObjects2= [];
-gdjs.LoadingCode.GDTextoInqueritoObjects3= [];
-gdjs.LoadingCode.GDTextoInqueritoObjects4= [];
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects1= [];
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects2= [];
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects3= [];
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects4= [];
 gdjs.LoadingCode.GDMouseCursorObjects1= [];
 gdjs.LoadingCode.GDMouseCursorObjects2= [];
 gdjs.LoadingCode.GDMouseCursorObjects3= [];
@@ -493,22 +485,6 @@ gdjs.LoadingCode.GDUICreditsMenuObjects1= [];
 gdjs.LoadingCode.GDUICreditsMenuObjects2= [];
 gdjs.LoadingCode.GDUICreditsMenuObjects3= [];
 gdjs.LoadingCode.GDUICreditsMenuObjects4= [];
-gdjs.LoadingCode.GDTextoCreditsMenuObjects1= [];
-gdjs.LoadingCode.GDTextoCreditsMenuObjects2= [];
-gdjs.LoadingCode.GDTextoCreditsMenuObjects3= [];
-gdjs.LoadingCode.GDTextoCreditsMenuObjects4= [];
-gdjs.LoadingCode.GDTextoAboutMenuObjects1= [];
-gdjs.LoadingCode.GDTextoAboutMenuObjects2= [];
-gdjs.LoadingCode.GDTextoAboutMenuObjects3= [];
-gdjs.LoadingCode.GDTextoAboutMenuObjects4= [];
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects1= [];
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects2= [];
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects3= [];
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects4= [];
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects1= [];
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects2= [];
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects3= [];
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects4= [];
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects1= [];
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects2= [];
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects3= [];
@@ -613,6 +589,18 @@ gdjs.LoadingCode.GDSobreUnbullyObjects1= [];
 gdjs.LoadingCode.GDSobreUnbullyObjects2= [];
 gdjs.LoadingCode.GDSobreUnbullyObjects3= [];
 gdjs.LoadingCode.GDSobreUnbullyObjects4= [];
+gdjs.LoadingCode.GDTextoInqueritoObjects1= [];
+gdjs.LoadingCode.GDTextoInqueritoObjects2= [];
+gdjs.LoadingCode.GDTextoInqueritoObjects3= [];
+gdjs.LoadingCode.GDTextoInqueritoObjects4= [];
+gdjs.LoadingCode.GDTextoCreditsObjects1= [];
+gdjs.LoadingCode.GDTextoCreditsObjects2= [];
+gdjs.LoadingCode.GDTextoCreditsObjects3= [];
+gdjs.LoadingCode.GDTextoCreditsObjects4= [];
+gdjs.LoadingCode.GDTextoAboutInfoObjects1= [];
+gdjs.LoadingCode.GDTextoAboutInfoObjects2= [];
+gdjs.LoadingCode.GDTextoAboutInfoObjects3= [];
+gdjs.LoadingCode.GDTextoAboutInfoObjects4= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -670,7 +658,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(0).add(2);
+{runtimeScene.getScene().getVariables().getFromIndex(0).add(3);
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "LoadingTimer");
 }
@@ -694,7 +682,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback37574596 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback37839404 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUILoadingButtonObjects4);
 {for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonObjects4.length ;i < len;++i) {
@@ -703,7 +691,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUI
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(37574596, gdjs.LoadingCode.asyncCallback37574596);
+gdjs.LoadingCode.idToCallbackMap.set(37839404, gdjs.LoadingCode.asyncCallback37839404);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -713,7 +701,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37574596(runtimeScene, asyncObjectsList)), 37574596, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback37839404(runtimeScene, asyncObjectsList)), 37839404, asyncObjectsList);
 }
 }
 
@@ -749,7 +737,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37575572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37840852);
 }
 }
 if (isConditionTrue_0) {
@@ -772,7 +760,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37576684);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37841716);
 }
 }
 if (isConditionTrue_0) {
@@ -1012,14 +1000,6 @@ gdjs.LoadingCode.GDUIQuizStatueObjects1.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects2.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects3.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects4.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects1.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects2.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects3.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects4.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects4.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects1.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects2.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects3.length = 0;
@@ -1396,22 +1376,6 @@ gdjs.LoadingCode.GDUICreditsMenuObjects1.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects2.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects3.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects1.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects2.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects3.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects1.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects2.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects3.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects4.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects4.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects3.length = 0;
@@ -1516,6 +1480,18 @@ gdjs.LoadingCode.GDSobreUnbullyObjects1.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects2.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects3.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects4.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects1.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects2.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects3.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects4.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects1.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects2.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects3.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects4.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects1.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects2.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects3.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects4.length = 0;
 
 gdjs.LoadingCode.eventsList8(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -1626,14 +1602,6 @@ gdjs.LoadingCode.GDUIQuizStatueObjects1.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects2.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects3.length = 0;
 gdjs.LoadingCode.GDUIQuizStatueObjects4.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects1.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects2.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects3.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoObjects4.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoInqueritoGlowObjects4.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects1.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects2.length = 0;
 gdjs.LoadingCode.GDMouseCursorObjects3.length = 0;
@@ -2010,22 +1978,6 @@ gdjs.LoadingCode.GDUICreditsMenuObjects1.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects2.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects3.length = 0;
 gdjs.LoadingCode.GDUICreditsMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects1.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects2.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects3.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects1.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects2.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects3.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuObjects4.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoCreditsMenuGlowObjects4.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects1.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects2.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects3.length = 0;
-gdjs.LoadingCode.GDTextoAboutMenuGlowObjects4.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects1.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects2.length = 0;
 gdjs.LoadingCode.GDUIMobile_9595RightScreenObjects3.length = 0;
@@ -2130,6 +2082,18 @@ gdjs.LoadingCode.GDSobreUnbullyObjects1.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects2.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects3.length = 0;
 gdjs.LoadingCode.GDSobreUnbullyObjects4.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects1.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects2.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects3.length = 0;
+gdjs.LoadingCode.GDTextoInqueritoObjects4.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects1.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects2.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects3.length = 0;
+gdjs.LoadingCode.GDTextoCreditsObjects4.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects1.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects2.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects3.length = 0;
+gdjs.LoadingCode.GDTextoAboutInfoObjects4.length = 0;
 
 
 return;
