@@ -13440,6 +13440,10 @@ gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.SecretLevelCode.GDDr
 gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.SecretLevelCode.GDDragonGoldObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.SecretLevelCode.GDDragonHeroObjects3);
 gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDDragonNatureObjects3);
+{runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
+}
 {for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects3.length ;i < len;++i) {
     gdjs.SecretLevelCode.GDDragonHeroObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
@@ -13455,8 +13459,6 @@ for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects3.length ;i < len;
 for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.SecretLevelCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-}
-{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
 }
 }
 
