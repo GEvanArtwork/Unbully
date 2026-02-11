@@ -1123,7 +1123,7 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
+{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(gdjs.evtTools.input.getStartedTouchIdentifier(runtimeScene, 1));
 }
 }
 
@@ -1181,7 +1181,7 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(gdjs.evtTools.input.getStartedTouchIdentifier(runtimeScene, 2));
 }
 }
 
@@ -1239,7 +1239,7 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
+{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getStartedTouchIdentifier(runtimeScene, 3));
 }
 }
 
