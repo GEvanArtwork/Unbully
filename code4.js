@@ -13361,70 +13361,95 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").setGravity(500);
-}
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").setGravity(500);
-}
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").setGravity(500);
-}
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").setGravity(500);
-}
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").setGravity(500);
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(1);
 }
 }
-{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(70).getAsNumber() == 1);
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.SecretLevelCode.GDDragonColorObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.SecretLevelCode.GDDragonGhostObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.SecretLevelCode.GDDragonGoldObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.SecretLevelCode.GDDragonHeroObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDDragonNatureObjects3);
+gdjs.copyArray(runtimeScene.getObjects("JumpMushroom"), gdjs.SecretLevelCode.GDJumpMushroomObjects3);
+gdjs.copyArray(runtimeScene.getObjects("JumpMushroomB"), gdjs.SecretLevelCode.GDJumpMushroomBObjects3);
+gdjs.copyArray(runtimeScene.getObjects("JumpMushroomC"), gdjs.SecretLevelCode.GDJumpMushroomCObjects3);
+{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonHeroObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonColorObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonNatureObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-{for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDJumpMushroomObjects4[i].getBehavior("Animation").setAnimationName("Bounce");
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGhostObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomBObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDJumpMushroomBObjects4[i].getBehavior("Animation").setAnimationName("Bounce");
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomCObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDJumpMushroomCObjects4[i].getBehavior("Animation").setAnimationName("Bounce");
-}
-}
-{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
-{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
+{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
+{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
+{for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDJumpMushroomObjects3[i].getBehavior("Animation").setAnimationName("Bounce");
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
+for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomBObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDJumpMushroomBObjects3[i].getBehavior("Animation").setAnimationName("Bounce");
 }
-for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects4.length ;i < len;++i) {
-    gdjs.SecretLevelCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
+for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomCObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDJumpMushroomCObjects3[i].getBehavior("Animation").setAnimationName("Bounce");
 }
 }
+{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonHeroObjects3[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonColorObjects3[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonNatureObjects3[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGhostObjects3[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").setJumpSpeed(1000);
+}
+}
+{for(var i = 0, len = gdjs.SecretLevelCode.GDDragonHeroObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonHeroObjects3[i].getBehavior("PlatformerObject").setGravity(500);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonColorObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonColorObjects3[i].getBehavior("PlatformerObject").setGravity(500);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonNatureObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonNatureObjects3[i].getBehavior("PlatformerObject").setGravity(500);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGhostObjects3[i].getBehavior("PlatformerObject").setGravity(500);
+}
+for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").setGravity(500);
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
 }
 }
 
