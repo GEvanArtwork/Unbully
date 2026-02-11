@@ -1853,8 +1853,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74))));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
-}
 
 { //Subevents
 gdjs.SecretLevelCode.eventsList2(runtimeScene);} //End of subevents
@@ -1894,8 +1892,6 @@ if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74))));
-}
-{runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
 }
 
 { //Subevents
