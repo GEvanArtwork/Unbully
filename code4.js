@@ -1781,7 +1781,7 @@ gdjs.SecretLevelCode.GDSecretLevelSmokeObjects7= [];
 gdjs.SecretLevelCode.GDSecretLevelSmokeObjects8= [];
 
 
-gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftRightScreenObjects4Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.SecretLevelCode.GDUIMobile_9595LeftRightScreenObjects4});
+gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.SecretLevelCode.GDUIMobile_9595LeftRightScreenObjects3});
 gdjs.SecretLevelCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -1789,7 +1789,7 @@ gdjs.SecretLevelCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23656588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15361908);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
@@ -1803,11 +1803,15 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.SecretLevelCode.GDUIMobile_9595LeftRightScreenObjects4);
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.SecretLevelCode.GDUIMobile_9595LeftRightScreenObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftRightScreenObjects4Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftRightScreenObjects3Objects, runtimeScene, true, false);
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(1);
 }
@@ -1821,17 +1825,14 @@ gdjs.SecretLevelCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftScreenObjects4Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.SecretLevelCode.GDUIMobile_9595LeftScreenObjects4});
+};gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftScreenObjects3Objects = Hashtable.newFrom({"UIMobile_LeftScreen": gdjs.SecretLevelCode.GDUIMobile_9595LeftScreenObjects3});
 gdjs.SecretLevelCode.eventsList2 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23653140);
-}
-if (isConditionTrue_0) {
+{
 {runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
 }
 }
@@ -1843,11 +1844,15 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.SecretLevelCode.GDUIMobile_9595LeftScreenObjects4);
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.SecretLevelCode.GDUIMobile_9595LeftScreenObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftScreenObjects4Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftScreenObjects3Objects, runtimeScene, true, false);
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(1);
 }
@@ -1866,21 +1871,12 @@ gdjs.SecretLevelCode.eventsList4 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_RightScreen"), gdjs.SecretLevelCode.GDUIMobile_9595RightScreenObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595RightScreenObjects3Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23609996);
-}
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15367420);
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74))));
-}
 {runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
 }
 }
@@ -1892,22 +1888,25 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_RightScreen"), gdjs.SecretLevelCode.GDUIMobile_9595RightScreenObjects3);
 
-gdjs.SecretLevelCode.eventsList1(runtimeScene);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595RightScreenObjects3Objects, runtimeScene, true, false);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74))));
 }
 
-
-{
-
-
-gdjs.SecretLevelCode.eventsList3(runtimeScene);
+{ //Subevents
+gdjs.SecretLevelCode.eventsList4(runtimeScene);} //End of subevents
 }
 
-
-{
-
-
-gdjs.SecretLevelCode.eventsList4(runtimeScene);
 }
 
 
@@ -2027,7 +2026,7 @@ gdjs.SecretLevelCode.eventsList9 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23638844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15373116);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
@@ -2074,7 +2073,7 @@ gdjs.SecretLevelCode.eventsList11 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23641100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(15375132);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(74).add(1);
@@ -2189,15 +2188,21 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDD
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.SecretLevelCode.eventsList5(runtimeScene);} //End of subevents
+gdjs.SecretLevelCode.eventsList1(runtimeScene);
 }
 
+
+{
+
+
+gdjs.SecretLevelCode.eventsList3(runtimeScene);
+}
+
+
+{
+
+
+gdjs.SecretLevelCode.eventsList5(runtimeScene);
 }
 
 
