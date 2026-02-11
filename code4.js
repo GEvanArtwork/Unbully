@@ -1790,12 +1790,36 @@ gdjs.SecretLevelCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.input.getLastTouchId(runtimeScene));
+isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)));
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(71)));
+if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)));
+if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
 }
@@ -1844,6 +1868,8 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(1);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(72).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
 }
 }
 
@@ -1901,6 +1927,8 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(1);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(71).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
+}
 }
 
 }
@@ -1956,6 +1984,8 @@ isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(73).setNumber(gdjs.evtTools.input.getLastTouchId(runtimeScene));
 }
 }
 
@@ -2051,13 +2081,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDD
 
 
 };gdjs.SecretLevelCode.eventsList6 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
