@@ -1787,8 +1787,26 @@ gdjs.SecretLevelCode.eventsList0 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(70).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(70).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, true);
 }
 }
 
@@ -13163,6 +13181,8 @@ let isConditionTrue_0 = false;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
+}
 }
 
 }
@@ -13445,6 +13465,8 @@ for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGhostObjects4.length ;i < len;
 for(var i = 0, len = gdjs.SecretLevelCode.GDDragonGoldObjects4.length ;i < len;++i) {
     gdjs.SecretLevelCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
+}
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(1);
 }
 }
 }

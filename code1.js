@@ -1041,8 +1041,26 @@ gdjs.StartCode.eventsList0 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(70).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(70).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, true);
 }
 }
 
