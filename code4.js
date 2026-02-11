@@ -13143,6 +13143,22 @@ gdjs.SecretLevelCode.eventsList134 = function(runtimeScene) {
 
 {
 
+
+let isConditionTrue_0 = false;
+{
+{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
+}
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("JumpMushroom"), gdjs.SecretLevelCode.GDJumpMushroomObjects3);
 gdjs.copyArray(runtimeScene.getObjects("JumpMushroomB"), gdjs.SecretLevelCode.GDJumpMushroomBObjects3);
 gdjs.copyArray(runtimeScene.getObjects("JumpMushroomC"), gdjs.SecretLevelCode.GDJumpMushroomCObjects3);
@@ -13404,12 +13420,6 @@ for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomBObjects4.length ;i < le
 for(var i = 0, len = gdjs.SecretLevelCode.GDJumpMushroomCObjects4.length ;i < len;++i) {
     gdjs.SecretLevelCode.GDJumpMushroomCObjects4[i].getBehavior("Animation").setAnimationName("Bounce");
 }
-}
-{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(67).setNumber(0);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
 }
 }
