@@ -13001,7 +13001,50 @@ gdjs.copyArray(gdjs.SecretLevelCode.GDDragonNatureObjects4_1final, gdjs.SecretLe
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41302436);
+for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonHeroObjects4.length;i<l;++i) {
+    if ( gdjs.SecretLevelCode.GDDragonHeroObjects4[i].getBehavior("PlatformerObject").isFalling() ) {
+        isConditionTrue_0 = true;
+        gdjs.SecretLevelCode.GDDragonHeroObjects4[k] = gdjs.SecretLevelCode.GDDragonHeroObjects4[i];
+        ++k;
+    }
+}
+gdjs.SecretLevelCode.GDDragonHeroObjects4.length = k;
+for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonColorObjects4.length;i<l;++i) {
+    if ( gdjs.SecretLevelCode.GDDragonColorObjects4[i].getBehavior("PlatformerObject").isFalling() ) {
+        isConditionTrue_0 = true;
+        gdjs.SecretLevelCode.GDDragonColorObjects4[k] = gdjs.SecretLevelCode.GDDragonColorObjects4[i];
+        ++k;
+    }
+}
+gdjs.SecretLevelCode.GDDragonColorObjects4.length = k;
+for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonNatureObjects4.length;i<l;++i) {
+    if ( gdjs.SecretLevelCode.GDDragonNatureObjects4[i].getBehavior("PlatformerObject").isFalling() ) {
+        isConditionTrue_0 = true;
+        gdjs.SecretLevelCode.GDDragonNatureObjects4[k] = gdjs.SecretLevelCode.GDDragonNatureObjects4[i];
+        ++k;
+    }
+}
+gdjs.SecretLevelCode.GDDragonNatureObjects4.length = k;
+for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGhostObjects4.length;i<l;++i) {
+    if ( gdjs.SecretLevelCode.GDDragonGhostObjects4[i].getBehavior("PlatformerObject").isFalling() ) {
+        isConditionTrue_0 = true;
+        gdjs.SecretLevelCode.GDDragonGhostObjects4[k] = gdjs.SecretLevelCode.GDDragonGhostObjects4[i];
+        ++k;
+    }
+}
+gdjs.SecretLevelCode.GDDragonGhostObjects4.length = k;
+for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGoldObjects4.length;i<l;++i) {
+    if ( gdjs.SecretLevelCode.GDDragonGoldObjects4[i].getBehavior("PlatformerObject").isFalling() ) {
+        isConditionTrue_0 = true;
+        gdjs.SecretLevelCode.GDDragonGoldObjects4[k] = gdjs.SecretLevelCode.GDDragonGoldObjects4[i];
+        ++k;
+    }
+}
+gdjs.SecretLevelCode.GDDragonGoldObjects4.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(37312804);
+}
 }
 }
 }
