@@ -13,7 +13,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1= [];
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects2= [];
 
 
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback37822788 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38539468 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2);
 
@@ -23,7 +23,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__Anim
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.idToCallbackMap.set(37822788, gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback37822788);
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.idToCallbackMap.set(38539468, gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38539468);
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -34,7 +34,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeSce
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback37822788(runtimeScene, eventsFunctionContext, asyncObjectsList)), 37822788, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38539468(runtimeScene, eventsFunctionContext, asyncObjectsList)), 38539468, asyncObjectsList);
 }
 }
 
