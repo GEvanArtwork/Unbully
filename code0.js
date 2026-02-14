@@ -641,6 +641,10 @@ gdjs.LoadingCode.GDSecretLevelSignsRock3Objects1= [];
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects2= [];
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects3= [];
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects4= [];
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects1= [];
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects2= [];
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects3= [];
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects4= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -1572,6 +1576,10 @@ gdjs.LoadingCode.GDSecretLevelSignsRock3Objects1.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects2.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects4.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects4.length = 0;
 
 gdjs.LoadingCode.eventsList8(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -2214,6 +2222,10 @@ gdjs.LoadingCode.GDSecretLevelSignsRock3Objects1.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects2.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.LoadingCode.GDSecretLevelSignsRock3Objects4.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.LoadingCode.GDOldWiseDragonTalkObjects4.length = 0;
 
 
 return;

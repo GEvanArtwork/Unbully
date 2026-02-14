@@ -1827,6 +1827,14 @@ gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects5= [];
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects6= [];
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects7= [];
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects8= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects1= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects2= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects3= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects4= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects5= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects6= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects7= [];
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects8= [];
 
 
 gdjs.SecretLevelCode.mapOfGDgdjs_9546SecretLevelCode_9546GDUIMobile_95959595LeftRightScreenObjects5Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.SecretLevelCode.GDUIMobile_9595LeftRightScreenObjects5});
@@ -23154,6 +23162,14 @@ gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects5.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects6.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects7.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects8.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects5.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects6.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects7.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects8.length = 0;
 
 gdjs.SecretLevelCode.eventsList213(runtimeScene);
 gdjs.SecretLevelCode.GDCaveBkgA1Objects1.length = 0;
@@ -24788,6 +24804,14 @@ gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects5.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects6.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects7.length = 0;
 gdjs.SecretLevelCode.GDSecretLevelSignsRock3Objects8.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects5.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects6.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects7.length = 0;
+gdjs.SecretLevelCode.GDOldWiseDragonTalkObjects8.length = 0;
 
 
 return;

@@ -844,6 +844,11 @@ gdjs.StoryCode.GDSecretLevelSignsRock3Objects2= [];
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects3= [];
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects4= [];
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects5= [];
+gdjs.StoryCode.GDOldWiseDragonTalkObjects1= [];
+gdjs.StoryCode.GDOldWiseDragonTalkObjects2= [];
+gdjs.StoryCode.GDOldWiseDragonTalkObjects3= [];
+gdjs.StoryCode.GDOldWiseDragonTalkObjects4= [];
+gdjs.StoryCode.GDOldWiseDragonTalkObjects5= [];
 
 
 gdjs.StoryCode.eventsList0 = function(runtimeScene) {
@@ -3387,6 +3392,11 @@ gdjs.StoryCode.GDSecretLevelSignsRock3Objects2.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects4.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects5.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects5.length = 0;
 
 gdjs.StoryCode.eventsList25(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
@@ -4224,6 +4234,11 @@ gdjs.StoryCode.GDSecretLevelSignsRock3Objects2.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects4.length = 0;
 gdjs.StoryCode.GDSecretLevelSignsRock3Objects5.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.StoryCode.GDOldWiseDragonTalkObjects5.length = 0;
 
 
 return;

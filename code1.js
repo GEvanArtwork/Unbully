@@ -1069,6 +1069,12 @@ gdjs.StartCode.GDSecretLevelSignsRock3Objects3= [];
 gdjs.StartCode.GDSecretLevelSignsRock3Objects4= [];
 gdjs.StartCode.GDSecretLevelSignsRock3Objects5= [];
 gdjs.StartCode.GDSecretLevelSignsRock3Objects6= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects1= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects2= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects3= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects4= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects5= [];
+gdjs.StartCode.GDOldWiseDragonTalkObjects6= [];
 
 
 gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIMobile_95959595LeftRightScreenObjects5Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.StartCode.GDUIMobile_9595LeftRightScreenObjects5});
@@ -7720,6 +7726,12 @@ gdjs.StartCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects4.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects5.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects6.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects5.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects6.length = 0;
 
 gdjs.StartCode.eventsList112(runtimeScene);
 gdjs.StartCode.GDVers_95227oObjects1.length = 0;
@@ -8700,6 +8712,12 @@ gdjs.StartCode.GDSecretLevelSignsRock3Objects3.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects4.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects5.length = 0;
 gdjs.StartCode.GDSecretLevelSignsRock3Objects6.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects1.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects2.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects3.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects4.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects5.length = 0;
+gdjs.StartCode.GDOldWiseDragonTalkObjects6.length = 0;
 
 
 return;
