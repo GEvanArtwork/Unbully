@@ -742,7 +742,7 @@ elseEventsChainSatisfied = true;
 }
 
 
-};gdjs.LoadingCode.asyncCallback39992028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback39994724 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUILoadingButtonObjects4);
 {for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonObjects4.length ;i < len;++i) {
@@ -751,7 +751,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingButton"), gdjs.LoadingCode.GDUI
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(39992028, gdjs.LoadingCode.asyncCallback39992028);
+gdjs.LoadingCode.idToCallbackMap.set(39994724, gdjs.LoadingCode.asyncCallback39994724);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -761,7 +761,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback39992028(runtimeScene, asyncObjectsList)), 39992028, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback39994724(runtimeScene, asyncObjectsList)), 39994724, asyncObjectsList);
 }
 }
 
@@ -798,7 +798,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(39993476);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(39996172);
 }
 }
 if (isConditionTrue_0) {
@@ -822,7 +822,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(39994804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(39997500);
 }
 }
 if (isConditionTrue_0) {
