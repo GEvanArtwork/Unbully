@@ -90,6 +90,7 @@ gdjs.copyArray(gdjs.evtsExt__Player__IsSteppingOnFloor.GDPlayerObjects1_1final, 
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.returnValue = true;}
+elseEventsChainSatisfied = true;
 }
 
 }
@@ -170,6 +171,7 @@ gdjs.copyArray(gdjs.evtsExt__Player__IsSteppingOnFloor.GDPlayerObjects1_1final, 
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.returnValue = true;}
+elseEventsChainSatisfied = true;
 }
 
 }
@@ -250,6 +252,7 @@ gdjs.copyArray(gdjs.evtsExt__Player__IsSteppingOnFloor.GDPlayerObjects1_1final, 
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.returnValue = true;}
+elseEventsChainSatisfied = true;
 }
 
 }
