@@ -2945,7 +2945,7 @@ gdjs.GameCode.GDUITap3Objects3.length = 0;
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap2Objects3Objects, 381, 550, "UIMobileTap");
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap3Objects3Objects, 1840, 550, "UIMobileTap");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap3Objects3Objects, 1700, 550, "UIMobileTap");
 }
 {for(var i = 0, len = gdjs.GameCode.GDUITap1Objects3.length ;i < len;++i) {
     gdjs.GameCode.GDUITap1Objects3[i].getBehavior("Opacity").setOpacity(0);
@@ -19278,7 +19278,7 @@ gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHero
 gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects4);
 gdjs.GameCode.GDDragonDummyObjects4.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonDummyObjects4Objects, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27)) + 200, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(28)) - 100, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonDummyObjects4Objects, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(27)) + 100, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(28)) - 100, "");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(14).setNumber(0);
 }
@@ -22862,7 +22862,7 @@ elseEventsChainSatisfied = true;
 }
 
 
-};gdjs.GameCode.userFunc0x2e77518 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x3a2c480 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -22900,7 +22900,7 @@ gdjs.GameCode.eventsList203 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x2e77518(runtimeScene);
+gdjs.GameCode.userFunc0x3a2c480(runtimeScene);
 
 }
 
