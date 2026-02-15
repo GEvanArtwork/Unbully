@@ -2945,7 +2945,7 @@ gdjs.GameCode.GDUITap3Objects3.length = 0;
 }
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap2Objects3Objects, 381, 550, "UIMobileTap");
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap3Objects3Objects, 1700, 550, "UIMobileTap");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap3Objects3Objects, 1650, 550, "UIMobileTap");
 }
 {for(var i = 0, len = gdjs.GameCode.GDUITap1Objects3.length ;i < len;++i) {
     gdjs.GameCode.GDUITap1Objects3[i].getBehavior("Opacity").setOpacity(0);
@@ -22862,7 +22862,7 @@ elseEventsChainSatisfied = true;
 }
 
 
-};gdjs.GameCode.userFunc0x3a2c480 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x33b22b0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -22900,7 +22900,7 @@ gdjs.GameCode.eventsList203 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x3a2c480(runtimeScene);
+gdjs.GameCode.userFunc0x33b22b0(runtimeScene);
 
 }
 
