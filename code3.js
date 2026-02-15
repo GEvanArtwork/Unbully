@@ -10592,6 +10592,10 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(34).setNumber(0);
 }
+{runtimeScene.getGame().getVariables().getFromIndex(33).getChild("X").setNumber(1080);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(33).getChild("Y").setNumber(810);
+}
 elseEventsChainSatisfied = true;
 }
 
@@ -22862,7 +22866,7 @@ elseEventsChainSatisfied = true;
 }
 
 
-};gdjs.GameCode.userFunc0x33b22b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x2ce9870 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -22900,7 +22904,7 @@ gdjs.GameCode.eventsList203 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x33b22b0(runtimeScene);
+gdjs.GameCode.userFunc0x2ce9870(runtimeScene);
 
 }
 
