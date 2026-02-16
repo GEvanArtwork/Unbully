@@ -1030,7 +1030,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(47).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(48).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 
@@ -1049,7 +1049,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(64).getAsString() == "PT");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(65).getAsString() == "PT");
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("StoryText1"), gdjs.StoryCode.GDStoryText1Objects2);
@@ -1078,7 +1078,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(64).getAsString() == "EN");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(65).getAsString() == "EN");
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("StoryText1"), gdjs.StoryCode.GDStoryText1Objects1);
@@ -1770,7 +1770,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SoundButton"), gdjs.StoryCode.GDSoundButtonObjects4);
 {for(var i = 0, len = gdjs.StoryCode.GDSoundButtonObjects4.length ;i < len;++i) {
@@ -1788,7 +1788,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), false);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SoundButton"), gdjs.StoryCode.GDSoundButtonObjects3);
 {for(var i = 0, len = gdjs.StoryCode.GDSoundButtonObjects3.length ;i < len;++i) {
@@ -1830,11 +1830,11 @@ if (isConditionTrue_0) {
     gdjs.StoryCode.GDSoundButtonObjects3[i].getBehavior("Animation").setAnimationName("off");
 }
 }
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), false);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), false);
 }
 {gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 3);
 }
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), false);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), false);
 }
 elseEventsChainSatisfied = true;
 }
@@ -1858,7 +1858,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDSoundButtonObjects2.length;i<l;++i) 
 gdjs.StoryCode.GDSoundButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.StoryCode.GDSoundButtonObjects2 */
@@ -1868,7 +1868,7 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.continueSoundOnChannel(runtimeScene, 3);
 }
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
 }
 elseEventsChainSatisfied = true;
 }
@@ -1952,7 +1952,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
 }
 
 { //Subevents
@@ -1992,7 +1992,7 @@ if (isConditionTrue_0) {
     gdjs.StoryCode.GDMusicButtonObjects3[i].getBehavior("Animation").setAnimationName("off");
 }
 }
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), false);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), false);
 }
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 0);
 }
@@ -2020,7 +2020,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDMusicButtonObjects2.length;i<l;++i) 
 gdjs.StoryCode.GDMusicButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.StoryCode.GDMusicButtonObjects2 */
@@ -2069,7 +2069,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), false);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MusicButton"), gdjs.StoryCode.GDMusicButtonObjects3);
 {for(var i = 0, len = gdjs.StoryCode.GDMusicButtonObjects3.length ;i < len;++i) {
@@ -2140,7 +2140,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(2), true);
+{gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
 }
 
 { //Subevents
@@ -2164,7 +2164,7 @@ gdjs.StoryCode.eventsList19 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40242436);
@@ -2189,7 +2189,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), false);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40244236);
@@ -2267,7 +2267,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5));
+{gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6));
 }
 elseEventsChainSatisfied = true;
 }
@@ -2478,7 +2478,7 @@ gdjs.StoryCode.eventsList24 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
 if (isConditionTrue_0) {
 
 { //Subevents
@@ -2579,7 +2579,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
 }
 }
 }

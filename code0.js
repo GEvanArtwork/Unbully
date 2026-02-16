@@ -1104,11 +1104,11 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.hideCursor(runtimeScene);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(64).setString("EN");
+{runtimeScene.getGame().getVariables().getFromIndex(65).setString("EN");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(47).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(48).setNumber(1);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start", false);
 }
@@ -1132,11 +1132,11 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 {gdjs.evtTools.input.hideCursor(runtimeScene);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(64).setString("PT");
+{runtimeScene.getGame().getVariables().getFromIndex(65).setString("PT");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(47).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(48).setNumber(1);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Start", false);
 }
