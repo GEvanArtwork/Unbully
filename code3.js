@@ -2285,6 +2285,30 @@ gdjs.GameCode.GDUITap3Objects5= [];
 gdjs.GameCode.GDUITap3Objects6= [];
 gdjs.GameCode.GDUITap3Objects7= [];
 gdjs.GameCode.GDUITap3Objects8= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects1= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects2= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects3= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects4= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects5= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects6= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects7= [];
+gdjs.GameCode.GDUILoadingButtonBKGObjects8= [];
+gdjs.GameCode.GDUILoadingButtonENObjects1= [];
+gdjs.GameCode.GDUILoadingButtonENObjects2= [];
+gdjs.GameCode.GDUILoadingButtonENObjects3= [];
+gdjs.GameCode.GDUILoadingButtonENObjects4= [];
+gdjs.GameCode.GDUILoadingButtonENObjects5= [];
+gdjs.GameCode.GDUILoadingButtonENObjects6= [];
+gdjs.GameCode.GDUILoadingButtonENObjects7= [];
+gdjs.GameCode.GDUILoadingButtonENObjects8= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects1= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects2= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects3= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects4= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects5= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects6= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects7= [];
+gdjs.GameCode.GDUILoadingButtonPTObjects8= [];
 
 
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIMobile_95959595LeftRightScreenObjects5Objects = Hashtable.newFrom({"UIMobile_LeftRightScreen": gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5});
@@ -22866,7 +22890,7 @@ elseEventsChainSatisfied = true;
 }
 
 
-};gdjs.GameCode.userFunc0x1497c08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x219b9a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -22904,7 +22928,7 @@ gdjs.GameCode.eventsList203 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1497c08(runtimeScene);
+gdjs.GameCode.userFunc0x219b9a8(runtimeScene);
 
 }
 
@@ -31304,6 +31328,30 @@ gdjs.GameCode.GDUITap3Objects5.length = 0;
 gdjs.GameCode.GDUITap3Objects6.length = 0;
 gdjs.GameCode.GDUITap3Objects7.length = 0;
 gdjs.GameCode.GDUITap3Objects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects8.length = 0;
 
 gdjs.GameCode.eventsList270(runtimeScene);
 gdjs.GameCode.GDTile1Objects1.length = 0;
@@ -33482,6 +33530,30 @@ gdjs.GameCode.GDUITap3Objects5.length = 0;
 gdjs.GameCode.GDUITap3Objects6.length = 0;
 gdjs.GameCode.GDUITap3Objects7.length = 0;
 gdjs.GameCode.GDUITap3Objects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonBKGObjects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonENObjects8.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects1.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects2.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects3.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects4.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects5.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects6.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects7.length = 0;
+gdjs.GameCode.GDUILoadingButtonPTObjects8.length = 0;
 
 
 return;

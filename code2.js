@@ -864,6 +864,21 @@ gdjs.StoryCode.GDUITap3Objects2= [];
 gdjs.StoryCode.GDUITap3Objects3= [];
 gdjs.StoryCode.GDUITap3Objects4= [];
 gdjs.StoryCode.GDUITap3Objects5= [];
+gdjs.StoryCode.GDUILoadingButtonBKGObjects1= [];
+gdjs.StoryCode.GDUILoadingButtonBKGObjects2= [];
+gdjs.StoryCode.GDUILoadingButtonBKGObjects3= [];
+gdjs.StoryCode.GDUILoadingButtonBKGObjects4= [];
+gdjs.StoryCode.GDUILoadingButtonBKGObjects5= [];
+gdjs.StoryCode.GDUILoadingButtonENObjects1= [];
+gdjs.StoryCode.GDUILoadingButtonENObjects2= [];
+gdjs.StoryCode.GDUILoadingButtonENObjects3= [];
+gdjs.StoryCode.GDUILoadingButtonENObjects4= [];
+gdjs.StoryCode.GDUILoadingButtonENObjects5= [];
+gdjs.StoryCode.GDUILoadingButtonPTObjects1= [];
+gdjs.StoryCode.GDUILoadingButtonPTObjects2= [];
+gdjs.StoryCode.GDUILoadingButtonPTObjects3= [];
+gdjs.StoryCode.GDUILoadingButtonPTObjects4= [];
+gdjs.StoryCode.GDUILoadingButtonPTObjects5= [];
 
 
 gdjs.StoryCode.eventsList0 = function(runtimeScene) {
@@ -3488,6 +3503,21 @@ gdjs.StoryCode.GDUITap3Objects2.length = 0;
 gdjs.StoryCode.GDUITap3Objects3.length = 0;
 gdjs.StoryCode.GDUITap3Objects4.length = 0;
 gdjs.StoryCode.GDUITap3Objects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects5.length = 0;
 
 gdjs.StoryCode.eventsList25(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
@@ -4345,6 +4375,21 @@ gdjs.StoryCode.GDUITap3Objects2.length = 0;
 gdjs.StoryCode.GDUITap3Objects3.length = 0;
 gdjs.StoryCode.GDUITap3Objects4.length = 0;
 gdjs.StoryCode.GDUITap3Objects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonBKGObjects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonENObjects5.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects1.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects2.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects3.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects4.length = 0;
+gdjs.StoryCode.GDUILoadingButtonPTObjects5.length = 0;
 
 
 return;
