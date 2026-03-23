@@ -2319,12 +2319,11 @@ gdjs.GameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43052948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43099228);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2351,7 +2350,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList0(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2367,7 +2365,6 @@ let isConditionTrue_0 = false;
 {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2394,7 +2391,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList2(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2408,12 +2404,11 @@ gdjs.GameCode.eventsList4 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43059108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43105484);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2440,7 +2435,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList4(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2500,7 +2494,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").simulateRightKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2537,7 +2530,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").simulateLeftKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2574,7 +2566,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2588,12 +2579,11 @@ gdjs.GameCode.eventsList10 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43065044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43111420);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2623,7 +2613,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNa
 
 { //Subevents
 gdjs.GameCode.eventsList10(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2637,12 +2626,11 @@ gdjs.GameCode.eventsList12 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43057676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43101092);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2672,7 +2660,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNa
 
 { //Subevents
 gdjs.GameCode.eventsList12(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2717,7 +2704,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2743,7 +2729,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHero
 gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects2);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects2[0].getPointY("")), "", 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2825,7 +2810,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList15(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2849,7 +2833,6 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(58).sub(100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2869,7 +2852,6 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(58).add(100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2887,7 +2869,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList17(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2906,7 +2887,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "TutorialTeclado");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2923,7 +2903,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "TutorialMobile");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2941,7 +2920,6 @@ gdjs.GameCode.eventsList20 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 {
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -2955,7 +2933,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43098620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43145100);
 }
 }
 if (isConditionTrue_0) {
@@ -2985,7 +2963,6 @@ gdjs.GameCode.GDUITap3Objects3.length = 0;
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "TapMove");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3008,7 +2985,6 @@ gdjs.copyArray(runtimeScene.getObjects("UITap2"), gdjs.GameCode.GDUITap2Objects3
     gdjs.GameCode.GDUITap2Objects3[i].getBehavior("Opacity").setOpacity(255 * (Math.max(0, Math.sin(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) * 3 + 3.1416) - 0.5) / (1 - 0.5)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3022,7 +2998,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TapMove") >= 15.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43101948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43148428);
 }
 }
 if (isConditionTrue_0) {
@@ -3038,7 +3014,6 @@ gdjs.copyArray(runtimeScene.getObjects("UITap2"), gdjs.GameCode.GDUITap2Objects3
 }
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "TapMove");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3058,13 +3033,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDtutorial_95959595MobileJumpObjects3Objects, 500, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43103028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43149508);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "TapMove2");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3082,7 +3056,6 @@ gdjs.copyArray(runtimeScene.getObjects("UITap3"), gdjs.GameCode.GDUITap3Objects3
     gdjs.GameCode.GDUITap3Objects3[i].getBehavior("Opacity").setOpacity(255 * (Math.max(0, Math.sin(gdjs.evtTools.runtimeScene.getTimeFromStartInSeconds(runtimeScene) * 4) - 0.1) / (1 - 0.1)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3096,7 +3069,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TapMove2") >= 10.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43104004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43150484);
 }
 }
 if (isConditionTrue_0) {
@@ -3107,7 +3080,6 @@ gdjs.copyArray(runtimeScene.getObjects("UITap3"), gdjs.GameCode.GDUITap3Objects2
 }
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "TapMove2");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3123,13 +3095,6 @@ gdjs.GameCode.eventsList20(runtimeScene);
 
 
 };gdjs.GameCode.eventsList22 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -3155,13 +3120,6 @@ gdjs.GameCode.eventsList19(runtimeScene);
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
@@ -3171,7 +3129,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList21(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3182,7 +3139,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40447324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40451076);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("UIMobile_BottomScreen"), gdjs.GameCode.GDUIMobile_9595BottomScreenObjects1);
@@ -3210,7 +3167,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIMobile_TopScreen"), gdjs.GameCode.GDUI
     gdjs.GameCode.GDUIMobile_9595BottomScreenObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3246,7 +3202,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryParabens"), gdjs.GameCode.GDUIV
     gdjs.GameCode.GDUIPowerParabensObjects2[i].getBehavior("Text").setText("Parabéns! \nRecebeste esta habilidade!");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3280,7 +3235,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryParabens"), gdjs.GameCode.GDUIV
     gdjs.GameCode.GDUIPowerParabensObjects1[i].getBehavior("Text").setText("Congratulations!\nYou’ve received this ability!");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3297,15 +3251,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.advancedWindow.focus(true, runtimeScene);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3354,15 +3300,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].getBehavior("PlatformerObject").simulateLeftKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3411,15 +3349,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].getBehavior("PlatformerObject").simulateRightKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3452,15 +3382,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3495,15 +3417,7 @@ gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHero
 gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects2);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects2[0].getPointY("")) - 600, 0.09), "", 1);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3538,7 +3452,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHero
 gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects1);
 {gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (( gdjs.GameCode.GDDragonGoldObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects1[0].getPointY("")) + 600, 0.09), "", 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3557,7 +3470,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(10), false);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3568,18 +3480,10 @@ elseEventsChainSatisfied = true;
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.input.hideCursor(runtimeScene);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3595,15 +3499,7 @@ gdjs.copyArray(runtimeScene.getObjects("MouseCursor"), gdjs.GameCode.GDMouseCurs
     gdjs.GameCode.GDMouseCursorObjects2[i].setPosition(gdjs.evtTools.input.getCursorX(runtimeScene, "UIMouseCursor", 0),gdjs.evtTools.input.getCursorY(runtimeScene, "UIMouseCursor", 0));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3617,7 +3513,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "MouseHideTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3642,7 +3537,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getScene().getVariables().getFromIndex(10), true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3680,7 +3574,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList25(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3699,7 +3592,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList26(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3727,7 +3619,6 @@ gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.GameCode.GDFPSObjects2);
     gdjs.GameCode.GDFPSObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3753,7 +3644,6 @@ gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.GameCode.GDFPSObjects2);
     gdjs.GameCode.GDFPSObjects2[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3773,7 +3663,6 @@ gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.GameCode.GDFPSObjects2);
     gdjs.GameCode.GDFPSObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3786,7 +3675,6 @@ let isConditionTrue_0 = false;
 {
 {runtimeScene.getScene().getVariables().getFromIndex(2).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3808,7 +3696,6 @@ gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.GameCode.GDFPSObjects1);
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "FPS");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3819,19 +3706,12 @@ elseEventsChainSatisfied = true;
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40399100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40421540);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -3849,15 +3729,7 @@ gdjs.copyArray(runtimeScene.getObjects("TimeCounter"), gdjs.GameCode.GDTimeCount
     gdjs.GameCode.GDTimeCounterObjects3[i].getBehavior("Text").setText(gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.func(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(16)), null));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3870,7 +3742,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40377900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40423908);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -3888,15 +3760,7 @@ gdjs.copyArray(runtimeScene.getObjects("TimeCounter"), gdjs.GameCode.GDTimeCount
 }
 {runtimeScene.getGame().getVariables().getFromIndex(35).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3916,15 +3780,7 @@ gdjs.copyArray(runtimeScene.getObjects("TimeCounter"), gdjs.GameCode.GDTimeCount
     gdjs.GameCode.GDTimeCounterObjects3[i].getBehavior("Text").setText(gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.func(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(16)), null));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -3938,7 +3794,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40381828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40428084);
 }
 }
 if (isConditionTrue_0) {
@@ -3948,7 +3804,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(52).setNumber(Math.floor(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(53))));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -3971,7 +3826,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeIcon"), gdjs.GameCode.GDTimeIconObje
     gdjs.GameCode.GDTimeCounterObjects1[i].setCenterXInScene((( gdjs.GameCode.GDTimeIconObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDTimeIconObjects1[0].getCenterXInScene()) + 90);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4009,7 +3863,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNa
 }
 {gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.lerp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), (( gdjs.GameCode.GDDragonGoldObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects1[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects1[0].getPointY("")), 0.09), "", 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4114,7 +3967,6 @@ let isConditionTrue_0 = false;
 }
 {gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), "OldWiseDragon", 0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4142,7 +3994,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPauseButtonObjects3Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40426260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40472356);
 }
 }
 }
@@ -4165,7 +4017,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(17).add(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4189,7 +4040,6 @@ gdjs.copyArray(gdjs.GameCode.GDPauseButtonObjects2, gdjs.GameCode.GDPauseButtonO
 
 { //Subevents
 gdjs.GameCode.eventsList34(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4213,7 +4063,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4235,7 +4084,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDPauseButtonObjects3[i].getBehavior("Opacity").setOpacity(150);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4253,7 +4101,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList35(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4273,7 +4120,6 @@ gdjs.copyArray(runtimeScene.getObjects("SoundButton"), gdjs.GameCode.GDSoundButt
     gdjs.GameCode.GDSoundButtonObjects4[i].getBehavior("Animation").setAnimationName("on");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4291,7 +4137,6 @@ gdjs.copyArray(runtimeScene.getObjects("SoundButton"), gdjs.GameCode.GDSoundButt
     gdjs.GameCode.GDSoundButtonObjects3[i].getBehavior("Animation").setAnimationName("off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4340,7 +4185,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), false);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4382,7 +4226,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.variable.setVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4400,7 +4243,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList37(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4420,7 +4262,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSoundButtonObjects3[i].getBehavior("Opacity").setOpacity(150);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4440,7 +4281,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSoundButtonObjects3[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDSoundButtonObjects3[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4459,7 +4299,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDSoundButtonObjects2Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40436188);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40482284);
 }
 }
 }
@@ -4469,7 +4309,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList38(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4536,7 +4375,6 @@ gdjs.GameCode.GDDragonGoldObjects4.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4595,7 +4433,6 @@ gdjs.GameCode.GDDragonGoldObjects3.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 2);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4656,7 +4493,6 @@ gdjs.GameCode.GDDragonGoldObjects3.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4715,7 +4551,6 @@ gdjs.GameCode.GDDragonGoldObjects2.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 2);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4749,7 +4584,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList40(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4782,7 +4616,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList41(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4802,7 +4635,6 @@ gdjs.copyArray(runtimeScene.getObjects("MusicButton"), gdjs.GameCode.GDMusicButt
     gdjs.GameCode.GDMusicButtonObjects3[i].getBehavior("Animation").setAnimationName("off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4822,7 +4654,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDMusicButtonObjects3[i].getBehavior("Opacity").setOpacity(150);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4842,7 +4673,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDMusicButtonObjects3[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDMusicButtonObjects3[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4861,7 +4691,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMusicButtonObjects2Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40442484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40471100);
 }
 }
 }
@@ -4871,7 +4701,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList42(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4893,7 +4722,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40458884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40502236);
 }
 }
 if (isConditionTrue_0) {
@@ -4904,7 +4733,6 @@ gdjs.copyArray(runtimeScene.getObjects("FullScreenButton"), gdjs.GameCode.GDFull
 }
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4918,7 +4746,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40459676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40503628);
 }
 }
 if (isConditionTrue_0) {
@@ -4929,7 +4757,6 @@ gdjs.copyArray(runtimeScene.getObjects("FullScreenButton"), gdjs.GameCode.GDFull
 }
 {gdjs.evtTools.window.setFullScreen(runtimeScene, false, true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4949,7 +4776,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFullScreenButtonObjects2[i].getBehavior("Opacity").setOpacity(150);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4969,7 +4795,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFullScreenButtonObjects2[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDFullScreenButtonObjects2[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -4988,14 +4813,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDFullScreenButtonObjects1Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40462868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40506700);
 }
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.variable.toggleVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5045,7 +4869,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40464412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40508028);
 }
 }
 }
@@ -5054,7 +4878,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "PowerMusicTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5068,7 +4891,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "PowerMusicTimer") >= 2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40465036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40508652);
 }
 }
 if (isConditionTrue_0) {
@@ -5076,7 +4899,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "PowerMusicTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5098,7 +4920,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.continueMusicOnChannel(runtimeScene, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5120,13 +4941,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUILanguageObjects3Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40468252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40511868);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Respawn.mp3", 10, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5145,14 +4965,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40468540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40512156);
 }
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5170,7 +4989,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList47(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5190,13 +5008,6 @@ gdjs.GameCode.eventsList49 = function(runtimeScene) {
 
 {
 
-
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("RankingCharacter"), gdjs.GameCode.GDRankingCharacterObjects4);
 
 let isConditionTrue_0 = false;
@@ -5204,7 +5015,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRankingCharacterObjects4Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40472300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40515916);
 }
 }
 if (isConditionTrue_0) {
@@ -5215,7 +5026,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects4[i].returnVariable(gdjs.GameCode.GDRankingCharacterObjects4[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5245,7 +5055,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDRankingCharacterObjects4.length;i<l;+
 gdjs.GameCode.GDRankingCharacterObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40473964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40517580);
 }
 }
 }
@@ -5257,7 +5067,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects4[i].returnVariable(gdjs.GameCode.GDRankingCharacterObjects4[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5277,7 +5086,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects4Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRankingCharacterObjects4Objects, 300, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40475212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40518828);
 }
 }
 if (isConditionTrue_0) {
@@ -5286,15 +5095,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects4[i].returnVariable(gdjs.GameCode.GDRankingCharacterObjects4[i].getVariables().getFromIndex(0)).setBoolean(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -5309,7 +5110,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDHomeStatueObjects4Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40476212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40519828);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5331,7 +5132,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDHomeStatueObjects4[i].returnVariable(gdjs.GameCode.GDHomeStatueObjects4[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5362,7 +5162,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDHomeStatueObjects4.length;i<l;++i) {
 gdjs.GameCode.GDHomeStatueObjects4.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40478084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40521700);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5385,7 +5185,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDHomeStatueObjects4[i].returnVariable(gdjs.GameCode.GDHomeStatueObjects4[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5406,7 +5205,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDHomeStatueObjects3Objects, 300, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40479420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40523036);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -5426,7 +5225,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDHomeStatueObjects3[i].returnVariable(gdjs.GameCode.GDHomeStatueObjects3[i].getVariables().getFromIndex(0)).setBoolean(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5444,7 +5242,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList49(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5481,7 +5278,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRestartStatueObjects5[i].returnVariable(gdjs.GameCode.GDUIRestartStatueObjects5[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5500,7 +5296,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRestartStatueObjects4[i].returnVariable(gdjs.GameCode.GDUIRestartStatueObjects4[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5537,7 +5332,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUICreditsStatueObjects5[i].returnVariable(gdjs.GameCode.GDUICreditsStatueObjects5[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5556,7 +5350,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUICreditsStatueObjects4[i].returnVariable(gdjs.GameCode.GDUICreditsStatueObjects4[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5579,7 +5372,6 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5606,7 +5398,6 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5633,20 +5424,12 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList54 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -5666,7 +5449,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList51(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5690,7 +5472,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList52(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5722,7 +5503,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIPlayButtonObjects4[i].returnVariable(gdjs.GameCode.GDUIPlayButtonObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5741,15 +5521,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIPlayButtonObjects4[i].returnVariable(gdjs.GameCode.GDUIPlayButtonObjects4[i].getVariables().getFromIndex(0)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -5762,14 +5534,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40488748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40532364);
 }
 }
 if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList53(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5787,7 +5558,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList54(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5824,7 +5594,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRestartStatueObjects4[i].returnVariable(gdjs.GameCode.GDUIRestartStatueObjects4[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5843,7 +5612,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRestartStatueObjects3[i].returnVariable(gdjs.GameCode.GDUIRestartStatueObjects3[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5880,7 +5648,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUICreditsStatueObjects4[i].returnVariable(gdjs.GameCode.GDUICreditsStatueObjects4[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5899,7 +5666,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUICreditsStatueObjects3[i].returnVariable(gdjs.GameCode.GDUICreditsStatueObjects3[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5920,7 +5686,6 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5947,7 +5712,6 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -5974,20 +5738,12 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList59 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -6007,7 +5763,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList56(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6031,15 +5786,7 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList57(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -6052,14 +5799,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40498780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40542396);
 }
 }
 if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList58(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6077,7 +5823,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList59(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6118,7 +5863,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList61(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6235,7 +5979,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40502796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40546412);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6246,7 +5990,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6268,7 +6011,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40505948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40549564);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6280,7 +6023,6 @@ isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIPause
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Button.wav", 3, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6749,7 +6491,7 @@ gdjs.copyArray(gdjs.GameCode.GDDragonNatureObjects2_1final, gdjs.GameCode.GDDrag
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40509236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40552852);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6761,7 +6503,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Run.mp3", 3, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6821,7 +6562,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects2.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40510460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40554076);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6831,7 +6572,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Jump.mp3", 3, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6891,7 +6631,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects2.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40511780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40555396);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6901,7 +6641,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/JumpLand.mp3", 3, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6934,7 +6673,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "EggsLayer");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40513484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40557100);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6946,7 +6685,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Egg.mp3", 4, false, 40, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -6963,7 +6701,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40514772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40558196);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -6982,7 +6720,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/AllEggs.mp3", 9, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7010,7 +6747,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonRespawnObjects3[i].setVariableBoolean(gdjs.GameCode.GDDragonRespawnObjects3[i].getVariables().getFromIndex(2), true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7037,7 +6773,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonRespawn2"), gdjs.GameCode.GDDragon
     gdjs.GameCode.GDDragonRespawn2Objects3[i].setVariableBoolean(gdjs.GameCode.GDDragonRespawn2Objects3[i].getVariables().getFromIndex(2), false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7062,14 +6797,13 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonRespawnObjects3.length;i<l;++i)
 gdjs.GameCode.GDDragonRespawnObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40517676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40561300);
 }
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Candle.mp3", 8, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7093,7 +6827,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList69(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7117,7 +6850,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonRespawnObjects2[i].setVariableBoolean(gdjs.GameCode.GDDragonRespawnObjects2[i].getVariables().getFromIndex(2), false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7143,7 +6875,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 6, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7648,7 +7379,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 5, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -7674,7 +7404,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 6, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8179,7 +7908,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 5, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8205,7 +7933,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 6, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8710,7 +8437,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 5, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8749,7 +8475,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList71(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8782,7 +8507,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList72(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8815,7 +8539,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList73(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8842,7 +8565,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Haha.mp3", 6, false, 65, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8880,7 +8602,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/Respawn.mp3", 3, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8904,7 +8625,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDLevelStatue1Objects2.length;i<l;++i) 
 gdjs.GameCode.GDLevelStatue1Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40542532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40584756);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -8914,7 +8635,6 @@ isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGa
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/LevelEnd.mp3", 7, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8959,7 +8679,6 @@ gdjs.GameCode.GDSlimeObjects3.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/KillSlime.mp3", 5, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -8996,7 +8715,6 @@ gdjs.GameCode.GDSlime2Objects3.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/KillSlime.mp3", 5, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9028,7 +8746,6 @@ gdjs.GameCode.GDSlimeJumpObjects2.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "Sounds/KillSlime.mp3", 5, false, 100, 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9099,7 +8816,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList76(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9138,7 +8854,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40553140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40591212);
 }
 }
 }
@@ -9157,7 +8873,6 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9278,7 +8993,6 @@ gdjs.GameCode.GDUILanguageObjects4.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(65).setString("EN");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9301,7 +9015,6 @@ gdjs.GameCode.GDUILanguageObjects3.length = k;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(65).setString("PT");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9325,7 +9038,6 @@ gdjs.copyArray(gdjs.GameCode.GDUILanguageObjects3, gdjs.GameCode.GDUILanguageObj
     gdjs.GameCode.GDUILanguageObjects4[i].getBehavior("Animation").setAnimationName("PTGlow");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9344,7 +9056,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUILanguageObjects3[i].getBehavior("Animation").setAnimationName("ENGlow");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9368,7 +9079,6 @@ gdjs.copyArray(gdjs.GameCode.GDUILanguageObjects2, gdjs.GameCode.GDUILanguageObj
     gdjs.GameCode.GDUILanguageObjects3[i].getBehavior("Animation").setAnimationName("PT");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9387,7 +9097,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUILanguageObjects2[i].getBehavior("Animation").setAnimationName("EN");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9408,7 +9117,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40554908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40593012);
 }
 }
 }
@@ -9416,7 +9125,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList81(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9434,7 +9142,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList82(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9452,7 +9159,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList83(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9470,7 +9176,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList84(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9487,7 +9192,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40562540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40600644);
 }
 }
 if (isConditionTrue_0) {
@@ -9515,7 +9220,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(76).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9555,7 +9259,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
     gdjs.GameCode.GDBaseBkgTile4Objects4[i].getBehavior("Resizable").setSize(100, 100);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9597,7 +9300,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
     gdjs.GameCode.GDBaseBkgTile4Objects5[i].getBehavior("Resizable").setSize(100, 100);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9624,7 +9326,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPlayButtonGlow"), gdjs.GameCode.GDUIPl
 
 { //Subevents
 gdjs.GameCode.eventsList87(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9666,7 +9367,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
     gdjs.GameCode.GDBaseBkgTile4Objects4[i].getBehavior("Resizable").setSize(100, 100);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9710,7 +9410,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
     gdjs.GameCode.GDBaseBkgTile4Objects5[i].getBehavior("Resizable").setSize(100, 100);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9737,7 +9436,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPlayButtonGlow"), gdjs.GameCode.GDUIPl
 
 { //Subevents
 gdjs.GameCode.eventsList89(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9750,13 +9448,6 @@ gdjs.GameCode.eventsList91 = function(runtimeScene) {
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(76).getAsNumber() == 1);
@@ -9765,15 +9456,7 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList88(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -9789,7 +9472,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList90(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9809,7 +9491,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPlayButtonGlow"), gdjs.GameCode.GDUIPl
     gdjs.GameCode.GDUIPlayButtonGlowObjects3[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9828,7 +9509,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPlayButtonGlow"), gdjs.GameCode.GDUIPl
     gdjs.GameCode.GDUIPlayButtonGlowObjects3[i].setCenterPositionInScene((( gdjs.GameCode.GDUIPlayButtonObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIPlayButtonObjects3[0].getCenterXInScene()),(( gdjs.GameCode.GDUIPlayButtonObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIPlayButtonObjects3[0].getCenterYInScene()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9850,7 +9530,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIPlayButtonObjects3.length;i<l;++i) 
 gdjs.GameCode.GDUIPlayButtonObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40573220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40619804);
 }
 }
 if (isConditionTrue_0) {
@@ -9859,7 +9539,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIPlayButtonObjects3[i].getBehavior("Tween").addObjectPositionYTween2("PlayAnime", 400, "easeOutQuad", 2, false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9881,7 +9560,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIPlayButtonObjects2.length;i<l;++i) 
 gdjs.GameCode.GDUIPlayButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40574700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40621548);
 }
 }
 if (isConditionTrue_0) {
@@ -9890,7 +9569,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIPlayButtonObjects2[i].getBehavior("Tween").addObjectPositionYTween2("PlayAnime", 335, "easeOutQuad", 1.8, false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9933,7 +9611,6 @@ gdjs.copyArray(gdjs.GameCode.GDUICreditsStatueGlowObjects2, gdjs.GameCode.GDUICr
     gdjs.GameCode.GDUICreditsStatueGlowObjects3[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9954,7 +9631,6 @@ gdjs.copyArray(gdjs.GameCode.GDUICreditsStatueGlowObjects2, gdjs.GameCode.GDUICr
     gdjs.GameCode.GDUICreditsStatueGlowObjects3[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDUICreditsStatueGlowObjects3[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -9973,7 +9649,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUICreditsStatueObjects2Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40578972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40625580);
 }
 }
 }
@@ -9987,7 +9663,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {runtimeScene.getGame().getVariables().getFromIndex(31).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10010,7 +9685,6 @@ gdjs.copyArray(runtimeScene.getObjects("UICreditsStatueGlow"), gdjs.GameCode.GDU
     gdjs.GameCode.GDUICreditsStatueGlowObjects3[i].getBehavior("Animation").setAnimationName("close");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10050,7 +9724,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList94(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10072,7 +9745,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIRestartStatueObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40583372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40629980);
 }
 }
 if (isConditionTrue_0) {
@@ -10082,7 +9755,6 @@ gdjs.copyArray(gdjs.GameCode.GDUIRestartGlowObjects1, gdjs.GameCode.GDUIRestartG
     gdjs.GameCode.GDUIRestartGlowObjects2[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10103,7 +9775,6 @@ gdjs.copyArray(gdjs.GameCode.GDUIRestartGlowObjects1, gdjs.GameCode.GDUIRestartG
     gdjs.GameCode.GDUIRestartGlowObjects2[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDUIRestartGlowObjects2[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10122,7 +9793,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUIRestartStatueObjects1Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40585284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40631892);
 }
 }
 }
@@ -10138,7 +9809,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {runtimeScene.getGame().getVariables().getFromIndex(31).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10161,7 +9831,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIRestartStatue"), gdjs.GameCode.GDUIRes
     gdjs.GameCode.GDUIRestartGlowObjects2[i].getBehavior("Animation").setAnimationName("close");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10201,7 +9870,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList96(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10224,13 +9892,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40561724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40599828);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UIPause");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10293,7 +9960,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMap"), gdjs.GameCode.GDMiniMapObject
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMiniMap");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10317,14 +9983,13 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40588548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40635156);
 }
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIMiniMap");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10344,7 +10009,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIMiniMap");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10358,7 +10022,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIMiniMap");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40589900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40636508);
 }
 }
 if (isConditionTrue_0) {
@@ -10369,7 +10033,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapFrame"), gdjs.GameCode.GDMiniMapF
     gdjs.GameCode.GDMiniMapFrameObjects3[i].getBehavior("Tween").addObjectScaleTween3("MinimapScale", 1.7, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10392,7 +10055,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapFrame"), gdjs.GameCode.GDMiniMapF
     gdjs.GameCode.GDMiniMapObjects3[i].getBehavior("Tween").addObjectOpacityTween2("MapOpacity", 255, "linear", 1, false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10425,7 +10087,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIMiniMapBabyDragon"), gdjs.GameCode.GDU
     gdjs.GameCode.GDUIMiniMapBabyDragonObjects3[i].getBehavior("Tween").addObjectScaleTween3("MinimapScale", 2.5, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10458,7 +10119,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIMiniMapBabyDragon"), gdjs.GameCode.GDU
     gdjs.GameCode.GDUIMiniMapBabyDragonObjects3[i].getBehavior("Tween").addObjectScaleTween3("MinimapScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10473,7 +10133,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "TutorialMiniMapTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10516,7 +10175,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapFrame"), gdjs.GameCode.GDMiniMapF
     gdjs.GameCode.GDMiniMapEggAObjects2[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10541,7 +10199,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMap"), gdjs.GameCode.GDMiniMapObject
     gdjs.GameCode.GDMiniMapObjects2[i].setYOffset((( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonColorObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonNatureObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGhostObjects2[0].getPointY("")) :gdjs.GameCode.GDDragonGoldObjects2[0].getPointY("")) / 18.03 - 890);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10572,7 +10229,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapLevelStatue"), gdjs.GameCode.GDMi
     gdjs.GameCode.GDMiniMapLevelStatueObjects2[i].putAroundObject((gdjs.GameCode.GDMiniMapObjects2.length !== 0 ? gdjs.GameCode.GDMiniMapObjects2[0] : null), 105, (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonColorObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonNatureObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGhostObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGoldObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10603,7 +10259,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapLevelStatue"), gdjs.GameCode.GDMi
     gdjs.GameCode.GDMiniMapLevelStatueObjects2[i].putAroundObject((gdjs.GameCode.GDMiniMapObjects2.length !== 0 ? gdjs.GameCode.GDMiniMapObjects2[0] : null), (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getDistanceToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonColorObjects2[0].getDistanceToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonNatureObjects2[0].getDistanceToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGhostObjects2[0].getDistanceToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGoldObjects2[0].getDistanceToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) / 18.03, (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonColorObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonNatureObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGhostObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))) :gdjs.GameCode.GDDragonGoldObjects2[0].getAngleToObject((gdjs.GameCode.GDLevelStatue1Objects2.length !== 0 ? gdjs.GameCode.GDLevelStatue1Objects2[0] : null))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10634,7 +10289,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapEggA"), gdjs.GameCode.GDMiniMapEg
     gdjs.GameCode.GDMiniMapEggAObjects2[i].putAroundObject((gdjs.GameCode.GDMiniMapObjects2.length !== 0 ? gdjs.GameCode.GDMiniMapObjects2[0] : null), 105, (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getAngleToObject((gdjs.GameCode.GDEggObjects2.length !== 0 ? gdjs.GameCode.GDEggObjects2[0] : null))) :gdjs.GameCode.GDDragonColorObjects2[0].getAngleToObject((gdjs.GameCode.GDEggObjects2.length !== 0 ? gdjs.GameCode.GDEggObjects2[0] : null))) :gdjs.GameCode.GDDragonNatureObjects2[0].getAngleToObject((gdjs.GameCode.GDEggObjects2.length !== 0 ? gdjs.GameCode.GDEggObjects2[0] : null))) :gdjs.GameCode.GDDragonGhostObjects2[0].getAngleToObject((gdjs.GameCode.GDEggObjects2.length !== 0 ? gdjs.GameCode.GDEggObjects2[0] : null))) :gdjs.GameCode.GDDragonGoldObjects2[0].getAngleToObject((gdjs.GameCode.GDEggObjects2.length !== 0 ? gdjs.GameCode.GDEggObjects2[0] : null))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10665,7 +10319,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapEggA"), gdjs.GameCode.GDMiniMapEg
     gdjs.GameCode.GDMiniMapEggAObjects1[i].putAroundObject((gdjs.GameCode.GDMiniMapObjects1.length !== 0 ? gdjs.GameCode.GDMiniMapObjects1[0] : null), (( gdjs.GameCode.GDDragonGoldObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects1[0].getDistanceToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonColorObjects1[0].getDistanceToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonNatureObjects1[0].getDistanceToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonGhostObjects1[0].getDistanceToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonGoldObjects1[0].getDistanceToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) / 18.03, (( gdjs.GameCode.GDDragonGoldObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects1.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects1.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects1[0].getAngleToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonColorObjects1[0].getAngleToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonNatureObjects1[0].getAngleToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonGhostObjects1[0].getAngleToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))) :gdjs.GameCode.GDDragonGoldObjects1[0].getAngleToObject((gdjs.GameCode.GDEggObjects1.length !== 0 ? gdjs.GameCode.GDEggObjects1[0] : null))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10719,7 +10372,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueUI"), gdjs.GameCode.GDLevelSt
     gdjs.GameCode.GDLevelStatueCounterObjects4[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10753,7 +10405,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueUI"), gdjs.GameCode.GDLevelSt
     gdjs.GameCode.GDLevelStatueCounterObjects4[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDLevelStatueCounterObjects4[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10777,7 +10428,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueUI"), gdjs.GameCode.GDLevelSt
     gdjs.GameCode.GDLevelStatueCounterObjects3[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDLevelStatueCounterObjects3[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10809,7 +10459,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeIcon"), gdjs.GameCode.GDTimeIconObje
     gdjs.GameCode.GDLevelStatueUIObjects3[i].setY((( gdjs.GameCode.GDTimeIconObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDTimeIconObjects3[0].getPointY("")));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10828,7 +10477,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40609260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40655868);
 }
 }
 if (isConditionTrue_0) {
@@ -10839,7 +10488,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueCounter"), gdjs.GameCode.GDLe
     gdjs.GameCode.GDLevelStatueCounterObjects3[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(24))) + "/" + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(25))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10876,7 +10524,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueCounter"), gdjs.GameCode.GDLe
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "LevelStatueTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10894,7 +10541,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueCounter"), gdjs.GameCode.GDLe
     gdjs.GameCode.GDLevelStatueCounterObjects3[i].getBehavior("Tween").addObjectScaleTween3("LevelStatueUIScale", 2, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10912,7 +10558,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueCounter"), gdjs.GameCode.GDLe
     gdjs.GameCode.GDLevelStatueCounterObjects3[i].getBehavior("Tween").addObjectScaleTween3("LevelStatueUIScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10927,7 +10572,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "LevelStatueTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -10988,7 +10632,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI"), gdjs.GameCode.GDEggUIObjects3);
     gdjs.GameCode.GDEggCounterObjects3[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11022,7 +10665,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI"), gdjs.GameCode.GDEggUIObjects3);
     gdjs.GameCode.GDEggCounterObjects3[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDEggCounterObjects3[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11046,7 +10688,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI"), gdjs.GameCode.GDEggUIObjects2);
     gdjs.GameCode.GDEggCounterObjects2[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDEggCounterObjects2[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11075,7 +10716,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatueUI"), gdjs.GameCode.GDLevelSt
     gdjs.GameCode.GDEggCounterObjects3[i].setCenterYInScene((( gdjs.GameCode.GDEggUIObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDEggUIObjects3[0].getCenterYInScene()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11102,7 +10742,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI"), gdjs.GameCode.GDEggUIObjects3);
     gdjs.GameCode.GDEggUIObjects3[i].setCenterYInScene((( gdjs.GameCode.GDLevelStatueUIObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDLevelStatueUIObjects3[0].getCenterYInScene()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11129,7 +10768,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI"), gdjs.GameCode.GDEggUIObjects2);
     gdjs.GameCode.GDEggUIObjects2[i].setCenterYInScene((( gdjs.GameCode.GDLevelStatueUIObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDLevelStatueUIObjects2[0].getCenterYInScene()) + 100);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11181,7 +10819,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList109(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11206,7 +10843,7 @@ gdjs.GameCode.forEachTemporary3 = gdjs.GameCode.GDEggObjects2[gdjs.GameCode.forE
 gdjs.GameCode.GDEggObjects3.push(gdjs.GameCode.forEachTemporary3);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40623244);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40670060);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDEggSparkObjects3Objects, (( gdjs.GameCode.GDEggObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDEggObjects3[0].getCenterXInScene()), (( gdjs.GameCode.GDEggObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDEggObjects3[0].getCenterYInScene()) + 15, "EggsLayer");
@@ -11231,13 +10868,6 @@ gdjs.GameCode.eventsList113 = function(runtimeScene) {
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
@@ -11247,7 +10877,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40624876);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40671692);
 }
 }
 }
@@ -11261,15 +10891,7 @@ gdjs.copyArray(runtimeScene.getObjects("EggCounter"), gdjs.GameCode.GDEggCounter
     gdjs.GameCode.GDEggCounterObjects3[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(22))) + "/" + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(23))));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -11286,7 +10908,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40626724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40673540);
 }
 }
 }
@@ -11296,7 +10918,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggCounter"), gdjs.GameCode.GDEggCounter
     gdjs.GameCode.GDEggCounterObjects2[i].getBehavior("Text").setText(gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(22))) + "/" + gdjs.evtTools.common.toString(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(23))));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11351,7 +10972,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggCounter"), gdjs.GameCode.GDEggCounter
 }
 {runtimeScene.getGame().getVariables().getFromIndex(32).getChild(gdjs.evtTools.common.toString((gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDEggObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDEggObjects3[0].getVariables()).getFromIndex(1))))).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11385,7 +11005,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDEggObjects2[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11404,7 +11023,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TutorialEggMoveTimer") > 0.2;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40631916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40678732);
 }
 }
 if (isConditionTrue_0) {
@@ -11412,7 +11031,6 @@ gdjs.GameCode.GDEggUI2Objects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDEggUI2Objects2Objects, gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2, "UI");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11435,7 +11053,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggUI2"), gdjs.GameCode.GDEggUI2Objects2
     gdjs.GameCode.GDEggUI2Objects2[i].getBehavior("Tween").addObjectOpacityTween2("EggOpacity", 0, "linear", 1.5, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11453,7 +11070,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggCounter"), gdjs.GameCode.GDEggCounter
     gdjs.GameCode.GDEggCounterObjects2[i].getBehavior("Tween").addObjectScaleTween3("EggUIScale", 2, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11471,7 +11087,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggCounter"), gdjs.GameCode.GDEggCounter
     gdjs.GameCode.GDEggCounterObjects2[i].getBehavior("Tween").addObjectScaleTween3("EggUIScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11491,7 +11106,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDEggUI2Objects2[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11506,7 +11120,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "TutorialEggMoveTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11633,7 +11246,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].returnVariable(gdjs.GameCode.GDDragonGoldObjects3[i].getVariables().get("Life")).add(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11680,7 +11292,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].returnVariable(gdjs.GameCode.GDDragonGoldObjects3[i].getVariables().get("Life")).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11722,7 +11333,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].returnVariable(gdjs.GameCode.GDDragonGoldObjects2[i].getVariables().get("Life")).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11747,7 +11357,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonRespawn2Objects2[i].getBehavior("Animation").setAnimationName("Off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11767,7 +11376,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonRespawnObjects2[i].getBehavior("Animation").setAnimationName("Off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11783,7 +11391,6 @@ let isConditionTrue_0 = false;
     gdjs.GameCode.GDDragonRespawnObjects1[i].getBehavior("Animation").setAnimationName("On");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11813,7 +11420,6 @@ gdjs.copyArray(runtimeScene.getObjects("Respawn"), gdjs.GameCode.GDRespawnObject
     gdjs.GameCode.GDDragonRespawn2Objects2[i].getBehavior("Animation").setAnimationName("Off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11831,7 +11437,6 @@ gdjs.copyArray(runtimeScene.getObjects("Respawn"), gdjs.GameCode.GDRespawnObject
     gdjs.GameCode.GDRespawnObjects2[i].setPosition(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(34).getChild("X")),gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(34).getChild("Y")));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11865,7 +11470,6 @@ gdjs.copyArray(runtimeScene.getObjects("Respawn"), gdjs.GameCode.GDRespawnObject
 
 { //Subevents
 gdjs.GameCode.eventsList119(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11894,7 +11498,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList120(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -11955,7 +11558,6 @@ for(var i = 0, len = gdjs.GameCode.GDSecretLevelSignsRock3Objects4.length ;i < l
     gdjs.GameCode.GDSecretLevelSignsRock3Objects4[i].getBehavior("Animation").setAnimationName("On");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12010,7 +11612,6 @@ for(var i = 0, len = gdjs.GameCode.GDSecretLevelSignsRock3Objects4.length ;i < l
     gdjs.GameCode.GDSecretLevelSignsRock3Objects4[i].getBehavior("Animation").setAnimationName("Off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12114,7 +11715,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSecretLevelSmokeObjects4[i].returnVariable(gdjs.GameCode.GDSecretLevelSmokeObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12138,7 +11738,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSecretLevelSmokeObjects4[i].returnVariable(gdjs.GameCode.GDSecretLevelSmokeObjects4[i].getVariables().getFromIndex(0)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12168,7 +11767,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSecretLevelSmokeObjects4[i].getBehavior("Animation").pauseAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12198,7 +11796,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSecretLevelSmokeObjects3[i].getBehavior("Animation").resumeAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12256,7 +11853,6 @@ for(var i = 0, len = gdjs.GameCode.GDSecretLevel4EnterBObjects4.length ;i < len;
     gdjs.GameCode.GDSecretLevel4EnterBObjects4[i].setZOrder((( gdjs.GameCode.GDSecretLevel4EnterAObjects4.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects4.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects4.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDSecretLevel1EnterAObjects4[0].getZOrder()) :gdjs.GameCode.GDSecretLevel2EnterAObjects4[0].getZOrder()) :gdjs.GameCode.GDSecretLevel3EnterAObjects4[0].getZOrder()) :gdjs.GameCode.GDSecretLevel4EnterAObjects4[0].getZOrder()) + 2);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12372,7 +11968,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList127(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -12586,7 +12181,6 @@ for(var i = 0, len = gdjs.GameCode.GDSecretLevel4EnterBObjects3.length ;i < len;
     gdjs.GameCode.GDSecretLevel4EnterBObjects3[i].setZOrder((( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getZOrder()) :gdjs.GameCode.GDDragonColorObjects3[0].getZOrder()) :gdjs.GameCode.GDDragonNatureObjects3[0].getZOrder()) :gdjs.GameCode.GDDragonGhostObjects3[0].getZOrder()) :gdjs.GameCode.GDDragonGoldObjects3[0].getZOrder()) + 1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -13066,7 +12660,6 @@ for(var i = 0, len = gdjs.GameCode.GDSecretLevel4EnterBObjects2.length ;i < len;
     gdjs.GameCode.GDSecretLevel4EnterBObjects2[i].setLayer((( gdjs.GameCode.GDSecretLevel4EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects2.length === 0 ) ? "" :gdjs.GameCode.GDSecretLevel1EnterAObjects2[0].getLayer()) :gdjs.GameCode.GDSecretLevel2EnterAObjects2[0].getLayer()) :gdjs.GameCode.GDSecretLevel3EnterAObjects2[0].getLayer()) :gdjs.GameCode.GDSecretLevel4EnterAObjects2[0].getLayer()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -13345,7 +12938,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(29).setNumber((( gdjs.GameCode.GDSecretLevel4EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDSecretLevel1EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel2EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel3EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel4EnterAObjects3[0].getPointY("")));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -13584,7 +13176,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(29).setNumber((( gdjs.GameCode.GDSecretLevel4EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDSecretLevel1EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel2EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel3EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel4EnterAObjects3[0].getPointY("")));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -13823,7 +13414,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(29).setNumber((( gdjs.GameCode.GDSecretLevel4EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects3.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDSecretLevel1EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel2EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel3EnterAObjects3[0].getPointY("")) :gdjs.GameCode.GDSecretLevel4EnterAObjects3[0].getPointY("")));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14062,7 +13652,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(29).setNumber((( gdjs.GameCode.GDSecretLevel4EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel3EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel2EnterAObjects2.length === 0 ) ? (( gdjs.GameCode.GDSecretLevel1EnterAObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDSecretLevel1EnterAObjects2[0].getPointY("")) :gdjs.GameCode.GDSecretLevel2EnterAObjects2[0].getPointY("")) :gdjs.GameCode.GDSecretLevel3EnterAObjects2[0].getPointY("")) :gdjs.GameCode.GDSecretLevel4EnterAObjects2[0].getPointY("")));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14226,7 +13815,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40673092);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40720148);
 }
 }
 }
@@ -14248,7 +13837,6 @@ gdjs.GameCode.GDSecretLevelDeleteObjects2.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList134(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14266,7 +13854,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40675420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40722548);
 }
 }
 }
@@ -14288,7 +13876,6 @@ gdjs.GameCode.GDSecretLevelDeleteObjects2.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList136(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14306,7 +13893,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40677532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40724948);
 }
 }
 }
@@ -14328,7 +13915,6 @@ gdjs.GameCode.GDSecretLevelDeleteObjects2.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList138(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14346,7 +13932,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40679788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40727308);
 }
 }
 }
@@ -14368,7 +13954,6 @@ gdjs.GameCode.GDSecretLevelDeleteObjects1.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList140(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14409,13 +13994,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects2ObjectsGDgdjs_954
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDCactus1Objects2ObjectsGDgdjs_9546GameCode_9546GDCactus2Objects2ObjectsGDgdjs_9546GameCode_9546GDPumpkinCObjects2ObjectsGDgdjs_9546GameCode_9546GDPumpkinAObjects2ObjectsGDgdjs_9546GameCode_9546GDPumpkinBObjects2ObjectsGDgdjs_9546GameCode_9546GDLeaves1Objects2ObjectsGDgdjs_9546GameCode_9546GDLeaves2Objects2ObjectsGDgdjs_9546GameCode_9546GDLeaves3Objects2ObjectsGDgdjs_9546GameCode_9546GDLeaves4Objects2ObjectsGDgdjs_9546GameCode_9546GDLogBObjects2ObjectsGDgdjs_9546GameCode_9546GDLogObjects2ObjectsGDgdjs_9546GameCode_9546GDFlowerAObjects2ObjectsGDgdjs_9546GameCode_9546GDFlowerBObjects2ObjectsGDgdjs_9546GameCode_9546GDMushroomBkgObjects2ObjectsGDgdjs_9546GameCode_9546GDCaveRock1Objects2ObjectsGDgdjs_9546GameCode_9546GDCaveRock2Objects2Objects = Hashtable.newFrom({"Cactus1": gdjs.GameCode.GDCactus1Objects2, "Cactus2": gdjs.GameCode.GDCactus2Objects2, "PumpkinC": gdjs.GameCode.GDPumpkinCObjects2, "PumpkinA": gdjs.GameCode.GDPumpkinAObjects2, "PumpkinB": gdjs.GameCode.GDPumpkinBObjects2, "Leaves1": gdjs.GameCode.GDLeaves1Objects2, "Leaves2": gdjs.GameCode.GDLeaves2Objects2, "Leaves3": gdjs.GameCode.GDLeaves3Objects2, "Leaves4": gdjs.GameCode.GDLeaves4Objects2, "LogB": gdjs.GameCode.GDLogBObjects2, "Log": gdjs.GameCode.GDLogObjects2, "FlowerA": gdjs.GameCode.GDFlowerAObjects2, "FlowerB": gdjs.GameCode.GDFlowerBObjects2, "MushroomBkg": gdjs.GameCode.GDMushroomBkgObjects2, "CaveRock1": gdjs.GameCode.GDCaveRock1Objects2, "CaveRock2": gdjs.GameCode.GDCaveRock2Objects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects2Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects2, "DragonColor": gdjs.GameCode.GDDragonColorObjects2, "DragonNature": gdjs.GameCode.GDDragonNatureObjects2, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects2, "DragonGold": gdjs.GameCode.GDDragonGoldObjects2});
 gdjs.GameCode.eventsList143 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -14510,7 +14088,6 @@ for(var i = 0, len = gdjs.GameCode.GDCaveRock2Objects2.length ;i < len;++i) {
     gdjs.GameCode.GDCaveRock2Objects2[i].returnVariable(gdjs.GameCode.GDCaveRock2Objects2[i].getVariables().get("Active")).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14609,7 +14186,6 @@ for(var i = 0, len = gdjs.GameCode.GDCaveRock2Objects2.length ;i < len;++i) {
     gdjs.GameCode.GDCaveRock2Objects2[i].returnVariable(gdjs.GameCode.GDCaveRock2Objects2[i].getVariables().get("Active")).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -14830,7 +14406,6 @@ for(var i = 0, len = gdjs.GameCode.GDCaveRock2Objects2.length ;i < len;++i) {
     gdjs.GameCode.GDCaveRock2Objects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15051,7 +14626,6 @@ for(var i = 0, len = gdjs.GameCode.GDCaveRock2Objects1.length ;i < len;++i) {
     gdjs.GameCode.GDCaveRock2Objects1[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15103,7 +14677,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].addPolarForce(0, 40, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15128,7 +14701,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15166,7 +14738,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].addPolarForce(180, 40, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15186,20 +14757,12 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects2[i].returnVariable(gdjs.GameCode.GDSlimeObjects2[i].getVariables().getFromIndex(0)).setString("right");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList145 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -15219,7 +14782,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].returnVariable(gdjs.GameCode.GDSlimeObjects3[i].getVariables().getFromIndex(3)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15243,15 +14805,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].returnVariable(gdjs.GameCode.GDSlimeObjects3[i].getVariables().getFromIndex(3)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -15276,7 +14830,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15305,7 +14858,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList144(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15357,7 +14909,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].addPolarForce(0, 40, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15382,7 +14933,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15420,7 +14970,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].addPolarForce(180, 40, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15440,7 +14989,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects2[i].returnVariable(gdjs.GameCode.GDSlimeJumpObjects2[i].getVariables().getFromIndex(0)).setString("right");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15466,20 +15014,12 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList146(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList148 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -15499,7 +15039,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].returnVariable(gdjs.GameCode.GDSlimeJumpObjects3[i].getVariables().getFromIndex(3)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15523,7 +15062,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].returnVariable(gdjs.GameCode.GDSlimeJumpObjects3[i].getVariables().getFromIndex(3)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15549,15 +15087,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeJumpObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -15585,7 +15115,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList147(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15662,7 +15191,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects2[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15725,20 +15253,12 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects1[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList150 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -15758,7 +15278,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects2[i].returnVariable(gdjs.GameCode.GDSlime2Objects2[i].getVariables().getFromIndex(2)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15782,7 +15301,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects2[i].returnVariable(gdjs.GameCode.GDSlime2Objects2[i].getVariables().getFromIndex(2)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15808,7 +15326,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15834,15 +15351,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects2[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -15863,7 +15372,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList149(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -15888,7 +15396,6 @@ gdjs.copyArray(runtimeScene.getObjects("SlimeMarkRight"), gdjs.GameCode.GDSlimeM
     gdjs.GameCode.GDSlimeMarkRightObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16104,7 +15611,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].getBehavior("Platform").changePlatformType("Platform");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16117,13 +15623,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDSlimeMarkLeftObjects3Objects = Hash
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonPlatformHObjects2Objects = Hashtable.newFrom({"DragonPlatformH": gdjs.GameCode.GDDragonPlatformHObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDSlimeMarkRightObjects2Objects = Hashtable.newFrom({"SlimeMarkRight": gdjs.GameCode.GDSlimeMarkRightObjects2});
 gdjs.GameCode.eventsList153 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -16142,7 +15641,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList152(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16167,15 +15665,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].getBehavior("Platform").changePlatformType("Jumpthru");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -16201,7 +15691,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].addPolarForce(0, 80, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16222,7 +15711,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].returnVariable(gdjs.GameCode.GDDragonPlatformHObjects3[i].getVariables().getFromIndex(0)).setString("left");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16249,7 +15737,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].addPolarForce(180, 80, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16269,20 +15756,12 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects2[i].returnVariable(gdjs.GameCode.GDDragonPlatformHObjects2[i].getVariables().getFromIndex(0)).setString("right");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList154 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -16302,7 +15781,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].returnVariable(gdjs.GameCode.GDDragonPlatformHObjects3[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16326,7 +15804,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].returnVariable(gdjs.GameCode.GDDragonPlatformHObjects3[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16352,7 +15829,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformHObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16381,7 +15857,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList153(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16572,7 +16047,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects2[i].getBehavior("Platform").changePlatformType("Platform");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16585,13 +16059,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlatformMarkDownObjects2Objects = H
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonPlatformVObjects1Objects = Hashtable.newFrom({"DragonPlatformV": gdjs.GameCode.GDDragonPlatformVObjects1});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDPlatformMarkUpObjects1Objects = Hashtable.newFrom({"PlatformMarkUp": gdjs.GameCode.GDPlatformMarkUpObjects1});
 gdjs.GameCode.eventsList156 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -16610,7 +16077,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList155(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16635,15 +16101,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects2[i].getBehavior("Platform").changePlatformType("Jumpthru");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -16669,7 +16127,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects2[i].addPolarForce(270, 80, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16690,7 +16147,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects2[i].returnVariable(gdjs.GameCode.GDDragonPlatformVObjects2[i].getVariables().getFromIndex(0)).setString("down");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16717,7 +16173,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects2[i].addPolarForce(90, 80, 0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16737,20 +16192,12 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonPlatformVObjects1[i].returnVariable(gdjs.GameCode.GDDragonPlatformVObjects1[i].getVariables().getFromIndex(0)).setString("up");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
 };gdjs.GameCode.eventsList157 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -16769,7 +16216,6 @@ gdjs.copyArray(runtimeScene.getObjects("PlatformMarkUp"), gdjs.GameCode.GDPlatfo
     gdjs.GameCode.GDPlatformMarkDownObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16798,7 +16244,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList156(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16909,7 +16354,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects4.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects4[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16987,7 +16431,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -16996,13 +16439,6 @@ elseEventsChainSatisfied = true;
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects2ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects2Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects2, "DragonColor": gdjs.GameCode.GDDragonColorObjects2, "DragonNature": gdjs.GameCode.GDDragonNatureObjects2, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects2, "DragonGold": gdjs.GameCode.GDDragonGoldObjects2});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDHateDragonAObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonBObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonCObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonEObjects2Objects = Hashtable.newFrom({"HateDragonA": gdjs.GameCode.GDHateDragonAObjects2, "HateDragonB": gdjs.GameCode.GDHateDragonBObjects2, "HateDragonC": gdjs.GameCode.GDHateDragonCObjects2, "HateDragonE": gdjs.GameCode.GDHateDragonEObjects2});
 gdjs.GameCode.eventsList160 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -17037,7 +16473,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects3[i].returnVariable(gdjs.GameCode.GDHateDragonEObjects3[i].getVariables().get("Active")).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17076,7 +16511,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects3[i].returnVariable(gdjs.GameCode.GDHateDragonEObjects3[i].getVariables().get("Active")).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17141,7 +16575,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects3[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17206,15 +16639,7 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -17255,7 +16680,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects3.length ;i < len;++i) {
 
 { //Subevents
 gdjs.GameCode.eventsList159(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17294,7 +16718,6 @@ for(var i = 0, len = gdjs.GameCode.GDHateDragonEObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDHateDragonEObjects2[i].getBehavior("Animation").setAnimationName("base");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17318,7 +16741,6 @@ gdjs.copyArray(runtimeScene.getObjects("HateDragonMark"), gdjs.GameCode.GDHateDr
     gdjs.GameCode.GDHateDragonMarkObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17341,15 +16763,7 @@ gdjs.copyArray(runtimeScene.getObjects("HateDragonD"), gdjs.GameCode.GDHateDrago
     gdjs.GameCode.GDHateDragonDObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -17367,7 +16781,6 @@ gdjs.copyArray(runtimeScene.getObjects("HateDragonD"), gdjs.GameCode.GDHateDrago
     gdjs.GameCode.GDHateDragonDObjects2[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17404,7 +16817,6 @@ gdjs.copyArray(runtimeScene.getObjects("HateDragonD"), gdjs.GameCode.GDHateDrago
     gdjs.GameCode.GDHateDragonDObjects2[i].setPosition((( gdjs.GameCode.GDHateDragonMarkObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDHateDragonMarkObjects2[0].getPointX("")),(( gdjs.GameCode.GDHateDragonMarkObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDHateDragonMarkObjects2[0].getPointY("")));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17441,15 +16853,7 @@ gdjs.copyArray(runtimeScene.getObjects("HateDragonD"), gdjs.GameCode.GDHateDrago
     gdjs.GameCode.GDHateDragonDObjects2[i].setPosition((( gdjs.GameCode.GDHateDragonMarkObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDHateDragonMarkObjects2[0].getPointX("")),(( gdjs.GameCode.GDHateDragonMarkObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDHateDragonMarkObjects2[0].getPointY("")));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -17522,7 +16926,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDHateDragonDObjects2[i].getBehavior("Animation").setAnimationName("Left");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17596,7 +16999,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDHateDragonDObjects1[i].getBehavior("Animation").setAnimationName("Right");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17697,7 +17099,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("PlatformerCharacterAnimator").SetMoveAnimationName("DragonRun", null);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17780,7 +17181,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].getBehavior("PlatformerCharacterAnimator").SetMoveAnimationName("DragonRun2", null);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17798,7 +17198,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17814,7 +17213,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17827,7 +17225,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40743652);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40791100);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDragonPower1Objects2);
@@ -17857,7 +17255,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPowerParabens"), gdjs.GameCode.GDUIPow
     gdjs.GameCode.GDUIPowerParabensObjects2[i].setCenterPositionInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2,(( gdjs.GameCode.GDUIDragonPower1Objects2.length === 0 ) ? 0 :gdjs.GameCode.GDUIDragonPower1Objects2[0].getPointY("")) - 400);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17871,7 +17268,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40745820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40793268);
 }
 }
 if (isConditionTrue_0) {
@@ -17886,7 +17283,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDrag
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UIPower1");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17905,7 +17301,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40747204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40794652);
 }
 }
 }
@@ -17919,7 +17315,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiniMapEggA"), gdjs.GameCode.GDMiniMapEg
     gdjs.GameCode.GDMiniMapEggAObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17966,7 +17361,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDrag
 }
 {runtimeScene.getGame().getVariables().getFromIndex(10).setBoolean(true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -17984,7 +17378,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDrag
     gdjs.GameCode.GDUIDragonPower1Objects2[i].getBehavior("Tween").addObjectScaleTween3("UIDragonPowerScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18002,7 +17395,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDrag
     gdjs.GameCode.GDUIDragonPower1Objects2[i].getBehavior("Tween").addObjectScaleTween3("UIDragonPowerScale", 1.5, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18031,7 +17423,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIDragonPower1"), gdjs.GameCode.GDUIDrag
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UIPower1");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18057,7 +17448,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "UIPowerTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18071,7 +17461,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Escape");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40756948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40804396);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -18113,7 +17503,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIPowerParabens"), gdjs.GameCode.GDUIPow
     gdjs.GameCode.GDUIPowerParabensObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18149,13 +17538,6 @@ gdjs.GameCode.eventsList167 = function(runtimeScene) {
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(7).getAsNumber() == 1);
@@ -18165,7 +17547,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40762852);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40810300);
 }
 }
 }
@@ -18199,15 +17581,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -18224,7 +17598,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40764724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40812172);
 }
 }
 }
@@ -18258,15 +17632,7 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -18281,7 +17647,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonDummy"), gdjs.GameCode.GDDragonDum
     gdjs.GameCode.GDDragonDummyObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18352,7 +17717,6 @@ gdjs.copyArray(gdjs.GameCode.GDDragonDummyObjects3, gdjs.GameCode.GDDragonDummyO
     gdjs.GameCode.GDDragonDummyObjects4[i].returnVariable(gdjs.GameCode.GDDragonDummyObjects4[i].getVariables().getFromIndex(0)).setBoolean(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18414,7 +17778,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonDummyObjects3[i].returnVariable(gdjs.GameCode.GDDragonDummyObjects3[i].getVariables().getFromIndex(0)).setBoolean(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18442,7 +17805,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNa
 
 { //Subevents
 gdjs.GameCode.eventsList168(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18459,7 +17821,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40769548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40816996);
 }
 }
 if (isConditionTrue_0) {
@@ -18488,7 +17850,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18602,7 +17963,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects6.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects6[i].getBehavior("PlatformerObject").simulateJumpKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18657,7 +18017,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects6.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18955,7 +18314,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects5.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -18981,7 +18339,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList171(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19021,7 +18378,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlimeObjects6[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19043,7 +18399,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList172(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19069,7 +18424,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList173(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19183,7 +18537,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects5.length ;i < len;++i) {
     gdjs.GameCode.GDSlime2Objects5[i].getBehavior("Animation").setAnimationName("SlimeDeath");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19238,7 +18591,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects5.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19552,7 +18904,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19578,7 +18929,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList175(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19618,7 +18968,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSlime2Objects5[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19640,7 +18989,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList176(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19666,7 +19014,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList177(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19742,7 +19089,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects4.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(15).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19753,13 +19099,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects5ObjectsGDgdjs_954
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDFlameObjects5Objects = Hashtable.newFrom({"Flame": gdjs.GameCode.GDFlameObjects5});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects5ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects5ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects5ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects5ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects5Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects5, "DragonColor": gdjs.GameCode.GDDragonColorObjects5, "DragonNature": gdjs.GameCode.GDDragonNatureObjects5, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects5, "DragonGold": gdjs.GameCode.GDDragonGoldObjects5});
 gdjs.GameCode.eventsList181 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -19779,7 +19118,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFlameObjects5[i].returnVariable(gdjs.GameCode.GDFlameObjects5[i].getVariables().getFromIndex(1)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19803,7 +19141,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFlameObjects5[i].returnVariable(gdjs.GameCode.GDFlameObjects5[i].getVariables().getFromIndex(1)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19833,7 +19170,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFlameObjects5[i].getBehavior("Animation").pauseAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19863,7 +19199,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDFlameObjects4[i].getBehavior("Animation").resumeAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19874,13 +19209,6 @@ gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects4ObjectsGDgdjs_954
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDSpikesObjects4Objects = Hashtable.newFrom({"Spikes": gdjs.GameCode.GDSpikesObjects4});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects4ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects4Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects4, "DragonColor": gdjs.GameCode.GDDragonColorObjects4, "DragonNature": gdjs.GameCode.GDDragonNatureObjects4, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects4, "DragonGold": gdjs.GameCode.GDDragonGoldObjects4});
 gdjs.GameCode.eventsList182 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -19900,7 +19228,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSpikesObjects4[i].returnVariable(gdjs.GameCode.GDSpikesObjects4[i].getVariables().getFromIndex(0)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19924,7 +19251,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSpikesObjects4[i].returnVariable(gdjs.GameCode.GDSpikesObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19950,7 +19276,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSpikesObjects4[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -19976,7 +19301,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDSpikesObjects3[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20023,7 +19347,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40797996);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40845308);
 }
 }
 if (isConditionTrue_0) {
@@ -20031,7 +19355,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(27).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20076,7 +19399,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20121,7 +19443,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20166,7 +19487,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20211,7 +19531,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20256,7 +19575,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDDragonGoldObjects2[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20280,7 +19598,6 @@ gdjs.GameCode.GDDragonHeroObjects3.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList185(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20302,7 +19619,6 @@ gdjs.GameCode.GDDragonNatureObjects3.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList186(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20324,7 +19640,6 @@ gdjs.GameCode.GDDragonColorObjects3.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList187(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20346,7 +19661,6 @@ gdjs.GameCode.GDDragonGhostObjects3.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList188(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20368,7 +19682,6 @@ gdjs.GameCode.GDDragonGoldObjects2.length = 0;
 
 { //Subevents
 gdjs.GameCode.eventsList189(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20389,7 +19702,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList190(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20461,7 +19773,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtsExt__Player__IsSteppingOnFloor.func(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects, "PlatformerObject", null);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40809180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40856492);
 }
 }
 if (isConditionTrue_0) {
@@ -20474,7 +19786,6 @@ gdjs.GameCode.GDDragonRunSmokeObjects3.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonRunSmokeObjects3Objects, (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonColorObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonNatureObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGhostObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGoldObjects3[0].getCenterXInScene()), (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonColorObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonNatureObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonGhostObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonGoldObjects3[0].getAABBBottom()), "");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20496,7 +19807,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonRunSmokeObjects3.length;i<l;++i
 gdjs.GameCode.GDDragonRunSmokeObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40810204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40857516);
 }
 }
 if (isConditionTrue_0) {
@@ -20505,7 +19816,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonRunSmokeObjects3[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20572,7 +19882,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonRunSmoke"), gdjs.GameCode.GDDragon
     gdjs.GameCode.GDDragonRunSmokeObjects3[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20634,7 +19943,6 @@ gdjs.copyArray(runtimeScene.getObjects("DragonRunSmoke"), gdjs.GameCode.GDDragon
     gdjs.GameCode.GDDragonRunSmokeObjects2[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20816,7 +20124,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList193(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20877,7 +20184,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects3.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40812556);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40859868);
 }
 }
 if (isConditionTrue_0) {
@@ -20890,7 +20197,6 @@ gdjs.GameCode.GDDragonJumpSmokeObjects3.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonJumpSmokeObjects3Objects, (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonColorObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonNatureObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGhostObjects3[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGoldObjects3[0].getCenterXInScene()), (( gdjs.GameCode.GDDragonGoldObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects3.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonColorObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonNatureObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonGhostObjects3[0].getAABBBottom()) :gdjs.GameCode.GDDragonGoldObjects3[0].getAABBBottom()), "");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20912,7 +20218,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonJumpSmokeObjects2.length;i<l;++
 gdjs.GameCode.GDDragonJumpSmokeObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40813052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40860364);
 }
 }
 if (isConditionTrue_0) {
@@ -20921,7 +20227,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonJumpSmokeObjects2[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -20982,7 +20287,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects2.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40814620);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40861932);
 }
 }
 if (isConditionTrue_0) {
@@ -20995,7 +20300,6 @@ gdjs.GameCode.GDDragonFallSmokeObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonFallSmokeObjects2Objects, (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getCenterXInScene()) :gdjs.GameCode.GDDragonColorObjects2[0].getCenterXInScene()) :gdjs.GameCode.GDDragonNatureObjects2[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGhostObjects2[0].getCenterXInScene()) :gdjs.GameCode.GDDragonGoldObjects2[0].getCenterXInScene()), (( gdjs.GameCode.GDDragonGoldObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonGhostObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonNatureObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonColorObjects2.length === 0 ) ? (( gdjs.GameCode.GDDragonHeroObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDDragonHeroObjects2[0].getAABBBottom()) :gdjs.GameCode.GDDragonColorObjects2[0].getAABBBottom()) :gdjs.GameCode.GDDragonNatureObjects2[0].getAABBBottom()) :gdjs.GameCode.GDDragonGhostObjects2[0].getAABBBottom()) :gdjs.GameCode.GDDragonGoldObjects2[0].getAABBBottom()), "");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21017,7 +20321,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonFallSmokeObjects1.length;i<l;++
 gdjs.GameCode.GDDragonFallSmokeObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40815140);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40862452);
 }
 }
 if (isConditionTrue_0) {
@@ -21026,7 +20330,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDDragonFallSmokeObjects1[i].deleteFromScene(runtimeScene);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21043,7 +20346,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(12).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21056,7 +20358,6 @@ let isConditionTrue_0 = false;
 {
 {runtimeScene.getGame().getVariables().getFromIndex(54).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(13)));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21114,7 +20415,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDEggObjects3[i].returnVariable(gdjs.GameCode.GDEggObjects3[i].getVariables().getFromIndex(0)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21138,7 +20438,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDEggObjects2[i].returnVariable(gdjs.GameCode.GDEggObjects2[i].getVariables().getFromIndex(0)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21179,7 +20478,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggSpark"), gdjs.GameCode.GDEggSparkObje
     gdjs.GameCode.GDEggSparkObjects2[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21218,7 +20516,6 @@ gdjs.copyArray(runtimeScene.getObjects("EggSpark"), gdjs.GameCode.GDEggSparkObje
     gdjs.GameCode.GDEggSparkObjects1[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21250,7 +20547,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40821572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40868884);
 }
 }
 if (isConditionTrue_0) {
@@ -21259,7 +20556,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
     gdjs.GameCode.GDUIFakeMouseObjects2[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21307,7 +20603,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryRibbon"), gdjs.GameCode.GDUIVic
     gdjs.GameCode.GDUIVictoryParabensObjects3[i].getBehavior("Opacity").setOpacity((( gdjs.GameCode.GDUIVictoryCupObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDUIVictoryCupObjects3[0].getBehavior("Opacity").getOpacity()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21321,7 +20616,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40825108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40872420);
 }
 }
 if (isConditionTrue_0) {
@@ -21341,7 +20636,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
     gdjs.GameCode.GDGrowingTreeLevel1Objects3[i].getBehavior("Animation").setAnimationName("Empty");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21363,7 +20657,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDLevelStatue1Objects3.length;i<l;++i) 
 gdjs.GameCode.GDLevelStatue1Objects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40826588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40873900);
 }
 }
 if (isConditionTrue_0) {
@@ -21394,7 +20688,6 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {runtimeScene.getGame().getVariables().getFromIndex(76).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21424,7 +20717,6 @@ gdjs.copyArray(runtimeScene.getObjects("GrowingTreeLevel1"), gdjs.GameCode.GDGro
     gdjs.GameCode.GDGrowingTreeLevel1Objects3[i].getBehavior("Animation").setAnimationName("Grow");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21439,7 +20731,6 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "UIVictoryTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21467,7 +20758,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRightArrowObjects3[i].getBehavior("Opacity").setOpacity(255);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21511,7 +20801,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDUIRightArrowObjects2[i].getBehavior("Opacity").setOpacity(150);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21529,7 +20818,6 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerNameText"), gdjs.GameCode.GDPlayer
     gdjs.GameCode.GDPlayerNameTextObjects4[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21555,7 +20843,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
     gdjs.GameCode.GDUIFakeMouseObjects4[i].getBehavior("Opacity").setOpacity(255);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21578,13 +20865,12 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
     gdjs.GameCode.GDUIFakeMouseObjects3[i].setX((( gdjs.GameCode.GDPlayerNameDisplayObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDPlayerNameDisplayObjects3[0].getX()) + (( gdjs.GameCode.GDPlayerNameDisplayObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDPlayerNameDisplayObjects3[0].getWidth()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
 
 
-};gdjs.GameCode.userFunc0xdc1d88 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1407be8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21622,7 +20908,7 @@ gdjs.GameCode.eventsList205 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xdc1d88(runtimeScene);
+gdjs.GameCode.userFunc0x1407be8(runtimeScene);
 
 }
 
@@ -21636,7 +20922,6 @@ let isConditionTrue_0 = false;
 {
 {runtimeScene.getGame().getVariables().getFromIndex(57).setNumber(gdjs.evtTools.string.strLen(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().get("TempText"))));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21657,7 +20942,6 @@ gdjs.copyArray(runtimeScene.getObjects("EscreveNome"), gdjs.GameCode.GDEscreveNo
     gdjs.GameCode.GDEscreveNomeObjects4[i].getBehavior("Text").setText("Escreve o teu nome!");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21676,7 +20960,6 @@ gdjs.copyArray(runtimeScene.getObjects("EscreveNome"), gdjs.GameCode.GDEscreveNo
     gdjs.GameCode.GDEscreveNomeObjects3[i].getBehavior("Text").setText("Write your name!");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21697,7 +20980,6 @@ gdjs.copyArray(runtimeScene.getObjects("EscreveNome"), gdjs.GameCode.GDEscreveNo
     gdjs.GameCode.GDEscreveNomeObjects3[i].getBehavior("Text").setText("Usa 3 letras :)");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21716,7 +20998,6 @@ gdjs.copyArray(runtimeScene.getObjects("EscreveNome"), gdjs.GameCode.GDEscreveNo
     gdjs.GameCode.GDEscreveNomeObjects2[i].getBehavior("Text").setText("Use 3 letters :)");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21735,7 +21016,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList207(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21752,7 +21032,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList208(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21799,7 +21078,6 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(runtimeScene.getObjects("PlayerNameDisplay"), gdjs.GameCode.GDPlayerNameDisplayObjects3);
 {runtimeScene.getGame().getVariables().getFromIndex(51).setString((( gdjs.GameCode.GDPlayerNameDisplayObjects3.length === 0 ) ? "" :gdjs.GameCode.GDPlayerNameDisplayObjects3[0].getBehavior("Text").getText()));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21836,7 +21114,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
 }
 {runtimeScene.getScene().getVariables().getFromIndex(11).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21876,7 +21153,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40849052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40896548);
 }
 }
 }
@@ -21885,7 +21162,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList213(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21902,13 +21178,12 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40853284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40900780);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "87028db1-b4ef-4603-be61-afd46158ef63", gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(52)), gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(51)));
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -21951,7 +21226,6 @@ gdjs.copyArray(runtimeScene.getObjects("RankTESTTime2"), gdjs.GameCode.GDRankTES
     gdjs.GameCode.GDRankTESTCharacter2Objects1[i].getBehavior("Text").setText(gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(55)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22016,7 +21290,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
     gdjs.GameCode.GDUIVictoryCupObjects2[i].getBehavior("Opacity").setOpacity(255);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22034,7 +21307,6 @@ gdjs.copyArray(runtimeScene.getObjects("UIVictoryCup"), gdjs.GameCode.GDUIVictor
     gdjs.GameCode.GDUIVictoryCupObjects2[i].getBehavior("Tween").addObjectScaleTween3("UIVictoryCupScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22059,7 +21331,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList218(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22108,7 +21379,6 @@ gdjs.copyArray(runtimeScene.getObjects("LevelStatue1"), gdjs.GameCode.GDLevelSta
     gdjs.GameCode.GDLevelStatue1Objects2[i].returnVariable(gdjs.GameCode.GDLevelStatue1Objects2[i].getVariables().getFromIndex(0)).setString("Off");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22147,7 +21417,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLevelStatue1Objects2[i].returnVariable(gdjs.GameCode.GDLevelStatue1Objects2[i].getVariables().getFromIndex(0)).setString("On");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22184,7 +21453,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLevelStatue1Objects1[i].getBehavior("Animation").setAnimationName("On");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22208,7 +21476,6 @@ let isConditionTrue_0 = false;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22221,7 +21488,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40866180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40913780);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWiseDragonTimeObjects6);
@@ -22230,7 +21497,6 @@ gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWis
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeA");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22263,7 +21529,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects6.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40867988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40915588);
 }
 }
 }
@@ -22273,7 +21539,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeB");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22306,7 +21571,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects5.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40868420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40916020);
 }
 }
 }
@@ -22319,7 +21584,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList223(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22346,7 +21610,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList224(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22370,7 +21633,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects4[i].getBehavior("Animation").setAnimationName("Empty");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22406,7 +21668,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList225(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22427,7 +21688,6 @@ let isConditionTrue_0 = false;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22440,7 +21700,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40872820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40920420);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWiseDragonTimeObjects6);
@@ -22449,7 +21709,6 @@ gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWis
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeA");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22482,7 +21741,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects6.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40874628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40922228);
 }
 }
 }
@@ -22492,7 +21751,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeB");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22525,7 +21783,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects5.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40875060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40922660);
 }
 }
 }
@@ -22538,7 +21796,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList227(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22565,7 +21822,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList228(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22589,7 +21845,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects4[i].getBehavior("Animation").setAnimationName("Empty");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22625,7 +21880,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList229(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22646,7 +21900,6 @@ let isConditionTrue_0 = false;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22659,7 +21912,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40879460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40927060);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWiseDragonTimeObjects6);
@@ -22668,7 +21921,6 @@ gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWis
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeA");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22701,7 +21953,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects6.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40881268);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40928868);
 }
 }
 }
@@ -22711,7 +21963,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeB");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22744,7 +21995,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects5.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40881700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40929300);
 }
 }
 }
@@ -22757,7 +22008,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList231(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22784,7 +22034,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList232(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22808,7 +22057,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects4[i].getBehavior("Animation").setAnimationName("Empty");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22844,7 +22092,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList233(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22865,7 +22112,6 @@ let isConditionTrue_0 = false;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22878,7 +22124,7 @@ elseEventsChainSatisfied = true;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40886100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40933700);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWiseDragonTimeObjects6);
@@ -22887,7 +22133,6 @@ gdjs.copyArray(gdjs.GameCode.GDOldWiseDragonTimeObjects4, gdjs.GameCode.GDOldWis
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeA");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22920,7 +22165,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects6.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40887908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40935508);
 }
 }
 }
@@ -22930,7 +22175,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects6[i].getBehavior("Animation").setAnimationName("TimeB");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -22963,7 +22207,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonTimeObjects5.length;i<l;
 gdjs.GameCode.GDOldWiseDragonTimeObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40888340);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40935940);
 }
 }
 }
@@ -22976,7 +22220,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList235(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23003,7 +22246,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList236(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23027,7 +22269,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonTimeObjects4[i].getBehavior("Animation").setAnimationName("Empty");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23063,7 +22304,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList237(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23081,7 +22321,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23114,7 +22353,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDTimeBonusObjects4[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDTimeBonusObjects4[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23131,7 +22369,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40892100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40939676);
 }
 }
 if (isConditionTrue_0) {
@@ -23147,7 +22385,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeBonus"), gdjs.GameCode.GDTimeBonusOb
 
 { //Subevents
 gdjs.GameCode.eventsList239(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23177,7 +22414,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeBonusIcon"), gdjs.GameCode.GDTimeBon
 
 { //Subevents
 gdjs.GameCode.eventsList240(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23200,7 +22436,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeBonusIcon"), gdjs.GameCode.GDTimeBon
     gdjs.GameCode.GDTimeBonusObjects4[i].getBehavior("Tween").addObjectScaleTween3("BonusTextUIScale", 1, "linear", 0.2, false, true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23229,7 +22464,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeBonusIcon"), gdjs.GameCode.GDTimeBon
     gdjs.GameCode.GDTimeBonusObjects4[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDTimeBonusObjects4[i].getBehavior("Opacity").getOpacity() - (200 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23243,13 +22477,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "BonusTimeTimer") > 3.1;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40898628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40946204);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "TutorialEggMoveTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23260,19 +22493,12 @@ elseEventsChainSatisfied = true;
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40861332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40908828);
 }
 }
 if (isConditionTrue_0) {
@@ -23293,15 +22519,7 @@ gdjs.copyArray(runtimeScene.getObjects("TimeBonusIcon"), gdjs.GameCode.GDTimeBon
 }
 {runtimeScene.getGame().getVariables().getFromIndex(41).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -23322,7 +22540,6 @@ gdjs.copyArray(runtimeScene.getObjects("TimeIcon"), gdjs.GameCode.GDTimeIconObje
     gdjs.GameCode.GDTimeBonusObjects4[i].setPosition((( gdjs.GameCode.GDTimeBonusIconObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDTimeBonusIconObjects4[0].getPointX("")) + 60,(( gdjs.GameCode.GDTimeBonusIconObjects4.length === 0 ) ? 0 :gdjs.GameCode.GDTimeBonusIconObjects4[0].getCenterYInScene()));
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23412,7 +22629,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects4[i].returnVariable(gdjs.GameCode.GDOldWiseDragonObjects4[i].getVariables().getFromIndex(0)).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23436,7 +22652,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects4[i].returnVariable(gdjs.GameCode.GDOldWiseDragonObjects4[i].getVariables().getFromIndex(0)).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23462,7 +22677,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects4[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23488,7 +22702,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects3[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23560,7 +22773,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects7.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects7.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40908788);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40956452);
 }
 }
 if (isConditionTrue_0) {
@@ -23569,7 +22782,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects7[i].getBehavior("Flippable").flipX(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23634,7 +22846,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects6.length;i<l;++i) {
 gdjs.GameCode.GDDragonGoldObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40908356);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40956020);
 }
 }
 if (isConditionTrue_0) {
@@ -23643,7 +22855,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects6[i].getBehavior("Flippable").flipX(true);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23652,13 +22863,6 @@ elseEventsChainSatisfied = true;
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDOldWiseDragonObjects6Objects = Hashtable.newFrom({"OldWiseDragon": gdjs.GameCode.GDOldWiseDragonObjects6});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects6Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects6, "DragonColor": gdjs.GameCode.GDDragonColorObjects6, "DragonNature": gdjs.GameCode.GDDragonNatureObjects6, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects6, "DragonGold": gdjs.GameCode.GDDragonGoldObjects6});
 gdjs.GameCode.eventsList245 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -23680,7 +22884,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDOldWiseDragonObjects6Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects6ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects6Objects, 200, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40911172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40958836);
 }
 }
 if (isConditionTrue_0) {
@@ -23704,7 +22908,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonTalkObjects6[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23712,7 +22915,7 @@ elseEventsChainSatisfied = true;
 
 };gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects7Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects7, "DragonColor": gdjs.GameCode.GDDragonColorObjects7, "DragonNature": gdjs.GameCode.GDDragonNatureObjects7, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects7, "DragonGold": gdjs.GameCode.GDDragonGoldObjects7});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDOldWiseDragonObjects7Objects = Hashtable.newFrom({"OldWiseDragon": gdjs.GameCode.GDOldWiseDragonObjects7});
-gdjs.GameCode.asyncCallback40916916 = function (runtimeScene, asyncObjectsList) {
+gdjs.GameCode.asyncCallback40964580 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("OldWiseDragon"), gdjs.GameCode.GDOldWiseDragonObjects7);
 
@@ -23722,7 +22925,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("OldWiseDragon"), gdjs.GameCode.GDOld
 }
 gdjs.GameCode.localVariables.length = 0;
 }
-gdjs.GameCode.idToCallbackMap.set(40916916, gdjs.GameCode.asyncCallback40916916);
+gdjs.GameCode.idToCallbackMap.set(40964580, gdjs.GameCode.asyncCallback40964580);
 gdjs.GameCode.eventsList246 = function(runtimeScene) {
 
 {
@@ -23733,7 +22936,7 @@ gdjs.GameCode.eventsList246 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.GameCode.localVariables);
 for (const obj of gdjs.GameCode.GDOldWiseDragonObjects6) asyncObjectsList.addObject("OldWiseDragon", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback40916916(runtimeScene, asyncObjectsList)), 40916916, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.GameCode.asyncCallback40964580(runtimeScene, asyncObjectsList)), 40964580, asyncObjectsList);
 }
 }
 
@@ -23762,7 +22965,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.distanceTest(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects7ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects7Objects, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDOldWiseDragonObjects7Objects, 200, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40912844);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40960508);
 }
 }
 if (isConditionTrue_0) {
@@ -23810,7 +23013,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonBaloonTipObjects7[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23843,7 +23045,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonObjects6.length;i<l;++i)
 gdjs.GameCode.GDOldWiseDragonObjects6.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40916604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40964268);
 }
 }
 }
@@ -23851,7 +23053,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList246(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23915,7 +23116,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonBaloonObjects6[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -23977,7 +23177,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonBaloonObjects6[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24039,7 +23238,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonBaloonObjects6[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24100,7 +23298,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonTalk"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonBaloonObjects5[i].hide(false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24134,7 +23331,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDOldWiseDragonObjects5.length;i<l;++i)
 gdjs.GameCode.GDOldWiseDragonObjects5.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40918148);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40965812);
 }
 }
 }
@@ -24147,7 +23344,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList248(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24206,7 +23402,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDOldWiseDragonObjects5[i].getBehavior("Animation").setAnimationName("Idle");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24256,7 +23451,6 @@ gdjs.GameCode.GDOldWiseDragonTalkObjects5.length = 0;
     gdjs.GameCode.GDOldWiseDragonTalkObjects5[i].hide();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24279,7 +23473,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList250(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24296,13 +23489,6 @@ gdjs.GameCode.eventsList251(runtimeScene);
 gdjs.GameCode.eventsList253 = function(runtimeScene) {
 
 };gdjs.GameCode.eventsList254 = function(runtimeScene) {
-
-{
-
-
-
-}
-
 
 {
 
@@ -24336,7 +23522,6 @@ gdjs.copyArray(runtimeScene.getObjects("OldWiseDragonText"), gdjs.GameCode.GDOld
     gdjs.GameCode.GDOldWiseDragonTextObjects3[i].setZOrder((( gdjs.GameCode.GDOldWiseDragonBaloonObjects3.length === 0 ) ? 0 :gdjs.GameCode.GDOldWiseDragonBaloonObjects3[0].getZOrder()) + 1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24426,7 +23611,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.pickRandomObject(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDHateDragonAObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonBObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonCObjects2ObjectsGDgdjs_9546GameCode_9546GDHateDragonEObjects2Objects);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40934372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40982164);
 }
 }
 }
@@ -24493,13 +23678,6 @@ gdjs.GameCode.eventsList261 = function(runtimeScene) {
 {
 
 
-
-}
-
-
-{
-
-
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
@@ -24510,7 +23688,6 @@ gdjs.copyArray(runtimeScene.getObjects("BugTreeGlow"), gdjs.GameCode.GDBugTreeGl
     gdjs.GameCode.GDBugTreeGlowObjects2[i].setZOrder((( gdjs.GameCode.GDBugTreeObjects2.length === 0 ) ? 0 :gdjs.GameCode.GDBugTreeObjects2[0].getZOrder()) + 1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24533,7 +23710,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40936468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40984364);
 }
 }
 if (isConditionTrue_0) {
@@ -24565,13 +23742,12 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDGrowingTreeLevel1Objects2.length;i<l;
 gdjs.GameCode.GDGrowingTreeLevel1Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40937548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40985212);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "BugTreeGlowTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24589,7 +23765,6 @@ gdjs.copyArray(runtimeScene.getObjects("BugTreeGlow"), gdjs.GameCode.GDBugTreeGl
     gdjs.GameCode.GDBugTreeGlowObjects2[i].getBehavior("Tween").addObjectOpacityTween2("BugTreeOpacity", 255, "linear", 0.6, false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24607,7 +23782,6 @@ gdjs.copyArray(runtimeScene.getObjects("BugTreeGlow"), gdjs.GameCode.GDBugTreeGl
     gdjs.GameCode.GDBugTreeGlowObjects2[i].getBehavior("Tween").addObjectOpacityTween2("BugTreeOpacity", 100, "linear", 0.5, false);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24622,15 +23796,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "BugTreeGlowTimer");
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -24653,7 +23819,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDBugTreeObjects2[i].getBehavior("Animation").setAnimationName("eyes");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24677,15 +23842,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDBugTreeObjects2[i].getBehavior("Animation").setAnimationName("normal");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -24708,7 +23865,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDPumpkinAObjects2[i].getBehavior("Animation").setAnimationName("glow");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24732,15 +23888,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDPumpkinAObjects2[i].getBehavior("Animation").setAnimationName("unglow");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -24763,7 +23911,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLogBObjects2[i].getBehavior("Animation").setAnimationName("eyes");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24787,15 +23934,7 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLogBObjects2[i].getBehavior("Animation").setAnimationName("normal");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -24818,7 +23957,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLogObjects2[i].getBehavior("Animation").setAnimationName("bunny");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -24842,7 +23980,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDLogObjects1[i].getBehavior("Animation").setAnimationName("normal");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25080,7 +24217,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(31).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25562,7 +24698,6 @@ gdjs.copyArray(gdjs.GameCode.GDDragonNatureObjects2_1final, gdjs.GameCode.GDDrag
 }
 }
 if (isConditionTrue_0) {
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25579,7 +24714,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40947964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40995836);
 }
 }
 if (isConditionTrue_0) {
@@ -25601,15 +24736,7 @@ gdjs.copyArray(runtimeScene.getObjects("HomeStatueGlow"), gdjs.GameCode.GDHomeSt
     gdjs.GameCode.GDHomeStatueObjects2[i].getBehavior("Animation").setAnimationName("close");
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -25634,15 +24761,7 @@ gdjs.copyArray(runtimeScene.getObjects("HomeStatue"), gdjs.GameCode.GDHomeStatue
     gdjs.GameCode.GDHomeStatueObjects2[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDHomeStatueObjects2[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -25746,15 +24865,7 @@ gdjs.copyArray(runtimeScene.getObjects("HomeStatueGlow"), gdjs.GameCode.GDHomeSt
     gdjs.GameCode.GDHomeStatueGlowObjects2[i].getBehavior("Opacity").setOpacity(gdjs.GameCode.GDHomeStatueGlowObjects2[i].getBehavior("Opacity").getOpacity() + (255 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * 3));
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -25776,7 +24887,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDHomeStatueObjects2Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40952908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41000780);
 }
 }
 }
@@ -25786,15 +24897,7 @@ gdjs.copyArray(runtimeScene.getObjects("HomeStatueGlow"), gdjs.GameCode.GDHomeSt
     gdjs.GameCode.GDHomeStatueGlowObjects2[i].getBehavior("Opacity").setOpacity(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
-
-}
-
-
-{
-
-
 
 }
 
@@ -25815,7 +24918,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList262(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25837,7 +24939,6 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(31).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25864,14 +24965,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "UIVictoryTimer") >= 5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40961644);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41009516);
 }
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "RankingTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25885,7 +24985,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "RankingTimer") >= 0.8;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40962660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41010532);
 }
 }
 if (isConditionTrue_0) {
@@ -25894,7 +24994,6 @@ gdjs.copyArray(runtimeScene.getObjects("RankingCharacter"), gdjs.GameCode.GDRank
     gdjs.GameCode.GDRankingCharacterObjects3[i].getBehavior("Animation").resumeAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -25926,7 +25025,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDRankingCharacterObjects2.length;i<l;+
 gdjs.GameCode.GDRankingCharacterObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40963724);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41011596);
 }
 }
 }
@@ -25938,7 +25037,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "RankingTimer");
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26033,7 +25131,7 @@ gdjs.copyArray(gdjs.GameCode.GDRankingCharacterObjects2_1final, gdjs.GameCode.GD
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40965508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41013380);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -26053,7 +25151,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects2[i].getBehavior("Animation").setAnimationName("Over");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26092,7 +25189,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRankingCharacterObjects3Objects, runtimeScene, true, true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40967756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41015628);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -26114,7 +25211,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects3[i].getBehavior("Animation").setAnimationName("OverOut");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26163,7 +25259,6 @@ if (isConditionTrue_0) {
     gdjs.GameCode.GDRankingCharacterObjects2[i].getBehavior("Animation").setAnimationName("Idle");
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26362,7 +25457,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40973772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41021644);
 }
 }
 }
@@ -26390,7 +25485,6 @@ for(var i = 0, len = gdjs.GameCode.GDDragonGoldObjects3.length ;i < len;++i) {
 }
 {runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26873,13 +25967,12 @@ gdjs.copyArray(gdjs.GameCode.GDDragonNatureObjects2_1final, gdjs.GameCode.GDDrag
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40976212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41024084);
 }
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26902,7 +25995,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDRankingCharacterObjects3Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40970404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41018276);
 }
 }
 }
@@ -26910,7 +26003,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26926,7 +26018,6 @@ isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.GameCode.mapOfGDgdjs
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(50).setNumber(0);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26948,7 +26039,6 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList267(runtimeScene);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -26965,7 +26055,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40978588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41026460);
 }
 }
 if (isConditionTrue_0) {
@@ -26987,7 +26077,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.leaderboards.displayLeaderboard(runtimeScene, "87028db1-b4ef-4603-be61-afd46158ef63", true);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27002,7 +26091,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40980412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41028284);
 }
 }
 if (isConditionTrue_0) {
@@ -27022,7 +26111,6 @@ if (isConditionTrue_0) {
 }
 {gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "StatueLayer", 1);
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27038,7 +26126,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(40960332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41008204);
 }
 }
 if (isConditionTrue_0) {
@@ -27047,7 +26135,6 @@ gdjs.copyArray(runtimeScene.getObjects("RankingCharacter"), gdjs.GameCode.GDRank
     gdjs.GameCode.GDRankingCharacterObjects2[i].getBehavior("Animation").pauseAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27162,7 +26249,6 @@ for(var i = 0, len = gdjs.GameCode.GDtutorial_9595MobileMoveObjects2.length ;i <
     gdjs.GameCode.GDtutorial_9595MobileMoveObjects2[i].returnVariable(gdjs.GameCode.GDtutorial_9595MobileMoveObjects2[i].getVariables().get("Active")).setNumber(1);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27236,7 +26322,6 @@ for(var i = 0, len = gdjs.GameCode.GDtutorial_9595MobileMoveObjects2.length ;i <
     gdjs.GameCode.GDtutorial_9595MobileMoveObjects2[i].returnVariable(gdjs.GameCode.GDtutorial_9595MobileMoveObjects2[i].getVariables().get("Active")).setNumber(0);
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27426,7 +26511,6 @@ for(var i = 0, len = gdjs.GameCode.GDtutorial_9595MobileMoveObjects2.length ;i <
     gdjs.GameCode.GDtutorial_9595MobileMoveObjects2[i].getBehavior("Animation").pauseAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27616,7 +26700,6 @@ for(var i = 0, len = gdjs.GameCode.GDtutorial_9595MobileMoveObjects1.length ;i <
     gdjs.GameCode.GDtutorial_9595MobileMoveObjects1[i].getBehavior("Animation").resumeAnimation();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
@@ -27831,13 +26914,6 @@ gdjs.GameCode.eventsList270(runtimeScene);
 
 
 gdjs.GameCode.eventsList271(runtimeScene);
-}
-
-
-{
-
-
-
 }
 
 

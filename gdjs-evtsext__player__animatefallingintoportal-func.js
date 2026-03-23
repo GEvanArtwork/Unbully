@@ -13,7 +13,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects1= [];
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPortalObjects2= [];
 
 
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38733012 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38771020 = function (runtimeScene, eventsFunctionContext, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(eventsFunctionContext.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects2);
 
@@ -23,7 +23,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("Player"), gdjs.evtsExt__Player__Anim
 }
 eventsFunctionContext.localVariables.length = 0;
 }
-gdjs.evtsExt__Player__AnimateFallingIntoPortal.idToCallbackMap.set(38733012, gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38733012);
+gdjs.evtsExt__Player__AnimateFallingIntoPortal.idToCallbackMap.set(38771020, gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38771020);
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
@@ -34,7 +34,7 @@ gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0 = function(runtimeSce
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(eventsFunctionContext.localVariables);
 for (const obj of gdjs.evtsExt__Player__AnimateFallingIntoPortal.GDPlayerObjects1) asyncObjectsList.addObject("Player", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38733012(runtimeScene, eventsFunctionContext, asyncObjectsList)), 38733012, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.evtsExt__Player__AnimateFallingIntoPortal.asyncCallback38771020(runtimeScene, eventsFunctionContext, asyncObjectsList)), 38771020, asyncObjectsList);
 }
 }
 
@@ -61,7 +61,6 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Portal"), gdjs.evtsExt__Player_
 
 { //Subevents
 gdjs.evtsExt__Player__AnimateFallingIntoPortal.eventsList0(runtimeScene, eventsFunctionContext);} //End of subevents
-elseEventsChainSatisfied = true;
 }
 
 }

@@ -27,7 +27,6 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Player"), gdjs.evtsExt__Player_
     gdjs.evtsExt__Player__Bounce.GDPlayerObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("PlatformerObject")).simulateJumpKey();
 }
 }
-elseEventsChainSatisfied = true;
 }
 
 }
