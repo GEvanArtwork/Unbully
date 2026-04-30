@@ -10,7 +10,7 @@ gdjs.evtsExt__SpriteMasking__Unmask.idToCallbackMap = new Map();
 gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1= [];
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x2d21948 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1ad1cf0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const maskedObjects = eventsFunctionContext.getObjects("Masked");
 
@@ -25,7 +25,7 @@ gdjs.evtsExt__SpriteMasking__Unmask.eventsList0 = function(runtimeScene, eventsF
 {
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x2d21948(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1ad1cf0(runtimeScene, eventsFunctionContext);
 
 }
 
