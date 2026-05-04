@@ -2319,7 +2319,7 @@ gdjs.GameCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43022588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(38311668);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
@@ -2404,7 +2404,7 @@ gdjs.GameCode.eventsList4 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43946204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36798332);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
@@ -2579,7 +2579,7 @@ gdjs.GameCode.eventsList10 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43952012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34461500);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
@@ -2626,7 +2626,7 @@ gdjs.GameCode.eventsList12 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43944804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(35480524);
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(75).add(1);
@@ -2674,37 +2674,35 @@ gdjs.GameCode.eventsList14 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)));
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
+{let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)));
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
-}
-}
-
-}
-
-
 {
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)));
+isConditionTrue_1 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(73)));
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+isConditionTrue_1 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(72)));
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+isConditionTrue_1 = gdjs.evtTools.input.hasTouchEnded(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(74)));
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(70).setNumber(0);
 }
 }
 
@@ -20901,7 +20899,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x121d100 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1258900 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -20939,7 +20937,7 @@ gdjs.GameCode.eventsList206 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x121d100(runtimeScene);
+gdjs.GameCode.userFunc0x1258900(runtimeScene);
 
 }
 
