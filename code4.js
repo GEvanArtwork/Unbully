@@ -2472,113 +2472,11 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.SecretLevelCode.GDB
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.SecretLevelCode.GDDragonColorObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.SecretLevelCode.GDDragonGhostObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.SecretLevelCode.GDDragonGoldObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.SecretLevelCode.GDDragonHeroObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDDragonNatureObjects6);
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonHeroObjects6.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonHeroObjects6[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonHeroObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonHeroObjects6[k] = gdjs.SecretLevelCode.GDDragonHeroObjects6[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonHeroObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonColorObjects6.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonColorObjects6[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonColorObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonColorObjects6[k] = gdjs.SecretLevelCode.GDDragonColorObjects6[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonColorObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonNatureObjects6.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonNatureObjects6[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonNatureObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonNatureObjects6[k] = gdjs.SecretLevelCode.GDDragonNatureObjects6[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonNatureObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGhostObjects6.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonGhostObjects6[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonGhostObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonGhostObjects6[k] = gdjs.SecretLevelCode.GDDragonGhostObjects6[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonGhostObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGoldObjects6.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonGoldObjects6[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonGoldObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonGoldObjects6[k] = gdjs.SecretLevelCode.GDDragonGoldObjects6[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonGoldObjects6.length = k;
-if (isConditionTrue_0) {
+{
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
 }
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.SecretLevelCode.GDDragonColorObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.SecretLevelCode.GDDragonGhostObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.SecretLevelCode.GDDragonGoldObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.SecretLevelCode.GDDragonHeroObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.SecretLevelCode.GDDragonNatureObjects5);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonHeroObjects5.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonHeroObjects5[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonHeroObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonHeroObjects5[k] = gdjs.SecretLevelCode.GDDragonHeroObjects5[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonHeroObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonColorObjects5.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonColorObjects5[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonColorObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonColorObjects5[k] = gdjs.SecretLevelCode.GDDragonColorObjects5[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonColorObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonNatureObjects5.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonNatureObjects5[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonNatureObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonNatureObjects5[k] = gdjs.SecretLevelCode.GDDragonNatureObjects5[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonNatureObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGhostObjects5.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonGhostObjects5[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonGhostObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonGhostObjects5[k] = gdjs.SecretLevelCode.GDDragonGhostObjects5[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonGhostObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDDragonGoldObjects5.length;i<l;++i) {
-    if ( gdjs.SecretLevelCode.GDDragonGoldObjects5[i].getVariableNumber(gdjs.SecretLevelCode.GDDragonGoldObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.SecretLevelCode.GDDragonGoldObjects5[k] = gdjs.SecretLevelCode.GDDragonGoldObjects5[i];
-        ++k;
-    }
-}
-gdjs.SecretLevelCode.GDDragonGoldObjects5.length = k;
-if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 2);
 }
 }

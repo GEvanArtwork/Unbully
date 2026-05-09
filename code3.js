@@ -3082,113 +3082,11 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects6);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects6);
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonHeroObjects6.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonHeroObjects6[i].getVariableNumber(gdjs.GameCode.GDDragonHeroObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonHeroObjects6[k] = gdjs.GameCode.GDDragonHeroObjects6[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonHeroObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonColorObjects6.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonColorObjects6[i].getVariableNumber(gdjs.GameCode.GDDragonColorObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonColorObjects6[k] = gdjs.GameCode.GDDragonColorObjects6[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonColorObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonNatureObjects6.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonNatureObjects6[i].getVariableNumber(gdjs.GameCode.GDDragonNatureObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonNatureObjects6[k] = gdjs.GameCode.GDDragonNatureObjects6[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonNatureObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGhostObjects6.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGhostObjects6[i].getVariableNumber(gdjs.GameCode.GDDragonGhostObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGhostObjects6[k] = gdjs.GameCode.GDDragonGhostObjects6[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGhostObjects6.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects6.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGoldObjects6[i].getVariableNumber(gdjs.GameCode.GDDragonGoldObjects6[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGoldObjects6[k] = gdjs.GameCode.GDDragonGoldObjects6[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGoldObjects6.length = k;
-if (isConditionTrue_0) {
+{
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
 }
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects5);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects5);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonHeroObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonHeroObjects5[i].getVariableNumber(gdjs.GameCode.GDDragonHeroObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonHeroObjects5[k] = gdjs.GameCode.GDDragonHeroObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonHeroObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonColorObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonColorObjects5[i].getVariableNumber(gdjs.GameCode.GDDragonColorObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonColorObjects5[k] = gdjs.GameCode.GDDragonColorObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonColorObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonNatureObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonNatureObjects5[i].getVariableNumber(gdjs.GameCode.GDDragonNatureObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonNatureObjects5[k] = gdjs.GameCode.GDDragonNatureObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonNatureObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGhostObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGhostObjects5[i].getVariableNumber(gdjs.GameCode.GDDragonGhostObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGhostObjects5[k] = gdjs.GameCode.GDDragonGhostObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGhostObjects5.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGoldObjects5[i].getVariableNumber(gdjs.GameCode.GDDragonGoldObjects5[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGoldObjects5[k] = gdjs.GameCode.GDDragonGoldObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGoldObjects5.length = k;
-if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 2);
 }
 }
@@ -4935,113 +4833,11 @@ gdjs.GameCode.eventsList49 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects4);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects4);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects4);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects4);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects4);
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonHeroObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonHeroObjects4[i].getVariableNumber(gdjs.GameCode.GDDragonHeroObjects4[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonHeroObjects4[k] = gdjs.GameCode.GDDragonHeroObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonHeroObjects4.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonColorObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonColorObjects4[i].getVariableNumber(gdjs.GameCode.GDDragonColorObjects4[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonColorObjects4[k] = gdjs.GameCode.GDDragonColorObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonColorObjects4.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonNatureObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonNatureObjects4[i].getVariableNumber(gdjs.GameCode.GDDragonNatureObjects4[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonNatureObjects4[k] = gdjs.GameCode.GDDragonNatureObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonNatureObjects4.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGhostObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGhostObjects4[i].getVariableNumber(gdjs.GameCode.GDDragonGhostObjects4[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGhostObjects4[k] = gdjs.GameCode.GDDragonGhostObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGhostObjects4.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGoldObjects4[i].getVariableNumber(gdjs.GameCode.GDDragonGoldObjects4[i].getVariables().get("PowerKill")) == 0 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGoldObjects4[k] = gdjs.GameCode.GDDragonGoldObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGoldObjects4.length = k;
-if (isConditionTrue_0) {
+{
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 1);
 }
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("DragonColor"), gdjs.GameCode.GDDragonColorObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonGhost"), gdjs.GameCode.GDDragonGhostObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonGold"), gdjs.GameCode.GDDragonGoldObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonHero"), gdjs.GameCode.GDDragonHeroObjects3);
-gdjs.copyArray(runtimeScene.getObjects("DragonNature"), gdjs.GameCode.GDDragonNatureObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonHeroObjects3.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonHeroObjects3[i].getVariableNumber(gdjs.GameCode.GDDragonHeroObjects3[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonHeroObjects3[k] = gdjs.GameCode.GDDragonHeroObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonHeroObjects3.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonColorObjects3.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonColorObjects3[i].getVariableNumber(gdjs.GameCode.GDDragonColorObjects3[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonColorObjects3[k] = gdjs.GameCode.GDDragonColorObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonColorObjects3.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonNatureObjects3.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonNatureObjects3[i].getVariableNumber(gdjs.GameCode.GDDragonNatureObjects3[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonNatureObjects3[k] = gdjs.GameCode.GDDragonNatureObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonNatureObjects3.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGhostObjects3.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGhostObjects3[i].getVariableNumber(gdjs.GameCode.GDDragonGhostObjects3[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGhostObjects3[k] = gdjs.GameCode.GDDragonGhostObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGhostObjects3.length = k;
-for (var i = 0, k = 0, l = gdjs.GameCode.GDDragonGoldObjects3.length;i<l;++i) {
-    if ( gdjs.GameCode.GDDragonGoldObjects3[i].getVariableNumber(gdjs.GameCode.GDDragonGoldObjects3[i].getVariables().get("PowerKill")) == 1 ) {
-        isConditionTrue_0 = true;
-        gdjs.GameCode.GDDragonGoldObjects3[k] = gdjs.GameCode.GDDragonGoldObjects3[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDDragonGoldObjects3.length = k;
-if (isConditionTrue_0) {
 {gdjs.evtTools.sound.pauseMusicOnChannel(runtimeScene, 2);
 }
 }
@@ -21510,7 +21306,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x16a5d08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xce3670 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21548,7 +21344,7 @@ gdjs.GameCode.eventsList215 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x16a5d08(runtimeScene);
+gdjs.GameCode.userFunc0xce3670(runtimeScene);
 
 }
 
