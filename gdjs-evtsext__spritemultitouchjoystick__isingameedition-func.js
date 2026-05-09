@@ -1,50 +1,42 @@
 
-if (typeof gdjs.evtsExt__SpriteMasking__Unmask !== "undefined") {
-  gdjs.evtsExt__SpriteMasking__Unmask.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition !== "undefined") {
+  gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__SpriteMasking__Unmask = {};
-gdjs.evtsExt__SpriteMasking__Unmask.idToCallbackMap = new Map();
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1= [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition = {};
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1b26500 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.userFunc0x1929798 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
-const maskedObjects = eventsFunctionContext.getObjects("Masked");
-
-for (const maskedObject of maskedObjects) {
-    const maskedRenderer = maskedObject.getRendererObject(); 
-    maskedRenderer.mask = null;
-}
-
+const game = runtimeScene.getGame();
+eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();
 };
-gdjs.evtsExt__SpriteMasking__Unmask.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1b26500(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.userFunc0x1929798(runtimeScene, eventsFunctionContext);
 
 }
 
 
 };
 
-gdjs.evtsExt__SpriteMasking__Unmask.func = function(runtimeScene, Masked, parentEventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.func = function(runtimeScene, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Masked": Masked
 },
   _objectArraysMap: {
-"Masked": gdjs.objectsListsToArray(Masked)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMasking"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMasking"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMultitouchJoystick"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMultitouchJoystick"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -91,13 +83,11 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1.length = 0;
 
-gdjs.evtsExt__SpriteMasking__Unmask.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1.length = 0;
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__SpriteMasking__Unmask.registeredGdjsCallbacks = [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsInGameEdition.registeredGdjsCallbacks = [];

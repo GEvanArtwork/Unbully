@@ -1,26 +1,40 @@
 
-if (typeof gdjs.evtsExt__Flash__IsTinted !== "undefined") {
-  gdjs.evtsExt__Flash__IsTinted.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed !== "undefined") {
+  gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__Flash__IsTinted = {};
-gdjs.evtsExt__Flash__IsTinted.idToCallbackMap = new Map();
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects1= [];
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects2= [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed = {};
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Flash__IsTinted.mapOfGDgdjs_9546evtsExt_9595_9595Flash_9595_9595IsTinted_9546GDObjectObjects1Objects = Hashtable.newFrom({"Object": gdjs.evtsExt__Flash__IsTinted.GDObjectObjects1});
-gdjs.evtsExt__Flash__IsTinted.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Flash__IsTinted.GDObjectObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtsExt__Flash__ColorTint.func(runtimeScene, gdjs.evtsExt__Flash__IsTinted.mapOfGDgdjs_9546evtsExt_9595_9595Flash_9595_9595IsTinted_9546GDObjectObjects1Objects, eventsFunctionContext) == "255;255;255");
+{let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+{isConditionTrue_1 = (eventsFunctionContext.sceneVariablesForExtension.getFromIndex(0).getChild(eventsFunctionContext.getArgument("ControllerIdentifier")).getChild("Buttons").getChild(eventsFunctionContext.getArgument("Button")).getChild("State").getAsString() == "Pressed");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+{isConditionTrue_1 = (eventsFunctionContext.sceneVariablesForExtension.getFromIndex(0).getChild(eventsFunctionContext.getArgument("ControllerIdentifier")).getChild("Buttons").getChild(eventsFunctionContext.getArgument("Button")).getChild("State").getAsString() == "JustPressed");
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
 if (isConditionTrue_0) {
 {eventsFunctionContext.returnValue = true;}
 }
@@ -30,19 +44,17 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.evtsExt__Flash__IsTinted.func = function(runtimeScene, Object, parentEventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.func = function(runtimeScene, ControllerIdentifier, Button, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Object": Object
 },
   _objectArraysMap: {
-"Object": gdjs.objectsListsToArray(Object)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("Flash"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("Flash"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMultitouchJoystick"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMultitouchJoystick"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -84,20 +96,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "ControllerIdentifier") return ControllerIdentifier;
+if (argName === "Button") return Button;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects2.length = 0;
 
-gdjs.evtsExt__Flash__IsTinted.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects1.length = 0;
-gdjs.evtsExt__Flash__IsTinted.GDObjectObjects2.length = 0;
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return "" + eventsFunctionContext.returnValue;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__Flash__IsTinted.registeredGdjsCallbacks = [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonPressed.registeredGdjsCallbacks = [];

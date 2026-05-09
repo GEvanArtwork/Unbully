@@ -1,50 +1,43 @@
 
-if (typeof gdjs.evtsExt__SpriteMasking__Unmask !== "undefined") {
-  gdjs.evtsExt__SpriteMasking__Unmask.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased !== "undefined") {
+  gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__SpriteMasking__Unmask = {};
-gdjs.evtsExt__SpriteMasking__Unmask.idToCallbackMap = new Map();
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1= [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased = {};
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1b26500 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
-"use strict";
-const maskedObjects = eventsFunctionContext.getObjects("Masked");
-
-for (const maskedObject of maskedObjects) {
-    const maskedRenderer = maskedObject.getRendererObject(); 
-    maskedRenderer.mask = null;
-}
-
-};
-gdjs.evtsExt__SpriteMasking__Unmask.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__SpriteMasking__Unmask.userFunc0x1b26500(runtimeScene, eventsFunctionContext);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (eventsFunctionContext.sceneVariablesForExtension.getFromIndex(0).getChild(eventsFunctionContext.getArgument("ControllerIdentifier")).getChild("Buttons").getChild(eventsFunctionContext.getArgument("Button")).getChild("State").getAsString() == "Released");
+}
+if (isConditionTrue_0) {
+{eventsFunctionContext.returnValue = true;}
+}
 
 }
 
 
 };
 
-gdjs.evtsExt__SpriteMasking__Unmask.func = function(runtimeScene, Masked, parentEventsFunctionContext) {
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.func = function(runtimeScene, ControllerIdentifier, Button, parentEventsFunctionContext) {
 let scopeInstanceContainer = null;
 var eventsFunctionContext = {
   _objectsMap: {
-"Masked": Masked
 },
   _objectArraysMap: {
-"Masked": gdjs.objectsListsToArray(Masked)
 },
   _behaviorNamesMap: {
 },
-  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMasking"),
-  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMasking"),
+  globalVariablesForExtension: runtimeScene.getGame().getVariablesForExtension("SpriteMultitouchJoystick"),
+  sceneVariablesForExtension: runtimeScene.getScene().getVariablesForExtension("SpriteMultitouchJoystick"),
   localVariables: [],
   getObjects: function(objectName) {
     return eventsFunctionContext._objectArraysMap[objectName] || [];
@@ -86,18 +79,18 @@ parentEventsFunctionContext.getInstancesCountOnScene(objectName) :
     return runtimeScene.getLayer(layerName);
   },
   getArgument: function(argName) {
+if (argName === "ControllerIdentifier") return ControllerIdentifier;
+if (argName === "Button") return Button;
     return "";
   },
   getOnceTriggers: function() { return runtimeScene.getOnceTriggers(); }
 };
 
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1.length = 0;
 
-gdjs.evtsExt__SpriteMasking__Unmask.eventsList0(runtimeScene, eventsFunctionContext);
-gdjs.evtsExt__SpriteMasking__Unmask.GDMaskedObjects1.length = 0;
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.eventsList0(runtimeScene, eventsFunctionContext);
 
 
-return;
+return !!eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__SpriteMasking__Unmask.registeredGdjsCallbacks = [];
+gdjs.evtsExt__SpriteMultitouchJoystick__IsButtonReleased.registeredGdjsCallbacks = [];

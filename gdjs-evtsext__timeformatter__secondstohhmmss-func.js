@@ -9,7 +9,7 @@ gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS = {};
 gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x210d588 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x26115b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 var format_time = function (time_second) {
     date = new Date(null);
     date.setSeconds(time_second);
@@ -27,7 +27,7 @@ gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x210d588(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x26115b8(runtimeScene, eventsFunctionContext);
 
 }
 
@@ -63,7 +63,9 @@ var eventsFunctionContext = {
         runtimeScene.createObject(objectsList.firstKey());
       if (object) {
         objectsList.get(objectsList.firstKey()).push(object);
-        eventsFunctionContext._objectArraysMap[objectName].push(object);
+        if (!(scopeInstanceContainer && scopeInstanceContainer.isObjectRegistered(objectName))) {
+          eventsFunctionContext._objectArraysMap[objectName].push(object);
+        }
       }
       return object;
     }
