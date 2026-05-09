@@ -2432,6 +2432,7 @@ for (var i = 0, k = 0, l = gdjs.SecretLevelCode.GDPauseButtonObjects3.length;i<l
 }
 gdjs.SecretLevelCode.GDPauseButtonObjects3.length = k;
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.SecretLevelCode.GDBaseBkgTile4Objects3);
 {runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(1);
 }
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
@@ -2451,6 +2452,16 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "Tutorial", 0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(17).add(1);
+}
+{for(var i = 0, len = gdjs.SecretLevelCode.GDBaseBkgTile4Objects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDBaseBkgTile4Objects3[i].getBehavior("Opacity").setOpacity(245);
+}
+}
+{for(var i = 0, len = gdjs.SecretLevelCode.GDBaseBkgTile4Objects3.length ;i < len;++i) {
+    gdjs.SecretLevelCode.GDBaseBkgTile4Objects3[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) + 270, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) + 270);
+}
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
 }
 }
 

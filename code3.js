@@ -3044,6 +3044,7 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDPauseButtonObjects3.length;i<l;++i) {
 }
 gdjs.GameCode.GDPauseButtonObjects3.length = k;
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgTile4Objects3);
 {runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(1);
 }
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
@@ -3063,6 +3064,16 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.camera.setLayerTimeScale(runtimeScene, "Tutorial", 0);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(17).add(1);
+}
+{for(var i = 0, len = gdjs.GameCode.GDBaseBkgTile4Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDBaseBkgTile4Objects3[i].getBehavior("Opacity").setOpacity(245);
+}
+}
+{for(var i = 0, len = gdjs.GameCode.GDBaseBkgTile4Objects3.length ;i < len;++i) {
+    gdjs.GameCode.GDBaseBkgTile4Objects3[i].getBehavior("Resizable").setSize(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) + 270, gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) + 270);
+}
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
 }
 }
 
@@ -21480,7 +21491,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x1978160 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1b8ceb0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21518,7 +21529,7 @@ gdjs.GameCode.eventsList214 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1978160(runtimeScene);
+gdjs.GameCode.userFunc0x1b8ceb0(runtimeScene);
 
 }
 
