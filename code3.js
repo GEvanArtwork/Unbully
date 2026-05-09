@@ -5276,7 +5276,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(78).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 {isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42656276);
+}
 }
 }
 }
@@ -5284,6 +5289,8 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "PowerMusicTimer");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(78).setNumber(1);
 }
 }
 
@@ -21306,7 +21313,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0xce3670 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x172a890 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21344,7 +21351,7 @@ gdjs.GameCode.eventsList215 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xce3670(runtimeScene);
+gdjs.GameCode.userFunc0x172a890(runtimeScene);
 
 }
 
