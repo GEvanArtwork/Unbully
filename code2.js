@@ -1723,6 +1723,37 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkipGlow"), gdjs.StoryCode.GDUISt
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42497540);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music/Level.mp3", 1, true, 15, 1);
+}
+{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 15, 5);
+}
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+};gdjs.StoryCode.eventsList15 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(5), true);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("SoundButton"), gdjs.StoryCode.GDSoundButtonObjects4);
@@ -1758,7 +1789,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects3Objects = Hash
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.StoryCode.GDSoundButtonObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
-gdjs.StoryCode.eventsList15 = function(runtimeScene) {
+gdjs.StoryCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -1825,7 +1856,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList16 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -1836,7 +1867,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -1902,7 +1933,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList16(runtimeScene);} //End of subevents
 }
 
 }
@@ -1914,7 +1945,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects3Objects = Hash
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects2Objects = Hashtable.newFrom({"MusicButton": gdjs.StoryCode.GDMusicButtonObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
-gdjs.StoryCode.eventsList17 = function(runtimeScene) {
+gdjs.StoryCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -1981,30 +2012,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList18 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.sound.isMusicOnChannelPlaying(runtimeScene, 0);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42497540);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 0, 0, 3);
-}
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music/Level.mp3", 1, true, 15, 1);
-}
-{gdjs.evtTools.sound.fadeMusicVolume(runtimeScene, 1, 15, 5);
-}
-}
-
-}
-
+};gdjs.StoryCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -2083,7 +2091,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.StoryCode.eventsList17(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList18(runtimeScene);} //End of subevents
 }
 
 }
@@ -2095,7 +2103,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDFullScreenButtonObjects2Objects =
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDFullScreenButtonObjects1Objects = Hashtable.newFrom({"FullScreenButton": gdjs.StoryCode.GDFullScreenButtonObjects1});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects1});
-gdjs.StoryCode.eventsList19 = function(runtimeScene) {
+gdjs.StoryCode.eventsList20 = function(runtimeScene) {
 
 {
 
@@ -2208,19 +2216,12 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList20 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList21 = function(runtimeScene) {
 
 {
 
 
-gdjs.StoryCode.eventsList16(runtimeScene);
-}
-
-
-{
-
-
-gdjs.StoryCode.eventsList18(runtimeScene);
+gdjs.StoryCode.eventsList17(runtimeScene);
 }
 
 
@@ -2231,11 +2232,18 @@ gdjs.StoryCode.eventsList19(runtimeScene);
 }
 
 
+{
+
+
+gdjs.StoryCode.eventsList20(runtimeScene);
+}
+
+
 };gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects4Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects4});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects4Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects4});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects3Objects = Hashtable.newFrom({"UIStorySkip": gdjs.StoryCode.GDUIStorySkipObjects3});
-gdjs.StoryCode.eventsList21 = function(runtimeScene) {
+gdjs.StoryCode.eventsList22 = function(runtimeScene) {
 
 {
 
@@ -2288,7 +2296,7 @@ if (isConditionTrue_0) {
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects3Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StoryCode.GDUIPlayButtonObjects3});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects2Objects = Hashtable.newFrom({"UIPlayButton": gdjs.StoryCode.GDUIPlayButtonObjects2});
-gdjs.StoryCode.eventsList22 = function(runtimeScene) {
+gdjs.StoryCode.eventsList23 = function(runtimeScene) {
 
 {
 
@@ -2337,7 +2345,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList23 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList24 = function(runtimeScene) {
 
 {
 
@@ -2356,7 +2364,7 @@ gdjs.StoryCode.GDUIStorySkipObjects3.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList21(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList22(runtimeScene);} //End of subevents
 }
 
 }
@@ -2379,7 +2387,24 @@ gdjs.StoryCode.GDUIPlayButtonObjects2.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.StoryCode.eventsList22(runtimeScene);} //End of subevents
+gdjs.StoryCode.eventsList23(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.StoryCode.eventsList25 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.StoryCode.eventsList24(runtimeScene);} //End of subevents
 }
 
 }
@@ -2391,22 +2416,7 @@ gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hash
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects2Objects = Hashtable.newFrom({"SoundButton": gdjs.StoryCode.GDSoundButtonObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects = Hashtable.newFrom({"MouseCursor": gdjs.StoryCode.GDMouseCursorObjects2});
 gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDFullScreenButtonObjects2Objects = Hashtable.newFrom({"FullScreenButton": gdjs.StoryCode.GDFullScreenButtonObjects2});
-gdjs.StoryCode.eventsList24 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(4), true);
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.StoryCode.eventsList23(runtimeScene);} //End of subevents
-}
-
-}
-
+gdjs.StoryCode.eventsList26 = function(runtimeScene) {
 
 {
 
@@ -2503,7 +2513,23 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StoryCode.eventsList25 = function(runtimeScene) {
+};gdjs.StoryCode.eventsList27 = function(runtimeScene) {
+
+{
+
+
+gdjs.StoryCode.eventsList25(runtimeScene);
+}
+
+
+{
+
+
+gdjs.StoryCode.eventsList26(runtimeScene);
+}
+
+
+};gdjs.StoryCode.eventsList28 = function(runtimeScene) {
 
 {
 
@@ -2543,14 +2569,21 @@ gdjs.StoryCode.eventsList13(runtimeScene);
 {
 
 
-gdjs.StoryCode.eventsList20(runtimeScene);
+gdjs.StoryCode.eventsList14(runtimeScene);
 }
 
 
 {
 
 
-gdjs.StoryCode.eventsList24(runtimeScene);
+gdjs.StoryCode.eventsList21(runtimeScene);
+}
+
+
+{
+
+
+gdjs.StoryCode.eventsList27(runtimeScene);
 }
 
 
@@ -3430,7 +3463,7 @@ gdjs.StoryCode.GDUILoadingButtonPTObjects3.length = 0;
 gdjs.StoryCode.GDUILoadingButtonPTObjects4.length = 0;
 gdjs.StoryCode.GDUILoadingButtonPTObjects5.length = 0;
 
-gdjs.StoryCode.eventsList25(runtimeScene);
+gdjs.StoryCode.eventsList28(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
 gdjs.StoryCode.GDStory1Objects2.length = 0;
 gdjs.StoryCode.GDStory1Objects3.length = 0;
