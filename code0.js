@@ -936,7 +936,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback42319924 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback42414740 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonBKG"), gdjs.LoadingCode.GDUILoadingButtonBKGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonEN"), gdjs.LoadingCode.GDUILoadingButtonENObjects4);
@@ -954,7 +954,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(42319924, gdjs.LoadingCode.asyncCallback42319924);
+gdjs.LoadingCode.idToCallbackMap.set(42414740, gdjs.LoadingCode.asyncCallback42414740);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -964,7 +964,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42319924(runtimeScene, asyncObjectsList)), 42319924, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42414740(runtimeScene, asyncObjectsList)), 42414740, asyncObjectsList);
 }
 }
 
