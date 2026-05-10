@@ -2892,6 +2892,24 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIVictory"));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIPause"));
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(0);
+}
+}
+
+}
+
+
 };gdjs.SecretLevelCode.eventsList28 = function(runtimeScene) {
 
 {
