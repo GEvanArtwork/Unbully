@@ -2978,6 +2978,11 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects6.
 }
 gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects6.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
+}
+}
+if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(1);
 }
 }
@@ -2999,6 +3004,11 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.
     }
 }
 gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
+}
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(69).setNumber(0);
 }
@@ -3024,6 +3034,11 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.lengt
 }
 gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
+}
+}
+if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(1);
 }
 }
@@ -3045,6 +3060,11 @@ for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.lengt
     }
 }
 gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
+}
+}
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(68).setNumber(0);
 }
@@ -3075,10 +3095,7 @@ gdjs.GameCode.eventsList17(runtimeScene);
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
-}
-if (isConditionTrue_0) {
+{
 
 { //Subevents
 gdjs.GameCode.eventsList18(runtimeScene);} //End of subevents
@@ -3566,9 +3583,6 @@ gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = 0;
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(81).getAsNumber() == -(1));
 }
 if (isConditionTrue_0) {
@@ -3619,9 +3633,8 @@ gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final, gdjs.Game
 }
 }
 }
-}
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(81).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, 1));
+{runtimeScene.getGame().getVariables().getFromIndex(81).setNumber(gdjs.evtTools.input.getStartedTouchOrMouseIdentifier(runtimeScene, 0));
 }
 {runtimeScene.getGame().getVariables().getFromIndex(82).setNumber(gdjs.evtTools.input.getTouchX(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(81)), "", 0));
 }
@@ -21596,7 +21609,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x184b2b0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x2560b98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21634,7 +21647,7 @@ gdjs.GameCode.eventsList223 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x184b2b0(runtimeScene);
+gdjs.GameCode.userFunc0x2560b98(runtimeScene);
 
 }
 
