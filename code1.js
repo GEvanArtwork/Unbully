@@ -1119,9 +1119,55 @@ gdjs.StartCode.GDUILoadingButtonPTObjects5= [];
 gdjs.StartCode.GDUILoadingButtonPTObjects6= [];
 
 
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIMobile_95959595ScrollUpObjects3Objects = Hashtable.newFrom({"UIMobile_ScrollUp": gdjs.StartCode.GDUIMobile_9595ScrollUpObjects3});
-gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIMobile_95959595ScrollDownObjects2Objects = Hashtable.newFrom({"UIMobile_ScrollDown": gdjs.StartCode.GDUIMobile_9595ScrollDownObjects2});
 gdjs.StartCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(77).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(77).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.input.touchSimulateMouse(runtimeScene, true);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(1);
+}
+}
+
+}
+
+
+};gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIMobile_95959595ScrollUpObjects3Objects = Hashtable.newFrom({"UIMobile_ScrollUp": gdjs.StartCode.GDUIMobile_9595ScrollUpObjects3});
+gdjs.StartCode.mapOfGDgdjs_9546StartCode_9546GDUIMobile_95959595ScrollDownObjects2Objects = Hashtable.newFrom({"UIMobile_ScrollDown": gdjs.StartCode.GDUIMobile_9595ScrollDownObjects2});
+gdjs.StartCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -1161,54 +1207,19 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.StartCode.eventsList1 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.StartCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
 };gdjs.StartCode.eventsList2 = function(runtimeScene) {
 
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "TutorialMobile");
-}
-{gdjs.evtTools.camera.hideLayer(runtimeScene, "TutorialTeclado");
-}
-}
-
+gdjs.StartCode.eventsList0(runtimeScene);
 }
 
 
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.showLayer(runtimeScene, "TutorialTeclado");
-}
-{gdjs.evtTools.camera.hideLayer(runtimeScene, "TutorialMobile");
-}
-}
-
+gdjs.StartCode.eventsList1(runtimeScene);
 }
 
 
@@ -1241,14 +1252,15 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.StartCode.eventsList1(runtimeScene);
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.systemInfo.isMobile();
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.StartCode.eventsList2(runtimeScene);} //End of subevents
 }
 
-
-{
-
-
-gdjs.StartCode.eventsList2(runtimeScene);
 }
 
 
