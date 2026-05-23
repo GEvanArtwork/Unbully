@@ -2342,7 +2342,7 @@ gdjs.GameCode.GDUITappingLineObjects4.length = 0;
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITappingLineObjects4Objects, 270, 0, "UIMobileTap");
 }
 {for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects4.length ;i < len;++i) {
-    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(150);
+    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(50);
 }
 }
 }
@@ -2472,7 +2472,7 @@ gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final, gdjs.Game
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("UITappingLine"), gdjs.GameCode.GDUITappingLineObjects3);
 {for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDUITappingLineObjects3[i].getBehavior("Tween").addObjectOpacityTween2("LineFadeOut", 150, "linear", 1, false);
+    gdjs.GameCode.GDUITappingLineObjects3[i].getBehavior("Tween").addObjectOpacityTween2("LineFadeOut", 50, "linear", 1.5, false);
 }
 }
 }
@@ -21481,7 +21481,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x1c8eb20 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x20fe370 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21519,7 +21519,7 @@ gdjs.GameCode.eventsList218 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1c8eb20(runtimeScene);
+gdjs.GameCode.userFunc0x20fe370(runtimeScene);
 
 }
 
