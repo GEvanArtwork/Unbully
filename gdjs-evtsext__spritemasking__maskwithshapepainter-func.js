@@ -11,7 +11,7 @@ gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.GDMaskedObjects1= [];
 gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.GDMaskObjects1= [];
 
 
-gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.userFunc0x1b43100 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.userFunc0x257a080 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const maskObject = eventsFunctionContext.getObjects("Mask")[0];
 if (!maskObject) return;
@@ -30,7 +30,7 @@ gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.eventsList0 = function(runtime
 
 
 const objects = [];
-gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.userFunc0x1b43100(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__SpriteMasking__MaskWithShapePainter.userFunc0x257a080(runtimeScene, objects, eventsFunctionContext);
 
 }
 
