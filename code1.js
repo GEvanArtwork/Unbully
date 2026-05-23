@@ -6342,6 +6342,8 @@ isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Lef
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Story", false);
 }
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 0);
+}
 }
 
 }
