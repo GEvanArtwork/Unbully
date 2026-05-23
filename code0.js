@@ -846,6 +846,11 @@ gdjs.LoadingCode.GDUILoadingButtonPTObjects2= [];
 gdjs.LoadingCode.GDUILoadingButtonPTObjects3= [];
 gdjs.LoadingCode.GDUILoadingButtonPTObjects4= [];
 gdjs.LoadingCode.GDUILoadingButtonPTObjects5= [];
+gdjs.LoadingCode.GDUITappingLineObjects1= [];
+gdjs.LoadingCode.GDUITappingLineObjects2= [];
+gdjs.LoadingCode.GDUITappingLineObjects3= [];
+gdjs.LoadingCode.GDUITappingLineObjects4= [];
+gdjs.LoadingCode.GDUITappingLineObjects5= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -936,7 +941,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback42475644 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback42419748 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonBKG"), gdjs.LoadingCode.GDUILoadingButtonBKGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonEN"), gdjs.LoadingCode.GDUILoadingButtonENObjects4);
@@ -954,7 +959,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(42475644, gdjs.LoadingCode.asyncCallback42475644);
+gdjs.LoadingCode.idToCallbackMap.set(42419748, gdjs.LoadingCode.asyncCallback42419748);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -964,7 +969,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42475644(runtimeScene, asyncObjectsList)), 42475644, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42419748(runtimeScene, asyncObjectsList)), 42419748, asyncObjectsList);
 }
 }
 
@@ -2077,6 +2082,11 @@ gdjs.LoadingCode.GDUILoadingButtonPTObjects2.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects3.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects5.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects1.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects2.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects3.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects4.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects5.length = 0;
 
 gdjs.LoadingCode.eventsList9(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -2914,6 +2924,11 @@ gdjs.LoadingCode.GDUILoadingButtonPTObjects2.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects3.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length = 0;
 gdjs.LoadingCode.GDUILoadingButtonPTObjects5.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects1.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects2.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects3.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects4.length = 0;
+gdjs.LoadingCode.GDUITappingLineObjects5.length = 0;
 
 
 return;
