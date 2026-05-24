@@ -2327,167 +2327,14 @@ gdjs.GameCode.GDUITappingLineObjects7= [];
 gdjs.GameCode.GDUITappingLineObjects8= [];
 
 
-gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITappingLineObjects4Objects = Hashtable.newFrom({"UITappingLine": gdjs.GameCode.GDUITappingLineObjects4});
-gdjs.GameCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-gdjs.GameCode.GDUITappingLineObjects4.length = 0;
-
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITappingLineObjects4Objects, 270, 0, "UIMobileTap");
-}
-{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects4.length ;i < len;++i) {
-    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(50);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length = 0;
-
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = 0;
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.length = 0;
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.length = 0;
-let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5);
-for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[i].getBehavior("MultitouchButton").IsPressed(null) ) {
-        isConditionTrue_1 = true;
-        gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[k] = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length = k;
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length; j < jLen ; ++j) {
-        if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[j]) === -1 )
-            gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.push(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[j]);
-    }
-}
-}
-{
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5);
-for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length;i<l;++i) {
-    if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[i].getBehavior("MultitouchButton").IsPressed(null) ) {
-        isConditionTrue_1 = true;
-        gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[k] = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length = k;
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length; j < jLen ; ++j) {
-        if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[j]) === -1 )
-            gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.push(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[j]);
-    }
-}
-}
-{
-gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final, gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4);
-gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final, gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4);
-}
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("UITappingLine"), gdjs.GameCode.GDUITappingLineObjects4);
-{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects4.length ;i < len;++i) {
-    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(255);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3.length = 0;
-
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length = 0;
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.length = 0;
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.length = 0;
-let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4);
-for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[i].getBehavior("MultitouchButton").IsReleased(null) ) {
-        isConditionTrue_1 = true;
-        gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[k] = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length = k;
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[j]) === -1 )
-            gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.push(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[j]);
-    }
-}
-}
-{
-gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4);
-for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length;i<l;++i) {
-    if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[i].getBehavior("MultitouchButton").IsReleased(null) ) {
-        isConditionTrue_1 = true;
-        gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[k] = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[i];
-        ++k;
-    }
-}
-gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = k;
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length; j < jLen ; ++j) {
-        if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[j]) === -1 )
-            gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.push(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[j]);
-    }
-}
-}
-{
-gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final, gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3);
-gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final, gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3);
-}
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("UITappingLine"), gdjs.GameCode.GDUITappingLineObjects3);
-{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects3.length ;i < len;++i) {
-    gdjs.GameCode.GDUITappingLineObjects3[i].getBehavior("Tween").addObjectOpacityTween2("LineFadeOut", 50, "linear", 1.5, false);
-}
-}
-}
-
-}
-
-
-};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects3, "DragonColor": gdjs.GameCode.GDDragonColorObjects3, "DragonNature": gdjs.GameCode.GDDragonNatureObjects3, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects3, "DragonGold": gdjs.GameCode.GDDragonGoldObjects3});
+gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects3, "DragonColor": gdjs.GameCode.GDDragonColorObjects3, "DragonNature": gdjs.GameCode.GDDragonNatureObjects3, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects3, "DragonGold": gdjs.GameCode.GDDragonGoldObjects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDtutorial_95959595MobileMoveObjects3Objects = Hashtable.newFrom({"tutorial_MobileMove": gdjs.GameCode.GDtutorial_9595MobileMoveObjects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap1Objects3Objects = Hashtable.newFrom({"UITap1": gdjs.GameCode.GDUITap1Objects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap2Objects3Objects = Hashtable.newFrom({"UITap2": gdjs.GameCode.GDUITap2Objects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITap3Objects3Objects = Hashtable.newFrom({"UITap3": gdjs.GameCode.GDUITap3Objects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDDragonHeroObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonColorObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonNatureObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGhostObjects3ObjectsGDgdjs_9546GameCode_9546GDDragonGoldObjects3Objects = Hashtable.newFrom({"DragonHero": gdjs.GameCode.GDDragonHeroObjects3, "DragonColor": gdjs.GameCode.GDDragonColorObjects3, "DragonNature": gdjs.GameCode.GDDragonNatureObjects3, "DragonGhost": gdjs.GameCode.GDDragonGhostObjects3, "DragonGold": gdjs.GameCode.GDDragonGoldObjects3});
 gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDtutorial_95959595MobileJumpObjects3Objects = Hashtable.newFrom({"tutorial_MobileJump": gdjs.GameCode.GDtutorial_9595MobileJumpObjects3});
-gdjs.GameCode.eventsList1 = function(runtimeScene) {
+gdjs.GameCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -2669,7 +2516,7 @@ gdjs.copyArray(runtimeScene.getObjects("UITap3"), gdjs.GameCode.GDUITap3Objects2
 }
 
 
-};gdjs.GameCode.eventsList2 = function(runtimeScene) {
+};gdjs.GameCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -2678,14 +2525,7 @@ gdjs.GameCode.eventsList0(runtimeScene);
 }
 
 
-{
-
-
-gdjs.GameCode.eventsList1(runtimeScene);
-}
-
-
-};gdjs.GameCode.eventsList3 = function(runtimeScene) {
+};gdjs.GameCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -2713,6 +2553,159 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "TutorialTeclado");
 }
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "TutorialMobile");
+}
+}
+
+}
+
+
+};gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITappingLineObjects4Objects = Hashtable.newFrom({"UITappingLine": gdjs.GameCode.GDUITappingLineObjects4});
+gdjs.GameCode.eventsList3 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.GameCode.GDUITappingLineObjects4.length = 0;
+
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDUITappingLineObjects4Objects, 270, 0, "UIMobileTap");
+}
+{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(50);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length = 0;
+
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = 0;
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.length = 0;
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5);
+for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length;i<l;++i) {
+    if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[i].getBehavior("MultitouchButton").IsPressed(null) ) {
+        isConditionTrue_1 = true;
+        gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[k] = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5.length; j < jLen ; ++j) {
+        if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[j]) === -1 )
+            gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final.push(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects5[j]);
+    }
+}
+}
+{
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5);
+for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length;i<l;++i) {
+    if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[i].getBehavior("MultitouchButton").IsPressed(null) ) {
+        isConditionTrue_1 = true;
+        gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[k] = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5.length; j < jLen ; ++j) {
+        if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[j]) === -1 )
+            gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final.push(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects5[j]);
+    }
+}
+}
+{
+gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4_1final, gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4);
+gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4_1final, gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4);
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("UITappingLine"), gdjs.GameCode.GDUITappingLineObjects4);
+{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDUITappingLineObjects4[i].getBehavior("Opacity").setOpacity(255);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3.length = 0;
+
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3.length = 0;
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.length = 0;
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.length = 0;
+let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftRightScreen"), gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4);
+for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length;i<l;++i) {
+    if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[i].getBehavior("MultitouchButton").IsReleased(null) ) {
+        isConditionTrue_1 = true;
+        gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[k] = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[j]) === -1 )
+            gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final.push(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects4[j]);
+    }
+}
+}
+{
+gdjs.copyArray(runtimeScene.getObjects("UIMobile_LeftScreen"), gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4);
+for (var i = 0, k = 0, l = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length;i<l;++i) {
+    if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[i].getBehavior("MultitouchButton").IsReleased(null) ) {
+        isConditionTrue_1 = true;
+        gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[k] = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[i];
+        ++k;
+    }
+}
+gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length = k;
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4.length; j < jLen ; ++j) {
+        if ( gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.indexOf(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[j]) === -1 )
+            gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final.push(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects4[j]);
+    }
+}
+}
+{
+gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3_1final, gdjs.GameCode.GDUIMobile_9595LeftRightScreenObjects3);
+gdjs.copyArray(gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3_1final, gdjs.GameCode.GDUIMobile_9595LeftScreenObjects3);
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("UITappingLine"), gdjs.GameCode.GDUITappingLineObjects3);
+{for(var i = 0, len = gdjs.GameCode.GDUITappingLineObjects3.length ;i < len;++i) {
+    gdjs.GameCode.GDUITappingLineObjects3[i].getBehavior("Tween").addObjectOpacityTween2("LineFadeOut", 50, "linear", 1.5, false);
+}
 }
 }
 
@@ -3656,6 +3649,13 @@ if (isConditionTrue_0) {
 {
 
 
+gdjs.GameCode.eventsList3(runtimeScene);
+}
+
+
+{
+
+
 gdjs.GameCode.eventsList4(runtimeScene);
 }
 
@@ -3711,7 +3711,7 @@ if (isConditionTrue_0) {
 }
 
 { //Subevents
-gdjs.GameCode.eventsList2(runtimeScene);} //End of subevents
+gdjs.GameCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -3720,7 +3720,7 @@ gdjs.GameCode.eventsList2(runtimeScene);} //End of subevents
 {
 
 
-gdjs.GameCode.eventsList3(runtimeScene);
+gdjs.GameCode.eventsList2(runtimeScene);
 }
 
 
@@ -5265,6 +5265,29 @@ gdjs.GameCode.eventsList53(runtimeScene);
 
 
 };gdjs.GameCode.eventsList55 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(3), true);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(0).getAsNumber() == 0);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.sound.isMusicOnChannelPlaying(runtimeScene, 1));
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music/Level.mp3", 1, true, 15, 1);
+}
+}
+
+}
+
 
 {
 
@@ -21481,7 +21504,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x1d55720 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x93f720 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -21519,7 +21542,7 @@ gdjs.GameCode.eventsList218 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1d55720(runtimeScene);
+gdjs.GameCode.userFunc0x93f720(runtimeScene);
 
 }
 
