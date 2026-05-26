@@ -851,6 +851,26 @@ gdjs.LoadingCode.GDUITappingLineObjects2= [];
 gdjs.LoadingCode.GDUITappingLineObjects3= [];
 gdjs.LoadingCode.GDUITappingLineObjects4= [];
 gdjs.LoadingCode.GDUITappingLineObjects5= [];
+gdjs.LoadingCode.GDUIMessageFrameObjects1= [];
+gdjs.LoadingCode.GDUIMessageFrameObjects2= [];
+gdjs.LoadingCode.GDUIMessageFrameObjects3= [];
+gdjs.LoadingCode.GDUIMessageFrameObjects4= [];
+gdjs.LoadingCode.GDUIMessageFrameObjects5= [];
+gdjs.LoadingCode.GDUIMessageTextObjects1= [];
+gdjs.LoadingCode.GDUIMessageTextObjects2= [];
+gdjs.LoadingCode.GDUIMessageTextObjects3= [];
+gdjs.LoadingCode.GDUIMessageTextObjects4= [];
+gdjs.LoadingCode.GDUIMessageTextObjects5= [];
+gdjs.LoadingCode.GDUIMessageYesObjects1= [];
+gdjs.LoadingCode.GDUIMessageYesObjects2= [];
+gdjs.LoadingCode.GDUIMessageYesObjects3= [];
+gdjs.LoadingCode.GDUIMessageYesObjects4= [];
+gdjs.LoadingCode.GDUIMessageYesObjects5= [];
+gdjs.LoadingCode.GDUIMessageNoObjects1= [];
+gdjs.LoadingCode.GDUIMessageNoObjects2= [];
+gdjs.LoadingCode.GDUIMessageNoObjects3= [];
+gdjs.LoadingCode.GDUIMessageNoObjects4= [];
+gdjs.LoadingCode.GDUIMessageNoObjects5= [];
 
 
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
@@ -941,7 +961,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback42456348 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback42515092 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonBKG"), gdjs.LoadingCode.GDUILoadingButtonBKGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonEN"), gdjs.LoadingCode.GDUILoadingButtonENObjects4);
@@ -959,7 +979,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(42456348, gdjs.LoadingCode.asyncCallback42456348);
+gdjs.LoadingCode.idToCallbackMap.set(42515092, gdjs.LoadingCode.asyncCallback42515092);
 gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
@@ -969,7 +989,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42456348(runtimeScene, asyncObjectsList)), 42456348, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42515092(runtimeScene, asyncObjectsList)), 42515092, asyncObjectsList);
 }
 }
 
@@ -2087,6 +2107,26 @@ gdjs.LoadingCode.GDUITappingLineObjects2.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects3.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects4.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects5.length = 0;
 
 gdjs.LoadingCode.eventsList9(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
@@ -2929,6 +2969,26 @@ gdjs.LoadingCode.GDUITappingLineObjects2.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects3.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects4.length = 0;
 gdjs.LoadingCode.GDUITappingLineObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageFrameObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageTextObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageYesObjects5.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects1.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects2.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects3.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects4.length = 0;
+gdjs.LoadingCode.GDUIMessageNoObjects5.length = 0;
 
 
 return;
