@@ -3043,6 +3043,10 @@ isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIVicto
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIPause"));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIMessage"));
+}
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(0);
@@ -9588,6 +9592,8 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.SecretLevelCode.GDB
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
 }
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -9644,6 +9650,8 @@ for(var i = 0, len = gdjs.SecretLevelCode.GDUIMessageNoObjects4.length ;i < len;
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
 }
 }
 
@@ -9827,6 +9835,8 @@ gdjs.SecretLevelCode.GDUIMessageYesObjects2.length = 0;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(1);
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -9929,6 +9939,8 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.SecretLevelCode.GDB
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(0);
 }
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -9985,6 +9997,8 @@ for(var i = 0, len = gdjs.SecretLevelCode.GDUIMessageNoObjects3.length ;i < len;
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(0);
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
 }
 }
 
@@ -10172,6 +10186,8 @@ gdjs.SecretLevelCode.GDUIMessageYesObjects1.length = 0;
 }
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(1);
+}
+{gdjs.evtTools.camera.showLayer(runtimeScene, "UIMessage");
 }
 }
 

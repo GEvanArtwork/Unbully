@@ -2386,7 +2386,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46082540);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46082420);
 }
 }
 }
@@ -2454,7 +2454,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TapMove") >= 12;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46086572);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46086452);
 }
 }
 if (isConditionTrue_0) {
@@ -2493,7 +2493,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46087964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46087844);
 }
 }
 }
@@ -2532,7 +2532,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "TapMove2") >= 10.5;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46089780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(46089660);
 }
 }
 if (isConditionTrue_0) {
@@ -3667,6 +3667,10 @@ isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIVicto
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIPause"));
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.camera.layerIsVisible(runtimeScene, "UIMessage"));
+}
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(77).setNumber(0);
@@ -10215,6 +10219,8 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
 }
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -10271,6 +10277,8 @@ for(var i = 0, len = gdjs.GameCode.GDUIMessageNoObjects4.length ;i < len;++i) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(0);
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
 }
 }
 
@@ -10458,6 +10466,8 @@ gdjs.GameCode.GDUIMessageYesObjects2.length = 0;
 }
 {runtimeScene.getGame().getVariables().getFromIndex(86).setNumber(1);
 }
+{gdjs.evtTools.camera.showLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -10584,6 +10594,8 @@ gdjs.copyArray(runtimeScene.getObjects("BaseBkgTile4"), gdjs.GameCode.GDBaseBkgT
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(0);
 }
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
+}
 }
 
 }
@@ -10640,6 +10652,8 @@ for(var i = 0, len = gdjs.GameCode.GDUIMessageNoObjects3.length ;i < len;++i) {
 {gdjs.evtTools.camera.showLayer(runtimeScene, "UIPause");
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(0);
+}
+{gdjs.evtTools.camera.hideLayer(runtimeScene, "UIMessage");
 }
 }
 
@@ -10831,6 +10845,8 @@ gdjs.GameCode.GDUIMessageYesObjects1.length = 0;
 }
 }
 {runtimeScene.getGame().getVariables().getFromIndex(85).setNumber(1);
+}
+{gdjs.evtTools.camera.showLayer(runtimeScene, "UIMessage");
 }
 }
 
@@ -22091,7 +22107,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIFakeMouse"), gdjs.GameCode.GDUIFakeMou
 }
 
 
-};gdjs.GameCode.userFunc0x2261460 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xe7dd98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // 1️⃣ Pega o PlayerNameText (Text Entry)
 let playerNameObjects = runtimeScene.getObjects("PlayerNameText");
@@ -22129,7 +22145,7 @@ gdjs.GameCode.eventsList233 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x2261460(runtimeScene);
+gdjs.GameCode.userFunc0xe7dd98(runtimeScene);
 
 }
 
