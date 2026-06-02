@@ -904,6 +904,76 @@ gdjs.StoryCode.GDUIMessageNoObjects2= [];
 gdjs.StoryCode.GDUIMessageNoObjects3= [];
 gdjs.StoryCode.GDUIMessageNoObjects4= [];
 gdjs.StoryCode.GDUIMessageNoObjects5= [];
+gdjs.StoryCode.GDRankingUIPlayerObjects1= [];
+gdjs.StoryCode.GDRankingUIPlayerObjects2= [];
+gdjs.StoryCode.GDRankingUIPlayerObjects3= [];
+gdjs.StoryCode.GDRankingUIPlayerObjects4= [];
+gdjs.StoryCode.GDRankingUIPlayerObjects5= [];
+gdjs.StoryCode.GDRankingUIBkgObjects1= [];
+gdjs.StoryCode.GDRankingUIBkgObjects2= [];
+gdjs.StoryCode.GDRankingUIBkgObjects3= [];
+gdjs.StoryCode.GDRankingUIBkgObjects4= [];
+gdjs.StoryCode.GDRankingUIBkgObjects5= [];
+gdjs.StoryCode.GDRankingUIBkgBarObjects1= [];
+gdjs.StoryCode.GDRankingUIBkgBarObjects2= [];
+gdjs.StoryCode.GDRankingUIBkgBarObjects3= [];
+gdjs.StoryCode.GDRankingUIBkgBarObjects4= [];
+gdjs.StoryCode.GDRankingUIBkgBarObjects5= [];
+gdjs.StoryCode.GDRankingUIPositionObjects1= [];
+gdjs.StoryCode.GDRankingUIPositionObjects2= [];
+gdjs.StoryCode.GDRankingUIPositionObjects3= [];
+gdjs.StoryCode.GDRankingUIPositionObjects4= [];
+gdjs.StoryCode.GDRankingUIPositionObjects5= [];
+gdjs.StoryCode.GDRankingUIDragonObjects1= [];
+gdjs.StoryCode.GDRankingUIDragonObjects2= [];
+gdjs.StoryCode.GDRankingUIDragonObjects3= [];
+gdjs.StoryCode.GDRankingUIDragonObjects4= [];
+gdjs.StoryCode.GDRankingUIDragonObjects5= [];
+gdjs.StoryCode.GDRankingUIScoreObjects1= [];
+gdjs.StoryCode.GDRankingUIScoreObjects2= [];
+gdjs.StoryCode.GDRankingUIScoreObjects3= [];
+gdjs.StoryCode.GDRankingUIScoreObjects4= [];
+gdjs.StoryCode.GDRankingUIScoreObjects5= [];
+gdjs.StoryCode.GDRankingUITitleObjects1= [];
+gdjs.StoryCode.GDRankingUITitleObjects2= [];
+gdjs.StoryCode.GDRankingUITitleObjects3= [];
+gdjs.StoryCode.GDRankingUITitleObjects4= [];
+gdjs.StoryCode.GDRankingUITitleObjects5= [];
+gdjs.StoryCode.GDRankingUITopObjects1= [];
+gdjs.StoryCode.GDRankingUITopObjects2= [];
+gdjs.StoryCode.GDRankingUITopObjects3= [];
+gdjs.StoryCode.GDRankingUITopObjects4= [];
+gdjs.StoryCode.GDRankingUITopObjects5= [];
+gdjs.StoryCode.GDRankingUIExitStatueObjects1= [];
+gdjs.StoryCode.GDRankingUIExitStatueObjects2= [];
+gdjs.StoryCode.GDRankingUIExitStatueObjects3= [];
+gdjs.StoryCode.GDRankingUIExitStatueObjects4= [];
+gdjs.StoryCode.GDRankingUIExitStatueObjects5= [];
+gdjs.StoryCode.GDRankingUIExitOverObjects1= [];
+gdjs.StoryCode.GDRankingUIExitOverObjects2= [];
+gdjs.StoryCode.GDRankingUIExitOverObjects3= [];
+gdjs.StoryCode.GDRankingUIExitOverObjects4= [];
+gdjs.StoryCode.GDRankingUIExitOverObjects5= [];
+gdjs.StoryCode.GDRankingUIDragonBlackObjects1= [];
+gdjs.StoryCode.GDRankingUIDragonBlackObjects2= [];
+gdjs.StoryCode.GDRankingUIDragonBlackObjects3= [];
+gdjs.StoryCode.GDRankingUIDragonBlackObjects4= [];
+gdjs.StoryCode.GDRankingUIDragonBlackObjects5= [];
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects1= [];
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects2= [];
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects3= [];
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects4= [];
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects5= [];
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects1= [];
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects2= [];
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects3= [];
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects4= [];
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects5= [];
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects1= [];
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects2= [];
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects3= [];
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects4= [];
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects5= [];
 
 
 gdjs.StoryCode.eventsList0 = function(runtimeScene) {
@@ -1178,7 +1248,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42975516);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44401972);
 }
 }
 if (isConditionTrue_0) {
@@ -1263,7 +1333,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDUIPlayButtonObjects2.length;i<l;++i)
 gdjs.StoryCode.GDUIPlayButtonObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42973436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44318148);
 }
 }
 if (isConditionTrue_0) {
@@ -1293,7 +1363,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDUIPlayButtonObjects1.length;i<l;++i)
 gdjs.StoryCode.GDUIPlayButtonObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43032212);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44312300);
 }
 }
 if (isConditionTrue_0) {
@@ -1333,7 +1403,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43034156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44316516);
 }
 }
 if (isConditionTrue_0) {
@@ -1420,7 +1490,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory1Objects2.length;i<l;++i) {
 gdjs.StoryCode.GDStory1Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43038884);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44340764);
 }
 }
 if (isConditionTrue_0) {
@@ -1466,7 +1536,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory2Objects2.length;i<l;++i) {
 gdjs.StoryCode.GDStory2Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43040668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44342548);
 }
 }
 if (isConditionTrue_0) {
@@ -1512,7 +1582,7 @@ for (var i = 0, k = 0, l = gdjs.StoryCode.GDStory3Objects1.length;i<l;++i) {
 gdjs.StoryCode.GDStory3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43042700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44344580);
 }
 }
 if (isConditionTrue_0) {
@@ -1648,7 +1718,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43044060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44345940);
 }
 }
 if (isConditionTrue_0) {
@@ -1748,7 +1818,7 @@ gdjs.copyArray(runtimeScene.getObjects("UIStorySkipGlow"), gdjs.StoryCode.GDUISt
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43053828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44355708);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Music/Level.mp3", 1, true, 15, 1);
@@ -1966,7 +2036,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDSoundButtonObjects2Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43032628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44363804);
 }
 }
 }
@@ -2120,7 +2190,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMusicButtonObjects2Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43006052);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44372892);
 }
 }
 }
@@ -2151,7 +2221,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), true);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43010972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44377812);
 }
 }
 if (isConditionTrue_0) {
@@ -2175,7 +2245,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(6), false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43012668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44379508);
 }
 }
 if (isConditionTrue_0) {
@@ -2242,7 +2312,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDFullScreenButtonObjects1Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43018908);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44384932);
 }
 }
 }
@@ -2294,7 +2364,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects4Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects4Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43022068);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44387820);
 }
 }
 if (isConditionTrue_0) {
@@ -2318,7 +2388,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIStorySkipObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43023892);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44389204);
 }
 }
 }
@@ -2347,7 +2417,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects3Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43026220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44391132);
 }
 }
 if (isConditionTrue_0) {
@@ -2371,7 +2441,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDMouseCursorObjects2Objects, gdjs.StoryCode.mapOfGDgdjs_9546StoryCode_9546GDUIPlayButtonObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(43028044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44392516);
 }
 }
 }
@@ -2538,7 +2608,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(42996484);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(44396148);
 }
 }
 }
@@ -3525,6 +3595,76 @@ gdjs.StoryCode.GDUIMessageNoObjects2.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects3.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects4.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects5.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects1.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects2.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects3.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects4.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects5.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects1.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects2.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects3.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects4.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects5.length = 0;
 
 gdjs.StoryCode.eventsList29(runtimeScene);
 gdjs.StoryCode.GDStory1Objects1.length = 0;
@@ -4422,6 +4562,76 @@ gdjs.StoryCode.GDUIMessageNoObjects2.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects3.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects4.length = 0;
 gdjs.StoryCode.GDUIMessageNoObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIBkgObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIBkgBarObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPositionObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIDragonObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIScoreObjects5.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects1.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects2.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects3.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects4.length = 0;
+gdjs.StoryCode.GDRankingUITitleObjects5.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects1.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects2.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects3.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects4.length = 0;
+gdjs.StoryCode.GDRankingUITopObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIExitStatueObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIExitOverObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIDragonBlackObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerBallonObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIPlayerCurrentObjects5.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects1.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects2.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects3.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects4.length = 0;
+gdjs.StoryCode.GDRankingUIScoreCurrentObjects5.length = 0;
 
 
 return;

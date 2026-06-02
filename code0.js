@@ -871,9 +871,102 @@ gdjs.LoadingCode.GDUIMessageNoObjects2= [];
 gdjs.LoadingCode.GDUIMessageNoObjects3= [];
 gdjs.LoadingCode.GDUIMessageNoObjects4= [];
 gdjs.LoadingCode.GDUIMessageNoObjects5= [];
+gdjs.LoadingCode.GDRankingUIPlayerObjects1= [];
+gdjs.LoadingCode.GDRankingUIPlayerObjects2= [];
+gdjs.LoadingCode.GDRankingUIPlayerObjects3= [];
+gdjs.LoadingCode.GDRankingUIPlayerObjects4= [];
+gdjs.LoadingCode.GDRankingUIPlayerObjects5= [];
+gdjs.LoadingCode.GDRankingUIBkgObjects1= [];
+gdjs.LoadingCode.GDRankingUIBkgObjects2= [];
+gdjs.LoadingCode.GDRankingUIBkgObjects3= [];
+gdjs.LoadingCode.GDRankingUIBkgObjects4= [];
+gdjs.LoadingCode.GDRankingUIBkgObjects5= [];
+gdjs.LoadingCode.GDRankingUIBkgBarObjects1= [];
+gdjs.LoadingCode.GDRankingUIBkgBarObjects2= [];
+gdjs.LoadingCode.GDRankingUIBkgBarObjects3= [];
+gdjs.LoadingCode.GDRankingUIBkgBarObjects4= [];
+gdjs.LoadingCode.GDRankingUIBkgBarObjects5= [];
+gdjs.LoadingCode.GDRankingUIPositionObjects1= [];
+gdjs.LoadingCode.GDRankingUIPositionObjects2= [];
+gdjs.LoadingCode.GDRankingUIPositionObjects3= [];
+gdjs.LoadingCode.GDRankingUIPositionObjects4= [];
+gdjs.LoadingCode.GDRankingUIPositionObjects5= [];
+gdjs.LoadingCode.GDRankingUIDragonObjects1= [];
+gdjs.LoadingCode.GDRankingUIDragonObjects2= [];
+gdjs.LoadingCode.GDRankingUIDragonObjects3= [];
+gdjs.LoadingCode.GDRankingUIDragonObjects4= [];
+gdjs.LoadingCode.GDRankingUIDragonObjects5= [];
+gdjs.LoadingCode.GDRankingUIScoreObjects1= [];
+gdjs.LoadingCode.GDRankingUIScoreObjects2= [];
+gdjs.LoadingCode.GDRankingUIScoreObjects3= [];
+gdjs.LoadingCode.GDRankingUIScoreObjects4= [];
+gdjs.LoadingCode.GDRankingUIScoreObjects5= [];
+gdjs.LoadingCode.GDRankingUITitleObjects1= [];
+gdjs.LoadingCode.GDRankingUITitleObjects2= [];
+gdjs.LoadingCode.GDRankingUITitleObjects3= [];
+gdjs.LoadingCode.GDRankingUITitleObjects4= [];
+gdjs.LoadingCode.GDRankingUITitleObjects5= [];
+gdjs.LoadingCode.GDRankingUITopObjects1= [];
+gdjs.LoadingCode.GDRankingUITopObjects2= [];
+gdjs.LoadingCode.GDRankingUITopObjects3= [];
+gdjs.LoadingCode.GDRankingUITopObjects4= [];
+gdjs.LoadingCode.GDRankingUITopObjects5= [];
+gdjs.LoadingCode.GDRankingUIExitStatueObjects1= [];
+gdjs.LoadingCode.GDRankingUIExitStatueObjects2= [];
+gdjs.LoadingCode.GDRankingUIExitStatueObjects3= [];
+gdjs.LoadingCode.GDRankingUIExitStatueObjects4= [];
+gdjs.LoadingCode.GDRankingUIExitStatueObjects5= [];
+gdjs.LoadingCode.GDRankingUIExitOverObjects1= [];
+gdjs.LoadingCode.GDRankingUIExitOverObjects2= [];
+gdjs.LoadingCode.GDRankingUIExitOverObjects3= [];
+gdjs.LoadingCode.GDRankingUIExitOverObjects4= [];
+gdjs.LoadingCode.GDRankingUIExitOverObjects5= [];
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects1= [];
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects2= [];
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects3= [];
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects4= [];
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects5= [];
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects1= [];
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects2= [];
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects3= [];
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects4= [];
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects5= [];
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects1= [];
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects2= [];
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects3= [];
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects4= [];
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects5= [];
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects1= [];
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects2= [];
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects3= [];
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects4= [];
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects5= [];
 
 
+gdjs.LoadingCode.userFunc0x1d9b658 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+// Injeta o Google Analytics dinamicamente
+var script = document.createElement('script');
+script.async = true;
+script.src = 'https://www.googletagmanager.com/gtag/js?id=G-Y97RVFTL4G';
+document.head.appendChild(script);
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-Y97RVFTL4G');
+};
 gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+gdjs.LoadingCode.userFunc0x1d9b658(runtimeScene);
+
+}
+
+
+};gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -891,7 +984,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.eventsList1 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -923,7 +1016,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects2.length ;i < le
 }
 
 
-};gdjs.LoadingCode.eventsList2 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -961,7 +1054,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback42727564 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback43477900 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonBKG"), gdjs.LoadingCode.GDUILoadingButtonBKGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonEN"), gdjs.LoadingCode.GDUILoadingButtonENObjects4);
@@ -979,8 +1072,8 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(42727564, gdjs.LoadingCode.asyncCallback42727564);
-gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
+gdjs.LoadingCode.idToCallbackMap.set(43477900, gdjs.LoadingCode.asyncCallback43477900);
+gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
 
 {
 
@@ -989,7 +1082,7 @@ gdjs.LoadingCode.eventsList3 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback42727564(runtimeScene, asyncObjectsList)), 42727564, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback43477900(runtimeScene, asyncObjectsList)), 43477900, asyncObjectsList);
 }
 }
 
@@ -998,7 +1091,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4)
 
 };gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonENObjects4ObjectsGDgdjs_9546LoadingCode_9546GDUILoadingButtonPTObjects4Objects = Hashtable.newFrom({"UILoadingButtonEN": gdjs.LoadingCode.GDUILoadingButtonENObjects4, "UILoadingButtonPT": gdjs.LoadingCode.GDUILoadingButtonPTObjects4});
 gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonENObjects4ObjectsGDgdjs_9546LoadingCode_9546GDUILoadingButtonPTObjects4Objects = Hashtable.newFrom({"UILoadingButtonEN": gdjs.LoadingCode.GDUILoadingButtonENObjects4, "UILoadingButtonPT": gdjs.LoadingCode.GDUILoadingButtonPTObjects4});
-gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
 
 {
 
@@ -1050,7 +1143,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 
 
-};gdjs.LoadingCode.eventsList5 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
 
 {
 
@@ -1062,7 +1155,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.LoadingCode.eventsList3(runtimeScene);} //End of subevents
+gdjs.LoadingCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 }
@@ -1097,7 +1190,7 @@ let isConditionTrue_0 = false;
 if (true) {
 
 { //Subevents: 
-gdjs.LoadingCode.eventsList4(runtimeScene);} //Subevents end.
+gdjs.LoadingCode.eventsList5(runtimeScene);} //Subevents end.
 }
 }
 
@@ -1106,7 +1199,7 @@ gdjs.LoadingCode.eventsList4(runtimeScene);} //Subevents end.
 
 };gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonENObjects2Objects = Hashtable.newFrom({"UILoadingButtonEN": gdjs.LoadingCode.GDUILoadingButtonENObjects2});
 gdjs.LoadingCode.mapOfGDgdjs_9546LoadingCode_9546GDUILoadingButtonPTObjects1Objects = Hashtable.newFrom({"UILoadingButtonPT": gdjs.LoadingCode.GDUILoadingButtonPTObjects1});
-gdjs.LoadingCode.eventsList6 = function(runtimeScene) {
+gdjs.LoadingCode.eventsList7 = function(runtimeScene) {
 
 {
 
@@ -1162,14 +1255,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.LoadingCode.eventsList7 = function(runtimeScene) {
-
-{
-
-
-gdjs.LoadingCode.eventsList1(runtimeScene);
-}
-
+};gdjs.LoadingCode.eventsList8 = function(runtimeScene) {
 
 {
 
@@ -1181,7 +1267,7 @@ gdjs.LoadingCode.eventsList2(runtimeScene);
 {
 
 
-gdjs.LoadingCode.eventsList5(runtimeScene);
+gdjs.LoadingCode.eventsList3(runtimeScene);
 }
 
 
@@ -1192,7 +1278,14 @@ gdjs.LoadingCode.eventsList6(runtimeScene);
 }
 
 
-};gdjs.LoadingCode.eventsList8 = function(runtimeScene) {
+{
+
+
+gdjs.LoadingCode.eventsList7(runtimeScene);
+}
+
+
+};gdjs.LoadingCode.eventsList9 = function(runtimeScene) {
 
 {
 
@@ -1239,7 +1332,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingDragon"), gdjs.LoadingCode.GDUI
 }
 
 
-};gdjs.LoadingCode.eventsList9 = function(runtimeScene) {
+};gdjs.LoadingCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -1251,7 +1344,7 @@ gdjs.LoadingCode.eventsList0(runtimeScene);
 {
 
 
-gdjs.LoadingCode.eventsList7(runtimeScene);
+gdjs.LoadingCode.eventsList1(runtimeScene);
 }
 
 
@@ -1259,6 +1352,13 @@ gdjs.LoadingCode.eventsList7(runtimeScene);
 
 
 gdjs.LoadingCode.eventsList8(runtimeScene);
+}
+
+
+{
+
+
+gdjs.LoadingCode.eventsList9(runtimeScene);
 }
 
 
@@ -2127,8 +2227,78 @@ gdjs.LoadingCode.GDUIMessageNoObjects2.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects3.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects4.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects5.length = 0;
 
-gdjs.LoadingCode.eventsList9(runtimeScene);
+gdjs.LoadingCode.eventsList10(runtimeScene);
 gdjs.LoadingCode.GDGameLogoObjects1.length = 0;
 gdjs.LoadingCode.GDGameLogoObjects2.length = 0;
 gdjs.LoadingCode.GDGameLogoObjects3.length = 0;
@@ -2989,6 +3159,76 @@ gdjs.LoadingCode.GDUIMessageNoObjects2.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects3.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects4.length = 0;
 gdjs.LoadingCode.GDUIMessageNoObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIBkgBarObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPositionObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUITitleObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUITopObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIExitStatueObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIExitOverObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIDragonBlackObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerBallonObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIPlayerCurrentObjects5.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects1.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects2.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects3.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects4.length = 0;
+gdjs.LoadingCode.GDRankingUIScoreCurrentObjects5.length = 0;
 
 
 return;
