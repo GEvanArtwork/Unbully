@@ -943,7 +943,7 @@ gdjs.LoadingCode.GDRankingUIScoreCurrentObjects4= [];
 gdjs.LoadingCode.GDRankingUIScoreCurrentObjects5= [];
 
 
-gdjs.LoadingCode.userFunc0x1b98360 = function GDJSInlineCode(runtimeScene) {
+gdjs.LoadingCode.userFunc0x252ac20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Injeta o Google Analytics dinamicamente
 var script = document.createElement('script');
@@ -961,7 +961,7 @@ gdjs.LoadingCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.LoadingCode.userFunc0x1b98360(runtimeScene);
+gdjs.LoadingCode.userFunc0x252ac20(runtimeScene);
 
 }
 
@@ -1054,7 +1054,7 @@ gdjs.copyArray(runtimeScene.getObjects("UILoadingBar"), gdjs.LoadingCode.GDUILoa
 }
 
 
-};gdjs.LoadingCode.asyncCallback44196676 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LoadingCode.asyncCallback43569188 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LoadingCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonBKG"), gdjs.LoadingCode.GDUILoadingButtonBKGObjects4);
 gdjs.copyArray(runtimeScene.getObjects("UILoadingButtonEN"), gdjs.LoadingCode.GDUILoadingButtonENObjects4);
@@ -1072,7 +1072,7 @@ for(var i = 0, len = gdjs.LoadingCode.GDUILoadingButtonPTObjects4.length ;i < le
 }
 gdjs.LoadingCode.localVariables.length = 0;
 }
-gdjs.LoadingCode.idToCallbackMap.set(44196676, gdjs.LoadingCode.asyncCallback44196676);
+gdjs.LoadingCode.idToCallbackMap.set(43569188, gdjs.LoadingCode.asyncCallback43569188);
 gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -1082,7 +1082,7 @@ gdjs.LoadingCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LoadingCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback44196676(runtimeScene, asyncObjectsList)), 44196676, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.4), (runtimeScene) => (gdjs.LoadingCode.asyncCallback43569188(runtimeScene, asyncObjectsList)), 43569188, asyncObjectsList);
 }
 }
 
